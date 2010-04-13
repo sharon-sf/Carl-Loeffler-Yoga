@@ -895,3 +895,43 @@ Processing QasController#show (for 127.0.0.1 at 2010-04-13 09:30:20) [GET]
 Rendering template within layouts/application
 Rendering qas/show
 Completed in 188ms (View: 183, DB: 0) | 200 OK [http://localhost/qas/3]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-13 10:06:12) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mQa Load (0.3ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 107ms (View: 99, DB: 0) | 200 OK [http://localhost/qas/3]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-13 10:28:57) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mQa Load (0.3ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 18ms (View: 13, DB: 0) | 200 OK [http://localhost/qas/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-13 10:28:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-13 10:30:40) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mQa Load (0.2ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 65ms (View: 60, DB: 0) | 200 OK [http://localhost/qas/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-13 10:30:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
