@@ -1,0 +1,897 @@
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.4ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.3ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateSubscribers (20100406174625)
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "subscribers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "fname" varchar(255), "lname" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100406174625')[0m
+Migrating to CreateQas (20100406174952)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "qas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "question" text, "answer" text, "date" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100406174952')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("qas")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("subscribers")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-06 10:52:34) [GET]
+
+ActionController::RoutingError (No route matches "/subscriber" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-06 10:52:38) [GET]
+  [4;36;1mSubscriber Load (0.5ms)[0m   [0;1mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/subscribers
+Rendering subscribers/index
+Completed in 412ms (View: 406, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-04-06 10:52:47) [GET]
+  [4;35;1mQa Load (0.4ms)[0m   [0mSELECT * FROM "qas" [0m
+Rendering template within layouts/qas
+Rendering qas/index
+Completed in 19ms (View: 14, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-04-06 10:52:50) [GET]
+Rendering template within layouts/qas
+Rendering qas/new
+Completed in 501ms (View: 496, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing QasController#create (for 127.0.0.1 at 2010-04-06 10:54:58) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"BYw2m/j2amyuph6OnXdFr38EJo03nz+X6nfBvkHw338=", "qa"=>{"name"=>"Tester1", "date(1i)"=>"2010", "answer"=>"", "date(2i)"=>"4", "date(3i)"=>"6", "date(4i)"=>"17", "date(5i)"=>"52", "question"=>"What the heck are we doing?"}}
+  [4;36;1mQa Create (0.6ms)[0m   [0;1mINSERT INTO "qas" ("name", "answer", "updated_at", "date", "question", "created_at") VALUES('Tester1', '', '2010-04-06 17:54:58', '2010-04-06 17:52:00', 'What the heck are we doing?', '2010-04-06 17:54:58')[0m
+Redirected to http://localhost:3000/qas/1
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/qas]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-06 10:54:58) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mQa Load (0.2ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+Rendering template within layouts/qas
+Rendering qas/show
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/qas/1]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-06 11:03:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mQa Load (0.2ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+Rendering template within layouts/qas
+Rendering qas/show
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/qas/1]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-06 11:03:58) [GET]
+  [4;35;1mSubscriber Load (0.5ms)[0m   [0mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/subscribers
+Rendering subscribers/index
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-06 11:19:10) [GET]
+  [4;36;1mSubscriber Load (0.4ms)[0m   [0;1mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/subscribers
+Rendering subscribers/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-06 11:19:11) [GET]
+  [4;35;1mSubscriber Load (0.3ms)[0m   [0mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/subscribers
+Rendering subscribers/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-06 11:19:13) [GET]
+  [4;36;1mSubscriber Load (0.4ms)[0m   [0;1mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/subscribers
+Rendering subscribers/index
+Completed in 60ms (View: 1, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-06 11:21:37) [GET]
+  [4;35;1mSubscriber Load (0.4ms)[0m   [0mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/subscribers
+Rendering subscribers/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-06 11:21:39) [GET]
+  [4;36;1mSubscriber Load (0.4ms)[0m   [0;1mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/subscribers
+Rendering subscribers/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-06 11:23:56) [GET]
+  [4;35;1mSubscriber Load (0.4ms)[0m   [0mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing SubscribersController#new (for 127.0.0.1 at 2010-04-06 11:24:27) [GET]
+Rendering template within layouts/application
+Rendering subscribers/new
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/subscribers/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-12 17:33:48) [GET]
+
+ActionController::RoutingError (No route matches "/subscribe" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-12 17:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/subscriber" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-12 17:35:06) [GET]
+  [4;36;1mSubscriber Load (0.4ms)[0m   [0;1mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 113ms (View: 108, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing SubscribersController#new (for 127.0.0.1 at 2010-04-12 17:35:20) [GET]
+Rendering template within layouts/application
+Rendering subscribers/new
+Completed in 41ms (View: 36, DB: 0) | 200 OK [http://localhost/subscribers/new]
+
+
+Processing SubscribersController#create (for 127.0.0.1 at 2010-04-12 17:35:41) [POST]
+  Parameters: {"subscriber"=>{"lname"=>"", "fname"=>"", "email"=>""}, "commit"=>"Create", "authenticity_token"=>"smbBVTeamgSt2rrHBfFn13HfFWJEIuKh2SD+rfNC/og="}
+  [4;35;1mSubscriber Create (74.6ms)[0m   [0mINSERT INTO "subscribers" ("updated_at", "lname", "fname", "email", "created_at") VALUES('2010-04-13 00:35:41', '', '', '', '2010-04-13 00:35:41')[0m
+Redirected to http://localhost:3000/subscribers/1
+Completed in 90ms (DB: 75) | 302 Found [http://localhost/subscribers]
+
+
+Processing SubscribersController#show (for 127.0.0.1 at 2010-04-12 17:35:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSubscriber Load (0.2ms)[0m   [0;1mSELECT * FROM "subscribers" WHERE ("subscribers"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering subscribers/show
+Completed in 90ms (View: 84, DB: 0) | 200 OK [http://localhost/subscribers/1]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-12 17:35:49) [GET]
+  [4;35;1mSubscriber Load (0.5ms)[0m   [0mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/subscribers]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-04-12 17:35:59) [GET]
+  [4;36;1mQa Load (0.5ms)[0m   [0;1mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 155ms (View: 149, DB: 1) | 200 OK [http://localhost/qas]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 17:36:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mQa Load (0.2ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 30ms (View: 25, DB: 0) | 200 OK [http://localhost/qas/1]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-04-12 17:36:05) [GET]
+  [4;36;1mQa Load (0.5ms)[0m   [0;1mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-04-12 17:36:08) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 73ms (View: 68, DB: 0) | 200 OK [http://localhost/qas/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateSubscribers (20100406174625)
+Migrating to CreateQas (20100406174952)
+Migrating to RemoveDate (20100413004607)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TEMPORARY TABLE "altered_qas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "question" text, "answer" text, "date" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("qas")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "qas"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "qas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "question" text, "answer" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_qas")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_qas"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100413004607')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("qas")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("subscribers")[0m
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-04-12 17:59:31) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+
+ActionView::TemplateError (undefined method `date' for #<Qa:0x2539de4>) on line #20 of app/views/qas/new.html.erb:
+17:   </p>
+18:   <!-- <p>
+19:     <%= f.label :date %><br />
+20:     <%= f.datetime_select :date %>
+21:   </p> -->
+22:   <p>
+23:     <%= f.submit 'Create' %>
+
+    app/views/qas/new.html.erb:20
+    app/views/qas/new.html.erb:3
+    app/controllers/qas_controller.rb:29:in `new'
+
+Rendered rescues/_trace (47.3ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-04-12 18:00:07) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+
+ActionView::TemplateError (undefined method `date' for #<Qa:0x2554054>) on line #20 of app/views/qas/new.html.erb:
+17:   </p>
+18:   <!-- <p>
+19:     <%= f.label :date %><br />
+20:     <%= f.datetime_select :date %>
+21:   </p> -->
+22:   <p>
+23:     <%= f.submit 'Create' %>
+
+    app/views/qas/new.html.erb:20
+    app/views/qas/new.html.erb:3
+    app/controllers/qas_controller.rb:29:in `new'
+
+Rendered rescues/_trace (43.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-04-12 18:00:16) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 65ms (View: 61, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing QasController#create (for 127.0.0.1 at 2010-04-12 18:00:30) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"smbBVTeamgSt2rrHBfFn13HfFWJEIuKh2SD+rfNC/og=", "qa"=>{"name"=>"", "answer"=>"", "question"=>""}}
+  [4;35;1mQa Create (0.4ms)[0m   [0mINSERT INTO "qas" ("name", "answer", "updated_at", "question", "created_at") VALUES('', '', '2010-04-13 01:00:30', '', '2010-04-13 01:00:30')[0m
+Redirected to http://localhost:3000/qas/2
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/qas]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:00:30) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mQa Load (0.2ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering qas/show
+
+ActionView::TemplateError (undefined method `date' for #<Qa:0x24d9ffc>) on line #18 of app/views/qas/show.html.erb:
+15: 
+16: <p>
+17:   <b>Date:</b>
+18:   <%=h @qa.date %>
+19: </p>
+20: 
+21: 
+
+    app/views/qas/show.html.erb:18
+    app/controllers/qas_controller.rb:18:in `show'
+
+Rendered rescues/_trace (38.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:03:16) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mQa Load (0.2ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering qas/show
+
+ActionView::TemplateError (undefined method `date' for #<Qa:0x2358d90>) on line #18 of app/views/qas/show.html.erb:
+15: 
+16: <p>
+17:   <b>Date:</b>
+18:   <%=h @qa.date %>
+19: </p>
+20: 
+21: 
+
+    app/views/qas/show.html.erb:18
+    app/controllers/qas_controller.rb:18:in `show'
+
+Rendered rescues/_trace (39.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:03:18) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mQa Load (0.2ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering qas/show
+
+ActionView::TemplateError (undefined method `date' for #<Qa:0x23f5e88>) on line #18 of app/views/qas/show.html.erb:
+15: 
+16: <p>
+17:   <b>Date:</b>
+18:   <%=h @qa.date %>
+19: </p>
+20: 
+21: 
+
+    app/views/qas/show.html.erb:18
+    app/controllers/qas_controller.rb:18:in `show'
+
+Rendered rescues/_trace (39.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:03:31) [GET]
+  Parameters: {"id"=>"edit"}
+  [4;35;1mQa Load (0.1ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Qa with ID=edit):
+  app/controllers/qas_controller.rb:16:in `show'
+
+Rendered rescues/_trace (30.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:05:00) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mQa Load (0.3ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/qas/2]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:09:38) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mQa Load (0.2ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/qas/2]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:10:55) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mQa Load (0.2ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/qas/2]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-04-12 18:10:59) [GET]
+  [4;35;1mQa Load (0.7ms)[0m   [0mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+
+ActionView::TemplateError (undefined method `date' for #<Qa:0x24a5f68>) on line #16 of app/views/qas/index.html.erb:
+13:     <td><%=h qa.name %></td>
+14:     <td><%=h qa.question %></td>
+15:     <td><%=h qa.answer %></td>
+16:     <td><%=h qa.date %></td>
+17:     <td><%= link_to 'Show', qa %></td>
+18:     <td><%= link_to 'Edit', edit_qa_path(qa) %></td>
+19:     <td><%= link_to 'Destroy', qa, :confirm => 'Are you sure?', :method => :delete %></td>
+
+    app/views/qas/index.html.erb:16
+    app/views/qas/index.html.erb:11:in `each'
+    app/views/qas/index.html.erb:11
+    app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (93.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-04-12 18:11:35) [GET]
+  [4;36;1mQa Load (0.6ms)[0m   [0;1mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+ERROR: compiling _run_erb_app47views47qas47index46html46erb RAISED compile error
+/Users/donnacarter/Ruby/yoga2/app/views/qas/index.html.erb:16: syntax error, unexpected tNEQ, expecting kEND
+@output_buffer.concat "    <td>"; !=h qa.date ; @output_buffer.concat "</td>\n"
+                                    ^
+Function body:           def _run_erb_app47views47qas47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Listing qas</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<table>\n"
+@output_buffer.concat "  <tr>\n"
+@output_buffer.concat "    <th>Name</th>\n"
+@output_buffer.concat "    <th>Question</th>\n"
+@output_buffer.concat "    <th>Answer</th>\n"
+@output_buffer.concat "    <th>Date</th>\n"
+@output_buffer.concat "  </tr>\n"
+@output_buffer.concat "\n"
+ @qas.each do |qa| ; @output_buffer.concat "\n"
+@output_buffer.concat "  <tr>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat((h qa.name ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat((h qa.question ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat((h qa.answer ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; !=h qa.date ; @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat(( link_to 'Show', qa ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat(( link_to 'Edit', edit_qa_path(qa) ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat(( link_to 'Destroy', qa, :confirm => 'Are you sure?', :method => :delete ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "  </tr>\n"
+ end ; @output_buffer.concat "\n"
+@output_buffer.concat "</table>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<br />\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'New qa', new_qa_path ).to_s); @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/donnacarter/Ruby/yoga2/app/views/qas/index.html.erb:29:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/donnacarter/Ruby/yoga2/app/controllers/qas_controller.rb:7:in `index'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/donnacarter/Ruby/yoga2/app/views/qas/index.html.erb:16: syntax error, unexpected tNEQ, expecting kEND
+@output_buffer.concat "    <td>"; !=h qa.date ; @output_buffer.concat "</td>\n"
+                                    ^) on line #16 of app/views/qas/index.html.erb:
+13:     <td><%=h qa.name %></td>
+14:     <td><%=h qa.question %></td>
+15:     <td><%=h qa.answer %></td>
+16:     <td><%!=h qa.date %></td>
+17:     <td><%= link_to 'Show', qa %></td>
+18:     <td><%= link_to 'Edit', edit_qa_path(qa) %></td>
+19:     <td><%= link_to 'Destroy', qa, :confirm => 'Are you sure?', :method => :delete %></td>
+
+    app/views/qas/index.html.erb:29:in `compile!'
+    app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (37.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-04-12 18:11:43) [GET]
+  [4;35;1mQa Load (0.7ms)[0m   [0mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+
+ActionView::TemplateError (undefined method `date' for #<Qa:0x23bf02c>) on line #16 of app/views/qas/index.html.erb:
+13:     <td><%=h qa.name %></td>
+14:     <td><%=h qa.question %></td>
+15:     <td><%=h qa.answer %></td>
+16:     <td><%! h qa.date %></td>
+17:     <td><%= link_to 'Show', qa %></td>
+18:     <td><%= link_to 'Edit', edit_qa_path(qa) %></td>
+19:     <td><%= link_to 'Destroy', qa, :confirm => 'Are you sure?', :method => :delete %></td>
+
+    app/views/qas/index.html.erb:16
+    app/views/qas/index.html.erb:11:in `each'
+    app/views/qas/index.html.erb:11
+    app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (39.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-04-12 18:12:33) [GET]
+  [4;36;1mQa Load (0.6ms)[0m   [0;1mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+ERROR: compiling _run_erb_app47views47qas47index46html46erb RAISED compile error
+/Users/donnacarter/Ruby/yoga2/app/views/qas/index.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting kEND
+@output_buffer.concat "    <td>"; 3 h qa.date ; @output_buffer.concat "</td>\n"
+                                     ^
+Function body:           def _run_erb_app47views47qas47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Listing qas</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<table>\n"
+@output_buffer.concat "  <tr>\n"
+@output_buffer.concat "    <th>Name</th>\n"
+@output_buffer.concat "    <th>Question</th>\n"
+@output_buffer.concat "    <th>Answer</th>\n"
+@output_buffer.concat "    <th>Date</th>\n"
+@output_buffer.concat "  </tr>\n"
+@output_buffer.concat "\n"
+ @qas.each do |qa| ; @output_buffer.concat "\n"
+@output_buffer.concat "  <tr>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat((h qa.name ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat((h qa.question ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat((h qa.answer ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; 3 h qa.date ; @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat(( link_to 'Show', qa ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat(( link_to 'Edit', edit_qa_path(qa) ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "    <td>"; @output_buffer.concat(( link_to 'Destroy', qa, :confirm => 'Are you sure?', :method => :delete ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "  </tr>\n"
+ end ; @output_buffer.concat "\n"
+@output_buffer.concat "</table>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<br />\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'New qa', new_qa_path ).to_s); @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/donnacarter/Ruby/yoga2/app/views/qas/index.html.erb:29:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/donnacarter/Ruby/yoga2/app/controllers/qas_controller.rb:7:in `index'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/donnacarter/Ruby/yoga2/app/views/qas/index.html.erb:16: syntax error, unexpected tIDENTIFIER, expecting kEND
+@output_buffer.concat "    <td>"; 3 h qa.date ; @output_buffer.concat "</td>\n"
+                                     ^) on line #16 of app/views/qas/index.html.erb:
+13:     <td><%=h qa.name %></td>
+14:     <td><%=h qa.question %></td>
+15:     <td><%=h qa.answer %></td>
+16:     <td><%3 h qa.date %></td>
+17:     <td><%= link_to 'Show', qa %></td>
+18:     <td><%= link_to 'Edit', edit_qa_path(qa) %></td>
+19:     <td><%= link_to 'Destroy', qa, :confirm => 'Are you sure?', :method => :delete %></td>
+
+    app/views/qas/index.html.erb:29:in `compile!'
+    app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (37.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-04-12 18:12:40) [GET]
+  [4;35;1mQa Load (0.5ms)[0m   [0mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 15ms (View: 11, DB: 1) | 200 OK [http://localhost/qas]
+
+
+Processing QasController#destroy (for 127.0.0.1 at 2010-04-12 18:12:48) [DELETE]
+  Parameters: {"authenticity_token"=>"smbBVTeamgSt2rrHBfFn13HfFWJEIuKh2SD+rfNC/og=", "id"=>"2"}
+  [4;36;1mQa Load (0.3ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 2) [0m
+  [4;35;1mQa Destroy (0.3ms)[0m   [0mDELETE FROM "qas" WHERE "id" = 2[0m
+Redirected to http://localhost:3000/qas
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/qas/2]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-04-12 18:12:48) [GET]
+  [4;36;1mQa Load (0.5ms)[0m   [0;1mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/qas]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:12:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mQa Load (0.2ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/qas/1]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:13:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mQa Load (0.2ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/qas/1]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:17:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mQa Load (0.2ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 72ms (View: 66, DB: 0) | 200 OK [http://localhost/qas/1]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:17:08) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mQa Load (0.2ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/qas/1]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:17:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mQa Load (0.2ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/qas/1]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-12 18:17:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mQa Load (0.2ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/qas/1]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-04-13 09:19:40) [GET]
+  [4;36;1mQa Load (1.1ms)[0m   [0;1mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 175ms (View: 167, DB: 1) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-13 09:26:38) [GET]
+
+ActionController::RoutingError (No route matches "/subscriber" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-13 09:26:41) [GET]
+  [4;35;1mSubscriber Load (0.5ms)[0m   [0mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 18ms (View: 13, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing SubscribersController#destroy (for 127.0.0.1 at 2010-04-13 09:26:48) [DELETE]
+  Parameters: {"authenticity_token"=>"Rrrl/1lqBYDn5OnkVpBfg/3Bb6li0YH6wBrIECCTOQ4=", "id"=>"1"}
+  [4;36;1mSubscriber Load (0.3ms)[0m   [0;1mSELECT * FROM "subscribers" WHERE ("subscribers"."id" = 1) [0m
+  [4;35;1mSubscriber Destroy (0.6ms)[0m   [0mDELETE FROM "subscribers" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/subscribers
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/subscribers/1]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-04-13 09:26:48) [GET]
+  [4;36;1mSubscriber Load (0.4ms)[0m   [0;1mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing SubscribersController#new (for 127.0.0.1 at 2010-04-13 09:26:51) [GET]
+Rendering template within layouts/application
+Rendering subscribers/new
+Completed in 83ms (View: 79, DB: 0) | 200 OK [http://localhost/subscribers/new]
+
+
+Processing SubscribersController#new (for 127.0.0.1 at 2010-04-13 09:29:01) [GET]
+Rendering template within layouts/application
+Rendering subscribers/new
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/subscribers/new]
+
+
+Processing SubscribersController#create (for 127.0.0.1 at 2010-04-13 09:29:10) [POST]
+  Parameters: {"subscriber"=>{"lname"=>"", "fname"=>"", "email"=>""}, "commit"=>"Create", "authenticity_token"=>"Rrrl/1lqBYDn5OnkVpBfg/3Bb6li0YH6wBrIECCTOQ4="}
+  [4;35;1mSubscriber Create (0.4ms)[0m   [0mINSERT INTO "subscribers" ("updated_at", "lname", "fname", "email", "created_at") VALUES('2010-04-13 16:29:10', '', '', '', '2010-04-13 16:29:10')[0m
+Redirected to http://localhost:3000/subscribers/2
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/subscribers]
+
+
+Processing SubscribersController#show (for 127.0.0.1 at 2010-04-13 09:29:10) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mSubscriber Load (0.2ms)[0m   [0;1mSELECT * FROM "subscribers" WHERE ("subscribers"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering subscribers/show
+Completed in 320ms (View: 315, DB: 0) | 200 OK [http://localhost/subscribers/2]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-04-13 09:29:35) [GET]
+  [4;35;1mQa Load (0.5ms)[0m   [0mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-04-13 09:29:41) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 356ms (View: 351, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing QasController#create (for 127.0.0.1 at 2010-04-13 09:30:20) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"Rrrl/1lqBYDn5OnkVpBfg/3Bb6li0YH6wBrIECCTOQ4=", "qa"=>{"name"=>"Sharon Teach", "answer"=>"", "question"=>"Where is my time stamp? It used to be a select menu that sucked."}}
+  [4;36;1mQa Create (0.5ms)[0m   [0;1mINSERT INTO "qas" ("name", "answer", "updated_at", "question", "created_at") VALUES('Sharon Teach', '', '2010-04-13 16:30:20', 'Where is my time stamp? It used to be a select menu that sucked.', '2010-04-13 16:30:20')[0m
+Redirected to http://localhost:3000/qas/3
+Completed in 13ms (DB: 0) | 302 Found [http://localhost/qas]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-04-13 09:30:20) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mQa Load (0.2ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 188ms (View: 183, DB: 0) | 200 OK [http://localhost/qas/3]

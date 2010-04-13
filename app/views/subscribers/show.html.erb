@@ -1,0 +1,18 @@
+<p>
+  <b>Email:</b>
+  <%=h @subscriber.email %>
+</p>
+
+<p>
+  <b>Fname:</b>
+  <%=h @subscriber.fname %>
+</p>
+
+<p>
+  <b>Lname:</b>
+  <%=h @subscriber.lname %>
+</p>
+
+
+<%= link_to 'Edit', edit_subscriber_path(@subscriber) %> |
+<%= link_to 'Back', subscribers_path %>

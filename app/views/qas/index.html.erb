@@ -1,0 +1,26 @@
+<h1>Listing qas</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Question</th>
+    <th>Answer</th>
+    <th>Date</th>
+  </tr>
+
+<% @qas.each do |qa| %>
+  <tr>
+    <td><%=h qa.name %></td>
+    <td><%=h qa.question %></td>
+    <td><%=h qa.answer %></td>
+    <td><%# h qa.date %></td>
+    <td><%= link_to 'Show', qa %></td>
+    <td><%= link_to 'Edit', edit_qa_path(qa) %></td>
+    <td><%= link_to 'Destroy', qa, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New qa', new_qa_path %>

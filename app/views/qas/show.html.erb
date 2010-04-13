@@ -1,0 +1,24 @@
+
+<p>
+	<b>Created on:</b>
+	<%=h @qa.created_at.to_s(:long) %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @qa.name %>
+</p>
+
+<p>
+  <b>Question:</b>
+  <%=h @qa.question %>
+</p>
+
+<p>
+  <b>Answer:</b>
+  <%=h @qa.answer %>
+</p>
+
+
+<%= link_to 'Edit', edit_qa_path(@qa) %> |
+<%= link_to 'Back', qas_path %>
