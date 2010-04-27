@@ -15,3 +15,18 @@ config.action_controller.perform_caching             = false
 
 # Don't care if the mailer can't send
 config.action_mailer.raise_delivery_errors = false
+
+#added for the mailer
+
+config.action_mailer.delivery_method = :smtp
+config.action_mailer.smtp_settings = {
+
+#ActionMailer::Base.smtp_settings = {
+   :tls => true,
+   :address => "smtp.gmail.com",
+   :port => "587",
+   :domain => "YOURDOMAIN",
+   :authentication => :plain,
+   :user_name => "agile.action.advisors@gmail.com",
+   :password => "ag!leaction"
+ }

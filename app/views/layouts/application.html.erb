@@ -17,7 +17,11 @@
 	<ul id="tabnav">
 		<li><a href="#" class="active">home</a></li>
 		<li><a href="#">about</a></li>
-		<li><a href="#">portfolio</a></li>
+		<li><%= link_to "contact carl", :controller => "notifications", :action => "xxx" %></li>
+    
+		<li><%= link_to "bio", :controller => "home", :action => "bio" %></li>
+		<li><%= link_to "philosophy", :controller => "home", :action => "philosophy" %></li>
+					<li><%= link_to "contact", :controller => "home", :action => "contact" %></li>
 		<li><a href="#">contact</a></li>
 		<li><a href="#">archives</a></li>
 	</ul>
@@ -49,13 +53,8 @@
 	
 	<div id="content">
         <%= yield %>
-		<h2>Welcome</h2>
-		<p>For some reason, I decided that I needed to do a very simple design. Something that would load fast and still look moderately good. I realize it is a little lacking in the color department, but with the stylesheet, you could really fashion any sort of scheme you wanted. Feeling like some puke green? Go nuts! Urine Yellow? Why not!? Anyways, I hope someone can find some use for this design. I would love it if you stopped my <a href="http://www.jdavidmacor.com">website</a> and let me know what you used it for.</p>
 		<h2>Quisque facilisis</h2>
-		<p>Aenean eros arcu, condimentum nec, dapibus ut, tincidunt sit amet, urna. Quisque viverra, eros sed imperdiet iaculis, est risus facilisis quam, id malesuada arcu nulla luctus urna. Nullam et est. Vestibulum velit sem, faucibus cursus, dapibus vestibulum, pellentesque et, urna. Donec luctus. Donec lectus. Aliquam eget eros facilisis tortor feugiat sollicitudin. Integer lobortis vulputate sapien. Sed iaculis erat ac nunc.</p>
-		<p>Aenean eros arcu, condimentum nec, dapibus ut, tincidunt sit amet, urna. Quisque viverra, eros sed imperdiet iaculis, est risus facilisis quam, id malesuada arcu nulla luctus urna. Nullam et est. Vestibulum velit sem, faucibus cursus, dapibus vestibulum, pellentesque et, urna. Donec luctus. Donec lectus. Aliquam eget eros facilisis tortor feugiat sollicitudin. Integer lobortis vulputate sapien. Sed iaculis erat ac nunc.</p>
-		<h2>Fusce varius</h2>
-		<p>Aenean eros arcu, condimentum nec, dapibus ut, tincidunt sit amet, urna. Quisque viverra, eros sed imperdiet iaculis, est risus facilisis quam, id malesuada arcu nulla luctus urna. Nullam et est. Vestibulum velit sem, faucibus cursus, dapibus vestibulum, pellentesque et, urna. Donec luctus. Donec lectus. Aliquam eget eros facilisis tortor feugiat sollicitudin. Integer lobortis vulputate sapien. Sed iaculis erat ac nunc.</p>
+		<p>Aenean eros arcu</p>
 	</div>
 	<div id="footer">
   	  <p><a href="mailto:dctomboy1@yahoo.com">Contact Us</a> | &#169; 2010 | Site Design by: <a href="mailto:agile.action.advisors@gmail.com">The A-Team</a></p>
