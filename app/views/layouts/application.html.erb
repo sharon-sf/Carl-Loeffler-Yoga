@@ -15,15 +15,15 @@
 	</div>
 
 	<ul id="tabnav">
-		<li><a href="#" class="active">home</a></li>
-		<li><a href="#">about</a></li>
-		<li><%= link_to "contact carl", :controller => "notifications", :action => "xxx" %></li>
-    
-		<li><%= link_to "bio", :controller => "home", :action => "bio" %></li>
-		<li><%= link_to "philosophy", :controller => "home", :action => "philosophy" %></li>
-					<li><%= link_to "contact", :controller => "home", :action => "contact" %></li>
-		<li><a href="#">contact</a></li>
-		<li><a href="#">archives</a></li>
+		<li><%= link_to "home", {:controller => "home", :action => "index"}, :class => @selected_tab == 'index' ? 'active' : '' %></li>
+		<li><%= link_to "about", {:controller => "home", :action => "about"}, :class => @selected_tab == 'about' ? 'active' : '' %></li>
+		<li><%= link_to "bio", {:controller => "home", :action => "bio"}, :class => @selected_tab == 'bio' ? 'active' : '' %></li>
+		<li><%= link_to "philosophy", {:controller => "home", :action => "philosophy"}, :class => @selected_tab == 'philosophy' ? 'active' : '' %></li>
+		<li><%= link_to "contact", {:controller => "home", :action => "contact"}, :class => @selected_tab == 'contact' ? 'active' : '' %></li>
+		<li><%= link_to "q & a", {:controller => "qas", :action => "new"}, :class => @selected_tab == 'qas' ? 'active' : '' %></li>
+		<li><%= link_to "archives", {:controller => "qas", :action => "index"}, :class => @selected_tab == 'archives' ? 'active' : '' %></li>
+		
+		
 	</ul>
 	
 	<div id="sidebar">
@@ -52,9 +52,11 @@
 	</div>	
 	
 	<div id="content">
+		<% if flash[:notice] %>
+			<div id="flash"><%= flash[:notice] %></div>
+		<% end %>
         <%= yield %>
-		<h2>Quisque facilisis</h2>
-		<p>Aenean eros arcu</p>
+
 	</div>
 	<div id="footer">
   	  <p><a href="mailto:dctomboy1@yahoo.com">Contact Us</a> | &#169; 2010 | Site Design by: <a href="mailto:agile.action.advisors@gmail.com">The A-Team</a></p>

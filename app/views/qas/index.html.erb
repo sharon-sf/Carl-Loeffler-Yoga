@@ -1,22 +1,15 @@
-<h1>Listing qas</h1>
+<h1>Previous Q &amp; A's</h1>
 
 <table>
-  <tr>
-    <th>Name</th>
-    <th>Question</th>
-    <th>Answer</th>
-    <th>Date</th>
-  </tr>
 
-<% @qas.each do |qa| %>
+<% @qas.sort { |a,b| b.created_at <=> a.created_at }.each do |qa| %>
   <tr>
-    <td><%=h qa.name %></td>
-    <td><%=h qa.question %></td>
-    <td><%=h qa.answer %></td>
-    <td><%# h qa.date %></td>
+    <td><b><%=h qa.question %></b><br/><%= h qa.name %>  <span><%= h qa.created_at.to_s(:short) %></span><hr/></td>
+	<% if session[:admin] %>
     <td><%= link_to 'Show', qa %></td>
     <td><%= link_to 'Edit', edit_qa_path(qa) %></td>
     <td><%= link_to 'Destroy', qa, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% end %>
   </tr>
 <% end %>
 </table>

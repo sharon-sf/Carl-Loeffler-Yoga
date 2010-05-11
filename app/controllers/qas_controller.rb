@@ -1,4 +1,5 @@
 class QasController < ApplicationController
+  before_filter :set_menu_tab
   # GET /qas
   # GET /qas.xml
   def index
@@ -44,8 +45,8 @@ class QasController < ApplicationController
 
     respond_to do |format|
       if @qa.save
-        flash[:notice] = 'Qa was successfully created.'
-        format.html { redirect_to(@qa) }
+        flash[:notice] = 'Thanks for submitting your question. Check the archives later for Carl\'s answer!'
+        format.html { redirect_to :controller => 'qas', :action => 'index' }
         format.xml  { render :xml => @qa, :status => :created, :location => @qa }
       else
         format.html { render :action => "new" }
@@ -81,5 +82,9 @@ class QasController < ApplicationController
       format.html { redirect_to(qas_url) }
       format.xml  { head :ok }
     end
+  end
+  
+  def set_menu_tab
+    @selected_tab = params[:action] == 'new' ? 'qas' : 'archives'
   end
 end

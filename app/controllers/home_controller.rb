@@ -1,5 +1,10 @@
 class HomeController < ApplicationController
   
+  before_filter :set_menu_tab
+  
+  def about
+  end
+  
   def philosophy
   end
   
@@ -9,4 +14,7 @@ class HomeController < ApplicationController
   def contact
   end
   
+  def set_menu_tab
+    @selected_tab = params[:action]
+  end
 end

@@ -9,6 +9,11 @@ body {
 	font-size: 11px;
 	background: #f3f3f3;
 	}
+
+#flash {
+	color:red;
+	
+}
 	
 #container {
 	width: 760px;
@@ -27,8 +32,8 @@ body {
 	margin: 0 auto;
 	margin-bottom: 20px;
 	font-family: Geneva, Arial, Helvetica, sans-serif;
-	font-size: 36px;
-	letter-spacing: 0.4em;
+	font-size: 30px;
+	letter-spacing: 0.3em;
 	text-align: center;
 	}
 
@@ -75,7 +80,9 @@ body {
 	width: 550px;
 	margin-top: 15px;
 	}
-	
+#content h1 {
+	font-size: 25px;
+}	
 #content h2 {
 	font-size: 20px;
 	}
