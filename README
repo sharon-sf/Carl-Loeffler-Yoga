@@ -1,4 +1,8 @@
-This is Carl Loeffler's Yoga Rails app.  It's a very simple app.  The generic rails doc is below.
+This is Carl Loeffler's Yoga Rails app.  It's a very simple app.  The DB piece has a way to allow yoga students to "Ask Carl a Question", so that there is list of yoga questions and answers.  Carl can modify these questions and answers; he gains access through an auth page. The layout was done with "uncomplicted": 
+
+http://www.jdavidmacor.com/wp-content/uploads/2006/07/uncomplicated.zip
+
+The generic rails doc is below.
 
 
 == Welcome to Rails
