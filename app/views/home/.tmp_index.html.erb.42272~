@@ -1,0 +1,9 @@
+
+<h1>Home</h1>
+
+
+<p>Here is a picture of Carl </p>
+
+<!-- <img src = "public/images/carl.jpg"> -->
+
+<%= image_tag ("/images/carl.jpg", :width => "160")%>

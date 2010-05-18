@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   
   before_filter :set_menu_tab
   
-  def about
+  def classes
   end
   
   def philosophy

@@ -16,11 +16,11 @@
 
 	<ul id="tabnav">
 		<li><%= link_to "home", {:controller => "home", :action => "index"}, :class => @selected_tab == 'index' ? 'active' : '' %></li>
-		<li><%= link_to "about", {:controller => "home", :action => "about"}, :class => @selected_tab == 'about' ? 'active' : '' %></li>
+		<li><%= link_to "classes", {:controller => "home", :action => "classes"}, :class => @selected_tab == 'classes' ? 'active' : '' %></li>
 		<li><%= link_to "bio", {:controller => "home", :action => "bio"}, :class => @selected_tab == 'bio' ? 'active' : '' %></li>
 		<li><%= link_to "philosophy", {:controller => "home", :action => "philosophy"}, :class => @selected_tab == 'philosophy' ? 'active' : '' %></li>
 		<li><%= link_to "contact", {:controller => "home", :action => "contact"}, :class => @selected_tab == 'contact' ? 'active' : '' %></li>
-		<li><%= link_to "q & a", {:controller => "qas", :action => "new"}, :class => @selected_tab == 'qas' ? 'active' : '' %></li>
+		<li><%= link_to "questions", {:controller => "qas", :action => "new"}, :class => @selected_tab == 'qas' ? 'active' : '' %></li>
 		<li><%= link_to "archives", {:controller => "qas", :action => "index"}, :class => @selected_tab == 'archives' ? 'active' : '' %></li>
 		
 		

@@ -1,0 +1,31 @@
+<h1>Send mail to Carl</h1>
+<% form_for(:contact, :url => { :action => "create"}) do |form| %>
+<p>
+    <%= form.label :topic %>
+    <br/>
+    <%= form.select :topic, %w(Choose Class Yoga Other) %>
+</p>
+<p>
+    <%= form.label :subject %>
+    <br/>
+    <%= form.text_field :subject %>
+</p>
+<p>
+    <%= form.label :body %>
+    <br/>
+    <%= form.text_area :body %>
+</p>
+<p>
+    <%= form.label :name %>
+    <br/>
+    <%= form.text_field :name %>
+</p>
+<p>
+    <%= form.label :email %>
+    <br/>
+    <%= form.text_field :email %>
+</p>
+<p>
+    <%= form.submit "Send" %>
+</p>
+<% end %>

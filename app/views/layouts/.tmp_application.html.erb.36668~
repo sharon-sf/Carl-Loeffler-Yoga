@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>Carl Loeffler Yoga</title>
+  <%= stylesheet_link_tag 'scaffold' %>  
+</head>
+
+<body>
+
+<div id="container">
+
+	<div id="header">
+		Carl Loeffler&#39;s Yoga
+	</div>
+
+	<ul id="tabnav">
+		<li><%= link_to "home", {:controller => "home", :action => "index"}, :class => @selected_tab == 'index' ? 'active' : '' %></li>
+		<li><%= link_to "about", {:controller => "home", :action => "about"}, :class => @selected_tab == 'about' ? 'active' : '' %></li>
+		<li><%= link_to "bio", {:controller => "home", :action => "bio"}, :class => @selected_tab == 'bio' ? 'active' : '' %></li>
+		<li><%= link_to "philosophy", {:controller => "home", :action => "philosophy"}, :class => @selected_tab == 'philosophy' ? 'active' : '' %></li>
+		<li><%= link_to "contact", {:controller => "home", :action => "contact"}, :class => @selected_tab == 'contact' ? 'active' : '' %></li>
+		<li><%= link_to "q & a", {:controller => "qas", :action => "new"}, :class => @selected_tab == 'qas' ? 'active' : '' %></li>
+		<li><%= link_to "archives", {:controller => "qas", :action => "index"}, :class => @selected_tab == 'archives' ? 'active' : '' %></li>
+		
+		
+	</ul>
+	
+	<div id="sidebar">
+		<h3>Archives</h3>
+		<ul>
+			<li><a href="#">July 2006</a></li>
+			<li><a href="#">June 2006</a></li>
+			<li><a href="#">May 2006</a></li>
+			<li><a href="#">April 2006</a></li>
+		</ul>
+		<h3>Links</h3>
+		<ul>
+			<li><a href="#">Link 1</a></li>
+			<li><a href="#">Link 2</a></li>
+			<li><a href="#">Link 3</a></li>
+			<li><a href="#">Link 4</a></li>
+			<li><a href="#">Link 5</a></li>
+			<li><a href="#">Link 6</a></li>
+		</ul>
+		<h3>Sponsors</h3>
+		<ul>
+			<li><a href="#">Sponsor 1</a></li>
+			<li><a href="#">Sponsor 2</a></li>
+			<li><a href="#">Sponsor 3</a></li>
+		</ul>
+	</div>	
+	
+	<div id="content">
+		<% if flash[:notice] %>
+			<div id="flash"><%= flash[:notice] %></div>
+		<% end %>
+        <%= yield %>
+
+	</div>
+	<div id="footer">
+  	  <p><a href="mailto:dctomboy1@yahoo.com">Contact Us</a> | &#169; 2010 | Site Design by: <a href="mailto:agile.action.advisors@gmail.com">The A-Team</a></p>
+	</div>
+	
+</div>
+
+</body>
+</html>

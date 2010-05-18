@@ -1,8 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :qas
+   map.resources :qas
 
   map.resources :subscribers
-
+  
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
@@ -43,12 +43,17 @@ ActionController::Routing::Routes.draw do |map|
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing or commenting them out if you're using named routes and resources.
 
+
+  
+  
   map.login   '/admin/login', :controller => 'admin', :action => 'login'
   map.connect   '/admin/authenticate', :controller => 'admin', :action => 'authenticate'
   
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
   
-  #added for gmailer
-  map.root :controller => 'notifications', :action => 'index'
+      
+      #added for gmailer
+ # map.root :controller => 'notifications', :action => 'index'
+ map.root :controller => 'home', :action => 'contact'
 end
