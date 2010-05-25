@@ -5,7 +5,7 @@ class AdminController < ActionController::Base
   
   def logout
     session[:admin] = false
-     flash[:notice] = "logged out"
+     flash[:notice] = "You are logged out. Bye!"
     redirect_to :controller => 'home', :action => 'index'
   end
   
@@ -16,7 +16,7 @@ class AdminController < ActionController::Base
       redirect_to :controller => 'qas', :action => 'index'
     else
       session[:admin] = false
-      flash[:notice] = "login failed"
+      flash[:notice] = "Login failed"
       redirect_to :controller => 'admin', :action => 'login'
     end
   end

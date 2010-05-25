@@ -44,7 +44,7 @@ ActionController::Routing::Routes.draw do |map|
   # consider removing or commenting them out if you're using named routes and resources.
 
 
-  
+
   
   map.login   '/admin/login', :controller => 'admin', :action => 'login'
   map.connect   '/admin/authenticate', :controller => 'admin', :action => 'authenticate'
@@ -55,5 +55,5 @@ ActionController::Routing::Routes.draw do |map|
       
       #added for gmailer
  # map.root :controller => 'notifications', :action => 'index'
- map.root :controller => 'home', :action => 'contact'
+ map.root :controller => 'home', :action => 'index'
 end

@@ -59,7 +59,7 @@
 
 	</div>
 	<div id="footer">
-  	  <p><a href="mailto:dctomboy1@yahoo.com">Contact Us</a> | &#169; 2010 | Site Design by: <a href="mailto:agile.action.advisors@gmail.com">The A-Team</a></p>
+  	  <p><a href="mailto:dctomboy1@yahoo.com">Contact Us</a> | &#169; 2010 | Site Design by: <a href="mailto:agile.action.advisors@gmail.com">The A-Team</a> | <%= link_to "Admin", {:controller => "admin", :action => session[:admin] ? "logout" : "login"}%></p>
 	</div>
 	
 </div>
