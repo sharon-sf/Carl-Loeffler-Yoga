@@ -13028,3 +13028,476 @@ ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-25 14:05:44) [GET]
+Rendering admin/login
+Completed in 344ms (View: 313, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-05-25 14:08:44) [GET]
+  [4;36;1mSubscriber Load (47.0ms)[0m   [0;1mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 1140ms (View: 890, DB: 47) | 200 OK [http://localhost/subscribers]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:08:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-25 14:08:50) [GET]
+Rendering admin/login
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-25 14:15:36) [GET]
+Rendering admin/login
+Completed in 1609ms (View: 1016, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-05-25 14:16:11) [GET]
+  [4;35;1mSubscriber Load (78.0ms)[0m   [0mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 2031ms (View: 1016, DB: 78) | 200 OK [http://localhost/subscribers]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:16:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SubscribersController#edit (for 127.0.0.1 at 2010-05-25 14:16:17) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mSubscriber Load (0.0ms)[0m   [0;1mSELECT * FROM "subscribers" WHERE ("subscribers"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering subscribers/edit
+Completed in 7609ms (View: 7562, DB: 0) | 200 OK [http://localhost/subscribers/2/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:16:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-25 14:17:23) [GET]
+Rendering admin/login
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-25 14:17:45) [GET]
+Rendering admin/login
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-25 14:25:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9984ms (View: 8687, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:25:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 14:26:54) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 437ms (View: 422, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:26:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-25 14:26:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1094ms (View: 1062, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:26:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 14:30:33) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:30:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-25 14:30:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:30:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-25 14:31:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:31:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 14:31:19) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:31:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-25 14:31:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:31:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-25 14:32:07) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:32:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 14:56:00) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 3172ms (View: 2625, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:56:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 14:57:00) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 547ms (View: 500, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:57:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 14:57:34) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 266ms (View: 204, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:57:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 14:59:08) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 1031ms (View: 1016, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:59:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 14:59:38) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 14:59:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 15:01:54) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:01:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 15:02:35) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 46ms (View: 46, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:02:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 15:02:42) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:02:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 15:03:21) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:03:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-05-25 15:05:21) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 250ms (View: 250, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:05:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-25 15:06:37) [GET]
+Rendering admin/login
+Completed in 109ms (View: 78, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-05-25 15:06:44) [POST]
+  Parameters: {"password"=>"iyengar"}
+Redirected to http://localhost:3000/qas
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-25 15:06:45) [GET]
+  [4;35;1mQa Load (62.0ms)[0m   [0mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 2641ms (View: 2484, DB: 62) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:06:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-25 15:08:21) [GET]
+  [4;36;1mQa Load (16.0ms)[0m   [0;1mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 203ms (View: 172, DB: 16) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:08:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-25 15:10:34) [GET]
+Rendering admin/login
+Completed in 219ms (View: 109, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-25 15:24:49) [GET]
+
+ActionView::MissingTemplate (Missing layout layouts/scaffold.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-25 15:26:10) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 15391ms (View: 14625, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:26:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-25 15:26:40) [GET]
+  [4;35;1mQa Load (344.0ms)[0m   [0mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 4750ms (View: 3484, DB: 344) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:26:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-05-25 15:26:53) [GET]
+Redirected to http://localhost:3000/home
+Completed in 47ms (DB: 0) | 302 Found [http://localhost/admin/logout]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-25 15:27:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:27:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-25 15:27:17) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 109ms (View: 94, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:27:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-05-25 15:27:21) [POST]
+  Parameters: {"password"=>"sadfasdfsadf"}
+Redirected to http://localhost:3000/admin/login
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-25 15:27:22) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-25 15:27:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

@@ -4,9 +4,9 @@
 <% @qas.each do |qa| %>
   <tr>
     <td><b><%=h qa.question %></b><br/>
-	<i><%=h qa.answer %></i><br/>
-	<%= h qa.name %>  
-	<span><%= h qa.created_at.to_s(:short) %></span><hr/></td>
+	<%=h qa.answer %><br/>
+	<i><%= h qa.name %>  
+	<span><%= h qa.created_at.to_s(:short) %></span><hr/></td></i>
 	<% if session[:admin] %>
     <td><%= link_to 'Show', qa %></td>
     <td><%= link_to 'Edit', edit_qa_path(qa) %></td>

@@ -14,6 +14,12 @@ body {
 	color:red;
 	
 }
+
+img {
+   float: left;
+   padding: 5px;
+   margin: 0;
+}
 	
 #container {
 	width: 760px;
