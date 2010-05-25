@@ -11195,3 +11195,864 @@ ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-05-24 20:07:18) [GET]
+  [4;36;1mSubscriber Load (0.0ms)[0m   [0;1mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 3641ms (View: 3563, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:07:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:07:25) [GET]
+  [4;35;1mQa Load (16.0ms)[0m   [0mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+
+ActionView::TemplateError (wrong number of arguments (2 for 1)) on line #5 of app/views/qas/index.html.erb:
+2: 
+3: <table>
+4: 
+5: <% @qas.find(:all, :conditions => "answer<>''", :order => "created_at DESC").each do |qa| %>
+6:   <tr>
+7:     <td><b><%=h qa.question %></b><br/><%= h qa.name %>  <span><%= h qa.created_at.to_s(:short) %></span><hr/></td>
+8: 	<% if session[:admin] %>
+
+    app/views/qas/index.html.erb:5:in `find'
+    app/views/qas/index.html.erb:5
+    app/controllers/qas_controller.rb:8:in `index'
+
+Rendered rescues/_trace (547.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:13:34) [GET]
+  [4;36;1mQa Load (0.0ms)[0m   [0;1mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+
+ActionView::TemplateError (wrong number of arguments (2 for 1)) on line #5 of app/views/qas/index.html.erb:
+2: 
+3: <table>
+4: 
+5: <% @qas.find(:all, :conditions => "answer != ''", :order => "created_at DESC").each do |qa| %>
+6:   <tr>
+7:     <td><b><%=h qa.question %></b><br/><%= h qa.name %>  <span><%= h qa.created_at.to_s(:short) %></span><hr/></td>
+8: 	<% if session[:admin] %>
+
+    app/views/qas/index.html.erb:5:in `find'
+    app/views/qas/index.html.erb:5
+    app/controllers/qas_controller.rb:8:in `index'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:14:13) [GET]
+  [4;35;1mQa Load (32.0ms)[0m   [0mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+
+ActionView::TemplateError (wrong number of arguments (2 for 1)) on line #5 of app/views/qas/index.html.erb:
+2: 
+3: <table>
+4: 
+5: <% @qas.find(:all, :conditions => "answer != 'x'", :order => "created_at DESC").each do |qa| %>
+6:   <tr>
+7:     <td><b><%=h qa.question %></b><br/><%= h qa.name %>  <span><%= h qa.created_at.to_s(:short) %></span><hr/></td>
+8: 	<% if session[:admin] %>
+
+    app/views/qas/index.html.erb:5:in `find'
+    app/views/qas/index.html.erb:5
+    app/controllers/qas_controller.rb:8:in `index'
+
+Rendered rescues/_trace (500.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:17:12) [GET]
+  [4;36;1mQa Load (0.0ms)[0m   [0;1mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+
+ActionView::TemplateError (wrong number of arguments (2 for 1)) on line #5 of app/views/qas/index.html.erb:
+2: 
+3: <table>
+4: 
+5: <% @qas.find(:all, 
+6: :conditions => "answer != 'x'", 
+7: :order => "created_at DESC").each do |qa| %>
+8:   <tr>
+
+    app/views/qas/index.html.erb:5:in `find'
+    app/views/qas/index.html.erb:5
+    app/controllers/qas_controller.rb:8:in `index'
+
+Rendered rescues/_trace (313.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:21:36) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (2891.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:25:47) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:26:38) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:27:56) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (312.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:28:23) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-05-24 20:28:32) [GET]
+  [4;35;1mSubscriber Load (32.0ms)[0m   [0mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 375ms (View: 281, DB: 32) | 200 OK [http://localhost/subscribers]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:28:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:28:35) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:29:42) [GET]
+
+NoMethodError (undefined method `Qa' for nil:NilClass):
+  app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (484.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:30:18) [GET]
+  [4;36;1mQa Load (47.0ms)[0m   [0;1mSELECT * FROM "qas" WHERE (answer == '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 1266ms (View: 1157, DB: 47) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:30:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:30:55) [GET]
+  [4;35;1mQa Load (0.0ms)[0m   [0mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:30:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-05-24 20:31:21) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 172ms (View: 141, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:31:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:31:23) [GET]
+  [4;36;1mQa Load (0.0ms)[0m   [0;1mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 813ms (View: 782, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:31:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-24 20:31:35) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: authenticate and login):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:31:42) [GET]
+
+ActionController::RoutingError (No route matches "/admins" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-05-24 20:31:49) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: authenticate and login):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:32:14) [GET]
+
+ActionController::RoutingError (No route matches "/login" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-24 20:33:06) [GET]
+Rendering admin/login
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-05-24 20:33:12) [POST]
+  Parameters: {"password"=>"iyengar"}
+Redirected to http://localhost:3000/qas
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:33:12) [GET]
+  [4;35;1mQa Load (16.0ms)[0m   [0mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 63ms (View: 16, DB: 16) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:33:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-05-24 20:33:19) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:33:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:33:21) [GET]
+  [4;36;1mQa Load (0.0ms)[0m   [0;1mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:33:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:37:14) [GET]
+  [4;35;1mQa Load (31.0ms)[0m   [0mSELECT * FROM "qas" [0m
+Rendering template within layouts/application
+Rendering qas/index
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #4 of app/views/qas/index.html.erb:
+1: <h1>Previous Q &amp; A's</h1>
+2: 
+3: <table>
+4: <% @qas.sort(:order => "created_at DESC").each do |qa| %>
+5:   <tr>
+6:     <td><b><%=h qa.question %></b><br/><%= h qa.name %>  <span><%= h qa.created_at.to_s(:short) %></span><hr/></td>
+7: 	<% if session[:admin] %>
+
+    app/views/qas/index.html.erb:4:in `sort'
+    app/views/qas/index.html.erb:4
+    app/controllers/qas_controller.rb:7:in `index'
+
+Rendered rescues/_trace (531.0ms)
+Rendered rescues/_request_and_response (47.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:46:13) [GET]
+  [4;36;1mQa Load (282.0ms)[0m   [0;1mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 5922ms (View: 4609, DB: 282) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:46:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#edit (for 127.0.0.1 at 2010-05-24 20:46:30) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mQa Load (0.0ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 10) [0m
+Rendering template within layouts/application
+Rendering qas/edit
+Completed in 735ms (View: 610, DB: 0) | 200 OK [http://localhost/qas/10/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:46:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:46:43) [GET]
+  [4;36;1mQa Load (16.0ms)[0m   [0;1mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 1125ms (View: 969, DB: 16) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:46:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#edit (for 127.0.0.1 at 2010-05-24 20:46:56) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mQa Load (0.0ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering qas/edit
+Completed in 3031ms (View: 2937, DB: 0) | 200 OK [http://localhost/qas/3/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:46:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#update (for 127.0.0.1 at 2010-05-24 20:47:10) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"zAARMU8wHFAMBluQImgHCgb/cA2QSXefuvnlfwdDvXE=", "id"=>"3", "qa"=>{"name"=>"Sharon Teach", "answer"=>"", "question"=>"Where is my time stamp?"}}
+  [4;36;1mQa Load (0.0ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 3) [0m
+  [4;35;1mQa Update (31.0ms)[0m   [0mUPDATE "qas" SET "question" = 'Where is my time stamp?', "updated_at" = '2010-05-25 03:47:10' WHERE "id" = 3[0m
+Redirected to http://localhost:3000/qas/3
+Completed in 203ms (DB: 31) | 302 Found [http://localhost/qas/3]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-05-24 20:47:10) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mQa Load (0.0ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 188ms (View: 110, DB: 0) | 200 OK [http://localhost/qas/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:47:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:47:13) [GET]
+  [4;35;1mQa Load (0.0ms)[0m   [0mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 219ms (View: 188, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:47:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#edit (for 127.0.0.1 at 2010-05-24 20:47:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mQa Load (0.0ms)[0m   [0;1mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering qas/edit
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/qas/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:47:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#update (for 127.0.0.1 at 2010-05-24 20:47:30) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"zAARMU8wHFAMBluQImgHCgb/cA2QSXefuvnlfwdDvXE=", "id"=>"1", "qa"=>{"name"=>"Tester1", "answer"=>"Making good progress", "question"=>"What the heck are we doing?"}}
+  [4;35;1mQa Load (0.0ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+  [4;36;1mQa Update (0.0ms)[0m   [0;1mUPDATE "qas" SET "answer" = 'Making good progress', "updated_at" = '2010-05-25 03:47:30' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/qas/1
+Completed in 172ms (DB: 0) | 302 Found [http://localhost/qas/1]
+
+
+Processing QasController#show (for 127.0.0.1 at 2010-05-24 20:47:31) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mQa Load (0.0ms)[0m   [0mSELECT * FROM "qas" WHERE ("qas"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering qas/show
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://localhost/qas/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:47:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-05-24 20:47:38) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:47:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:47:41) [GET]
+  [4;36;1mQa Load (15.0ms)[0m   [0;1mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 250ms (View: 188, DB: 15) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:47:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-24 20:48:20) [GET]
+Rendering admin/login
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-05-24 20:48:23) [POST]
+  Parameters: {"password"=>"dsfaasdfsdff"}
+
+ActionView::MissingTemplate (Missing template admin/authenticate.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-05-24 20:48:37) [GET]
+  [4;35;1mSubscriber Load (0.0ms)[0m   [0mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 94ms (View: 62, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:48:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 20:48:45) [GET]
+  [4;36;1mQa Load (0.0ms)[0m   [0;1mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 63ms (View: 31, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 20:48:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 21:00:11) [GET]
+  [4;35;1mQa Load (610.0ms)[0m   [0mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 15594ms (View: 7954, DB: 610) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:00:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 21:40:42) [GET]
+  [4;36;1mQa Load (0.0ms)[0m   [0;1mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 1453ms (View: 1390, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:40:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-24 21:47:00) [GET]
+Rendering admin/login
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-05-24 21:47:04) [POST]
+  Parameters: {"password"=>"dsafasdf"}
+Redirected to http://localhost:3000/admin/login
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-24 21:47:04) [GET]
+Rendering admin/login
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-05-24 21:47:08) [POST]
+  Parameters: {"password"=>"asdfsadf"}
+Redirected to http://localhost:3000/admin/login
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-24 21:47:08) [GET]
+Rendering admin/login
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-05-24 21:47:12) [POST]
+  Parameters: {"password"=>"asdfsdf"}
+Redirected to http://localhost:3000/admin/login
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-24 21:47:12) [GET]
+Rendering admin/login
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-05-24 21:47:59) [POST]
+  Parameters: {"password"=>"iyengar"}
+Redirected to http://localhost:3000/qas
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 21:47:59) [GET]
+  [4;35;1mQa Load (0.0ms)[0m   [0mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 204ms (View: 188, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:48:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:48:07) [GET]
+
+ActionController::RoutingError (No route matches "/logout" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-05-24 21:48:15) [GET]
+
+ActionView::MissingTemplate (Missing template admin/logout.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-05-24 21:49:19) [GET]
+Rendering admin/logout
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/admin/logout]
+
+
+Processing AdminController#subscribers (for 127.0.0.1 at 2010-05-24 21:49:33) [GET]
+
+ActionController::UnknownAction (No action responded to subscribers. Actions: authenticate, login, and logout):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-05-24 21:49:38) [GET]
+  [4;36;1mSubscriber Load (0.0ms)[0m   [0;1mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 140ms (View: 93, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:49:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 21:49:41) [GET]
+  [4;35;1mQa Load (16.0ms)[0m   [0mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 94ms (View: 32, DB: 16) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:49:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-24 21:49:48) [GET]
+Rendering admin/login
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-05-24 21:49:52) [POST]
+  Parameters: {"password"=>"asdfasdf"}
+Redirected to http://localhost:3000/admin/login
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-24 21:49:53) [GET]
+Rendering admin/login
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-05-24 21:49:59) [GET]
+  [4;36;1mSubscriber Load (0.0ms)[0m   [0;1mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 344ms (View: 94, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 21:50:01) [GET]
+  [4;35;1mQa Load (0.0ms)[0m   [0mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 63ms (View: 31, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:50:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-05-24 21:50:07) [GET]
+Rendering admin/login
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-05-24 21:50:11) [POST]
+  Parameters: {"password"=>"iyengar"}
+Redirected to http://localhost:3000/qas
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 21:50:11) [GET]
+  [4;36;1mQa Load (16.0ms)[0m   [0;1mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 172ms (View: 140, DB: 16) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:50:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-05-24 21:50:32) [GET]
+Rendering admin/logout
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/admin/logout]
+
+
+Processing SubscribersController#index (for 127.0.0.1 at 2010-05-24 21:50:38) [GET]
+  [4;35;1mSubscriber Load (0.0ms)[0m   [0mSELECT * FROM "subscribers" [0m
+Rendering template within layouts/application
+Rendering subscribers/index
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://localhost/subscribers]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:50:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-05-24 21:50:40) [GET]
+  [4;36;1mQa Load (15.0ms)[0m   [0;1mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 63ms (View: 32, DB: 15) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:50:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-05-24 21:52:19) [GET]
+Redirected to http://localhost:3000/home
+Completed in 47ms (DB: 0) | 302 Found [http://localhost/admin/logout]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-24 21:52:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 531ms (View: 500, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-24 21:52:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

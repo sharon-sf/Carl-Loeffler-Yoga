@@ -3,8 +3,7 @@ class QasController < ApplicationController
   # GET /qas
   # GET /qas.xml
   def index
-    @qas = Qa.all
-
+    @qas = session[:admin] ? Qa.find(:all, :order => "created_at DESC") : Qa.find(:all, :conditions => "answer != ''",:order => "created_at DESC")
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @qas }

@@ -1,12 +1,10 @@
 <h1>Previous Q &amp; A's</h1>
 
 <table>
-<% @qas.each do |qa| %>
+
+<% @qas.sort { |a,b| b.created_at <=> a.created_at }.each do |qa| %>
   <tr>
-    <td><b><%=h qa.question %></b><br/>
-	<i><%=h qa.answer %></i><br/>
-	<%= h qa.name %>  
-	<span><%= h qa.created_at.to_s(:short) %></span><hr/></td>
+    <td><b><%=h qa.question %></b><br/><%= h qa.name %>  <span><%= h qa.created_at.to_s(:short) %></span><hr/></td>
 	<% if session[:admin] %>
     <td><%= link_to 'Show', qa %></td>
     <td><%= link_to 'Edit', edit_qa_path(qa) %></td>
