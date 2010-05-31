@@ -1,0 +1,21 @@
+<h1>Upload Newsletter</h1>
+ignore this page - bad
+<% form_for(:newsletter, @newsletter, :url => {:action=>'create'}, :html=> {:multipart=>true}) do |f| %>
+<p>
+    <f.label "Upload">
+ Select File
+    </label>
+    : <%= f.file_field :data %>
+</p>
+<p>
+    <%= f.label :year  %> (4 digits):
+    <%= f.text_field :year %>
+</p>
+<p>
+    <%= f.label :month  %> (2 digits):
+    <%= f.text_field :month %>
+</p>
+<p>
+    <%= f.submit 'Upload' %>
+</p>
+<% end %>

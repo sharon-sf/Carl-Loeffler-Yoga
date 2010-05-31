@@ -1,0 +1,25 @@
+<h1>Newsletters</h1>
+<table>
+    <tr>
+    </tr>
+    <% @newsletters.each do |newsletter| %>
+    <tr>
+        <% link = newsletter.str_month + " " + newsletter.year.to_s() %>
+        <td>
+            <%= link_to link, {:action => 'display', :id => newsletter.id}, :popup => [newsletter.month, 'width=800, height=700, left = 450, top = 100, resizable, scrollbars=yes' ] %>
+        </td>
+        <% if session[:admin] %>
+        <td>
+            <%= link_to 'Edit', edit_newsletter_path(newsletter) %>
+        </td>
+        <td>
+            <%= link_to 'Delete', newsletter, :confirm => 'Are you sure?', :method => :delete %>
+        </td>
+        <% end %>
+    </tr>
+    <% end %>
+</table>
+<br/>
+<% if session[:admin] %>
+<%= link_to 'Add newsletter', {:controller => "upload", :action => "get"} %>
+<% end %>

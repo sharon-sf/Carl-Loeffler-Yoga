@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :newsletters
+
    map.resources :qas
 
   map.resources :subscribers

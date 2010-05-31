@@ -1,0 +1,24 @@
+<h1>Question</h1>
+
+<p>Have a question about a pose? Pain? Mind-body awareness? Ask Carl. Check the archives later for your answer.</p>
+
+
+<% form_for(@qa) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :question %><br />
+    <%= f.text_area :question %>
+  </p>
+  <!-- <p>
+    <%# f.label :date %><br />
+    <%# f.datetime_select :date %>
+  </p> -->
+  <p>
+    <%= f.submit 'Submit' %>
+  </p>
+<% end %>

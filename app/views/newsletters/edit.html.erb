@@ -1,0 +1,18 @@
+<h1>Editing newsletter</h1>
+
+<% form_for(@newsletter) do |f| %>
+  <%= f.error_messages %>
+<p>
+    <%= f.label :month %><br />
+    <%= f.text_field :month %>
+  </p>
+  <p>
+    <%= f.label :year %><br />
+    <%= f.text_field :year %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', newsletters_path %>

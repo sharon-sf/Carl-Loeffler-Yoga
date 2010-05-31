@@ -8,9 +8,9 @@
 	<i><%= h qa.name %>  
 	<span><%= h qa.created_at.to_s(:short) %></span><hr/></td></i>
 	<% if session[:admin] %>
-    <td><%= link_to 'View', qa %></td>
-    <td><%= link_to 'Answer', edit_qa_path(qa) %></td>
-    <td><%= link_to 'Delete', qa, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= link_to 'Show', qa %></td>
+    <td><%= link_to 'Edit', edit_qa_path(qa) %></td>
+    <td><%= link_to 'Destroy', qa, :confirm => 'Are you sure?', :method => :delete %></td>
     <% end %>
   </tr>
 <% end %>

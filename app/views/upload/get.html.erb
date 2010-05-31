@@ -1,0 +1,17 @@
+<%= error_messages_for("newsletter" ) %>
+<% form_for(:newsletter,
+:url => {:action => 'save'},
+:html => { :multipart => true }) do |f| %>
+<p>Upload your file: <%= f.file_field("newsletter" ) %></p>
+
+<p>
+    <%= f.label :year  %> (4 digits):
+    <%= f.text_field :year %>
+</p>
+<p>
+    <%= f.label :month  %> (2 digits):
+    <%= f.text_field :month %>
+</p>
+
+<%= submit_tag("Upload file" ) %>
+<% end %>

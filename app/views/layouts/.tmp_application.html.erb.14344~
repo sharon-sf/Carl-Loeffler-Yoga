@@ -22,13 +22,12 @@
 		<li><%= link_to "contact", {:controller => "home", :action => "contact"}, :class => @selected_tab == 'contact' ? 'active' : '' %></li>
 		<li><%= link_to "questions", {:controller => "qas", :action => "new"}, :class => @selected_tab == 'qas' ? 'active' : '' %></li>
 		<li><%= link_to "archives", {:controller => "qas", :action => "index"}, :class => @selected_tab == 'archives' ? 'active' : '' %></li>
-		<li><%= link_to "newsletters", {:controller => "newsletters", :action => "index"}, :class => @selected_tab == 'newsletters' ? 'active' : '' %></li>
 		
 		
 	</ul>
 	
 	<div id="sidebar">
-		<h3>Newsletters</h3>
+		<h3>Archives</h3>
 		<ul>
 			<li><a href="#">July 2006</a></li>
 			<li><a href="#">June 2006</a></li>
@@ -60,9 +59,7 @@
 
 	</div>
 	<div id="footer">
-		<% action = session[:admin] ? "logout" : "login" %>
-		<% link = session[:admin] ? "Logout" : "Admin" %>
-		<p><a href="mailto:dctomboy1@yahoo.com">Contact Us</a> | &#169; 2010 | Site Design by: <a href="mailto:agile.action.advisors@gmail.com">The A-Team</a> | <%= link_to link, {:controller => "admin", :action => action }%></p>
+  	  <p><a href="mailto:dctomboy1@yahoo.com">Contact Us</a> | &#169; 2010 | Site Design by: <a href="mailto:agile.action.advisors@gmail.com">The A-Team</a> | <%= link_to "Admin", {:controller => "admin", :action => session[:admin] ? "logout" : "login"}%></p>
 	</div>
 	
 </div>
