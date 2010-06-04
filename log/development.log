@@ -22455,3 +22455,894 @@ ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-02 09:32:36) [GET]
+DEPRECATION WARNING: require "activesupport" is deprecated and will be removed in Rails 3. Use require "active_support" instead.. (called from c:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/activesupport.rb:2)
+  [4;36;1mNewsletter Load (62.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 3266ms (View: 3110, DB: 62) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 09:32:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-02 09:32:45) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 172ms (View: 156, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 09:32:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotificationsController#index (for 127.0.0.1 at 2010-06-02 09:32:49) [GET]
+Rendering template within layouts/application
+Rendering notifications/index
+Completed in 360ms (View: 360, DB: 0) | 200 OK [http://localhost/notifications]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 09:32:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NotificationsController#create (for 127.0.0.1 at 2010-06-02 09:33:17) [POST]
+  Parameters: {"commit"=>"Send", "authenticity_token"=>"MftdzDatkXueWQWPb/vo46kEyF7R6huGbjFfoYPYk5k=", "contact"=>{"name"=>"", "body"=>"testing locally -- does not work on Heroku", "topic"=>"Class", "subject"=>"test", "email"=>""}}
+Sent mail to agile.action.advisors@gmail.com
+
+Date: Wed, 2 Jun 2010 16:33:17 -0700
+To: agile.action.advisors@gmail.com
+Subject: [Carl's Website] : Class
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4c0687cdb3330_1c0241b2aa18f
+
+
+--mimepart_4c0687cdb3330_1c0241b2aa18f
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+ wrote you an email:
+
+---
+
+[Carl's Website] : Class
+testing locally -- does not work on Heroku
+---
+
+--mimepart_4c0687cdb3330_1c0241b2aa18f--
+Redirected to http://localhost:3000/home/contact
+Completed in 4672ms (DB: 0) | 302 Found [http://localhost/notifications/create]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-02 09:33:22) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 09:33:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:22:52) [GET]
+
+ActionController::RoutingError (No route matches "/users" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 09:23:10) [GET]
+DEPRECATION WARNING: require "activesupport" is deprecated and will be removed in Rails 3. Use require "active_support" instead.. (called from c:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/activesupport.rb:2)
+  [4;36;1mNewsletter Load (157.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 4343ms (View: 4093, DB: 157) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:23:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-04 09:23:19) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mNewsletter Load (0.0ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 14) [0m
+Sending data 
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://localhost/newsletters/display/14]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 09:28:43) [GET]
+  [4;36;1mNewsletter Load (47.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 187ms (View: 78, DB: 47) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:28:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-04 09:28:52) [GET]
+  Parameters: {"id"=>"17"}
+  [4;35;1mNewsletter Load (0.0ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 17) [0m
+Sending data 
+Completed in 63ms (View: 16, DB: 0) | 200 OK [http://localhost/newsletters/display/17]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-04 09:34:48) [GET]
+  Parameters: {"id"=>"16"}
+  [4;36;1mNewsletter Load (32.0ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 16) [0m
+Sending data 
+Completed in 79ms (View: 0, DB: 32) | 200 OK [http://localhost/newsletters/display/16]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-04 09:35:29) [GET]
+  Parameters: {"id"=>"19"}
+  [4;35;1mNewsletter Load (63.0ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 19) [0m
+Sending data 
+Completed in 94ms (View: 0, DB: 63) | 200 OK [http://localhost/newsletters/display/19]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 09:37:55) [GET]
+  [4;36;1mNewsletter Load (47.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 109ms (View: 31, DB: 47) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:37:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-04 09:38:00) [GET]
+  Parameters: {"id"=>"16"}
+  [4;35;1mNewsletter Load (0.0ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 16) [0m
+Sending data 
+Completed in 47ms (View: 0, DB: 0) | 200 OK [http://localhost/newsletters/display/16]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-04 09:47:43) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 219ms (View: 219, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:47:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 09:56:51) [GET]
+  [4;36;1mNewsletter Load (187.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 313ms (View: 63, DB: 187) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:56:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#get (for 127.0.0.1 at 2010-06-04 09:56:58) [GET]
+
+SyntaxError (c:/Documents and Settings/Sharon/dev/Carl-Loeffler-Yoga/app/controllers/upload_controller.rb:38: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (31.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-04 09:57:19) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 172ms (View: 125, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:57:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 09:57:50) [GET]
+  [4;35;1mNewsletter Load (16.0ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 78ms (View: 31, DB: 16) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:57:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-04 09:57:56) [GET]
+  Parameters: {"id"=>"19"}
+  [4;36;1mNewsletter Load (0.0ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 19) [0m
+Sending data 
+Completed in 78ms (View: 16, DB: 0) | 200 OK [http://localhost/newsletters/display/19]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-04 09:58:01) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:58:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-04 09:58:05) [POST]
+  Parameters: {"password"=>"iyengar"}
+Redirected to http://localhost:3000/qas
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-06-04 09:58:06) [GET]
+  [4;35;1mQa Load (0.0ms)[0m   [0mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 1235ms (View: 1156, DB: 0) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:58:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 09:58:09) [GET]
+  [4;36;1mNewsletter Load (47.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 203ms (View: 94, DB: 47) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:58:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#destroy (for 127.0.0.1 at 2010-06-04 09:58:13) [DELETE]
+  Parameters: {"authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "id"=>"11"}
+  [4;35;1mNewsletter Load (0.0ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 11) [0m
+  [4;36;1mNewsletter Destroy (62.0ms)[0m   [0;1mDELETE FROM "newsletters" WHERE "id" = 11[0m
+Redirected to http://localhost:3000/newsletters
+Completed in 297ms (DB: 62) | 302 Found [http://localhost/newsletters/11]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 09:58:14) [GET]
+  [4;35;1mNewsletter Load (0.0ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 109ms (View: 78, DB: 0) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:58:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-04 09:58:25) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 344ms (View: 265, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:58:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-06-04 09:58:39) [GET]
+Redirected to http://localhost:3000/home
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/admin/logout]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-04 09:58:39) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:58:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 09:58:42) [GET]
+  [4;36;1mNewsletter Load (0.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:58:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:58:49) [GET]
+
+ActionController::RoutingError (No route matches "/uplaod/get" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-04 09:58:52) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:58:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-04 09:59:05) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"1", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.812.0>}}
+  [4;35;1mNewsletter Create (46.0ms)[0m   [0mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Jan2010.pdf', 1, '2010-06-04 16:59:05', 2010, '2010-06-04 16:59:05', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 143
+>>
+stream
+x^çN1
+¬@Ï˜[Ó9w/êªm-“Æã—FIÒ˜ﬁEãî≤0Ã0≥√L0¡>¡Ó®®”ÀÕWguUä&ƒ\N‹·D-GÍπ“ÜFV£gœ5Õ\˘@oÆç0[B^Tæl≤ˇZ2W∫±*˙ëÛ˛á√˙∆‘¬!A˜ﬂ$/çãq;7•§Éá.Ã
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214356)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000585 00000 n 
+0000001121 00000 n 
+0000001317 00000 n 
+0000001541 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2586
+%25%25EOF
+')[0m
+Redirected to http://localhost:3000/upload/get
+Completed in 328ms (DB: 46) | 302 Found [http://localhost/upload/save]
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-04 09:59:05) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 63ms (View: 16, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:59:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 09:59:08) [GET]
+  [4;36;1mNewsletter Load (0.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 78ms (View: 46, DB: 0) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 09:59:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-04 10:02:52) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:02:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-04 10:03:03) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"1", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.812.1>}}
+
+ActionView::MissingTemplate (Missing template upload/save.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#save (for 127.0.0.1 at 2010-06-04 10:04:37) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"1", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.812.2>}}
+
+SyntaxError (c:/Documents and Settings/Sharon/dev/Carl-Loeffler-Yoga/app/controllers/upload_controller.rb:19: syntax error, unexpected kELSE, expecting kEND
+c:/Documents and Settings/Sharon/dev/Carl-Loeffler-Yoga/app/controllers/upload_controller.rb:45: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-04 10:05:21) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"1", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.812.3>}}
+Redirected to http://localhost:3000/upload
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/upload/save]
+
+
+Processing UploadController#index (for 127.0.0.1 at 2010-06-04 10:05:21) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: get, newsletter, save, and show):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-04 10:05:44) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"1", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.812.0>}}
+Redirected to http://localhost:3000/upload/newsletter
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/upload/save]
+
+
+Processing UploadController#newsletter (for 127.0.0.1 at 2010-06-04 10:05:45) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Newsletter without an ID):
+  app/controllers/upload_controller.rb:27:in `newsletter'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-04 10:07:10) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"1", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.812.4>}}
+Redirected to http://localhost:3000/newsletter
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/upload/save]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:07:10) [GET]
+
+ActionController::RoutingError (No route matches "/newsletter" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-04 10:07:30) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"1", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.812.5>}}
+Redirected to http://localhost:3000/newsletters
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/upload/save]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 10:07:30) [GET]
+  [4;35;1mNewsletter Load (0.0ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 79ms (View: 47, DB: 0) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:07:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-04 10:10:03) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:10:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-04 10:11:29) [GET]
+Redirected to http://localhost:3000/newsletters
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/upload/get]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 10:11:29) [GET]
+  [4;36;1mNewsletter Load (16.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 78ms (View: 31, DB: 16) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:11:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-04 10:11:38) [GET]
+Redirected to http://localhost:3000/newsletters
+Completed in 0ms (DB: 0) | 302 Found [http://localhost/upload/get]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 10:11:38) [GET]
+  [4;35;1mNewsletter Load (15.0ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 79ms (View: 32, DB: 15) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:11:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-04 10:19:00) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 453ms (View: 453, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:19:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-04 10:19:05) [POST]
+  Parameters: {"password"=>"iyengar"}
+Redirected to http://localhost:3000/qas
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-06-04 10:19:05) [GET]
+  [4;36;1mQa Load (15.0ms)[0m   [0;1mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 1250ms (View: 1188, DB: 15) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:19:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 10:19:08) [GET]
+DEPRECATION WARNING: require "activesupport" is deprecated and will be removed in Rails 3. Use require "active_support" instead.. (called from c:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/activesupport.rb:2)
+  [4;35;1mNewsletter Load (0.0ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 453ms (View: 141, DB: 0) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:19:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#destroy (for 127.0.0.1 at 2010-06-04 10:19:12) [DELETE]
+  Parameters: {"authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "id"=>"17"}
+  [4;36;1mNewsletter Load (0.0ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 17) [0m
+  [4;35;1mNewsletter Destroy (0.0ms)[0m   [0mDELETE FROM "newsletters" WHERE "id" = 17[0m
+Redirected to http://localhost:3000/newsletters
+Completed in 234ms (DB: 0) | 302 Found [http://localhost/newsletters/17]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-04 10:19:13) [GET]
+  [4;36;1mNewsletter Load (16.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 125ms (View: 78, DB: 16) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:19:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-04 10:19:14) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 328ms (View: 297, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:19:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-04 10:19:27) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"3", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.3912.0>}}
+  [4;35;1mNewsletter Create (47.0ms)[0m   [0mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Mar2010.pdf', 3, '2010-06-04 17:19:27', 2010, '2010-06-04 17:19:27', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 143
+>>
+stream
+x^ïé±
+1Ü˜<E∆dhM"ÿvt∫âÉ»©É''‹)¯˙∂ß†nJ |?ÑÔO=Ã3Lñäjò Xg8Ç¯î¢éI1	Iæ\t∞°5⁄ÒîvÅˆNº≈ºÇEÜÊ7üZâ≥O''≤S!ï'']⁄‚Ω_+ùY’|cgˆ⁄Ì¯¿üΩ&‚c¸Ó}+™§Å€ê9
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214441)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000585 00000 n 
+0000001121 00000 n 
+0000001317 00000 n 
+0000001541 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2586
+%25%25EOF
+')[0m
+Redirected to http://localhost:3000/upload/get
+Completed in 250ms (DB: 47) | 302 Found [http://localhost/upload/save]
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-04 10:19:29) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 63ms (View: 32, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-04 10:19:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

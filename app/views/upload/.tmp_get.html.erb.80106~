@@ -15,5 +15,3 @@
 
 <%= submit_tag("Upload file" ) %>
 <% end %>
-
-

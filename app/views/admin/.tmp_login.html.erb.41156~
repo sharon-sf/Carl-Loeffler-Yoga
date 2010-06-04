@@ -1,0 +1,10 @@
+<body>
+<h3>Carl's Website Administrator Log-in</h3>
+
+<form action="/admin/authenticate" method="post">
+<p>Password: </p>
+<input type='password' id='password' name='password'>
+
+<input type="submit" value="Submit">
+</form>
+</body>
