@@ -23346,3 +23346,1553 @@ ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-05 10:23:13) [GET]
+DEPRECATION WARNING: require "activesupport" is deprecated and will be removed in Rails 3. Use require "active_support" instead.. (called from c:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/activesupport.rb:2)
+  [4;36;1mNewsletter Load (94.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 890ms (View: 656, DB: 94) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 10:23:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-05 10:23:18) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 141ms (View: 94, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 10:23:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:23:51) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"9", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.0>}}
+  [4;35;1mNewsletter Create (15.0ms)[0m   [0mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Apr2010.pdf', 9, '2010-06-05 17:23:51', 2010, '2010-06-05 17:23:51', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 148
+>>
+stream
+x^ïç±
+1Ü˜<E∆t∏öÙämF‹∫â£ä†áW_ﬂˆ<7è@»OíÔ`ÄuÇ≈VP¶0÷ g`´eLÇ Xmπ∏¡ûVÊÄiõ›üÔ—˙)‡ûM„]JßÎ\òà∑∫ú‚–4¬‰X∏L-SoDÈhZz= FäB¬òüEË>ΩÊ<€≠ﬁ∆¯Î˛"*§É7îEF7
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214503)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000590 00000 n 
+0000001126 00000 n 
+0000001322 00000 n 
+0000001546 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2591
+%25%25EOF
+')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `save2' for DataFile(id: integer, created_at: datetime, updated_at: datetime):Class):
+  app/controllers/upload_controller.rb:19:in `save'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:24:39) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"9", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.1>}}
+  [4;35;1mNewsletter Create (0.0ms)[0m   [0mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Apr2010.pdf', 9, '2010-06-05 17:24:39', 2010, '2010-06-05 17:24:39', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 148
+>>
+stream
+x^ïç±
+1Ü˜<E∆t∏öÙämF‹∫â£ä†áW_ﬂˆ<7è@»OíÔ`ÄuÇ≈VP¶0÷ g`´eLÇ Xmπ∏¡ûVÊÄiõ›üÔ—˙)‡ûM„]JßÎ\òà∑∫ú‚–4¬‰X∏L-SoDÈhZz= FäB¬òüEË>ΩÊ<€≠ﬁ∆¯Î˛"*§É7îEF7
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214503)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000590 00000 n 
+0000001126 00000 n 
+0000001322 00000 n 
+0000001546 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2591
+%25%25EOF
+')[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/newsletter.rb:22:in `save2'
+  app/controllers/upload_controller.rb:19:in `save'
+
+Rendered rescues/_trace (157.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:26:47) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"9", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.2>}}
+  [4;36;1mNewsletter Create (16.0ms)[0m   [0;1mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Apr2010.pdf', 9, '2010-06-05 17:26:47', 2010, '2010-06-05 17:26:47', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 148
+>>
+stream
+x^ïç±
+1Ü˜<E∆t∏öÙämF‹∫â£ä†áW_ﬂˆ<7è@»OíÔ`ÄuÇ≈VP¶0÷ g`´eLÇ Xmπ∏¡ûVÊÄiõ›üÔ—˙)‡ûM„]JßÎ\òà∑∫ú‚–4¬‰X∏L-SoDÈhZz= FäB¬òüEË>ΩÊ<€≠ﬁ∆¯Î˛"*§É7îEF7
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214503)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000590 00000 n 
+0000001126 00000 n 
+0000001322 00000 n 
+0000001546 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2591
+%25%25EOF
+')[0m
+
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  app/models/newsletter.rb:22:in `save2'
+  app/controllers/upload_controller.rb:19:in `save'
+
+Rendered rescues/_trace (484.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:27:49) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"9", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.0>}}
+  [4;35;1mNewsletter Create (0.0ms)[0m   [0mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Apr2010.pdf', 9, '2010-06-05 17:27:49', 2010, '2010-06-05 17:27:49', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 148
+>>
+stream
+x^ïç±
+1Ü˜<E∆t∏öÙämF‹∫â£ä†áW_ﬂˆ<7è@»OíÔ`ÄuÇ≈VP¶0÷ g`´eLÇ Xmπ∏¡ûVÊÄiõ›üÔ—˙)‡ûM„]JßÎ\òà∑∫ú‚–4¬‰X∏L-SoDÈhZz= FäB¬òüEË>ΩÊ<€≠ﬁ∆¯Î˛"*§É7îEF7
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214503)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000590 00000 n 
+0000001126 00000 n 
+0000001322 00000 n 
+0000001546 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2591
+%25%25EOF
+')[0m
+
+NoMethodError (undefined method `read' for nil:NilClass):
+  app/models/newsletter.rb:27:in `save2'
+  app/models/newsletter.rb:27:in `open'
+  app/models/newsletter.rb:27:in `save2'
+  app/controllers/upload_controller.rb:19:in `save'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:28:15) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"9", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.3>}}
+  [4;36;1mNewsletter Create (0.0ms)[0m   [0;1mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Apr2010.pdf', 9, '2010-06-05 17:28:15', 2010, '2010-06-05 17:28:15', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 148
+>>
+stream
+x^ïç±
+1Ü˜<E∆t∏öÙämF‹∫â£ä†áW_ﬂˆ<7è@»OíÔ`ÄuÇ≈VP¶0÷ g`´eLÇ Xmπ∏¡ûVÊÄiõ›üÔ—˙)‡ûM„]JßÎ\òà∑∫ú‚–4¬‰X∏L-SoDÈhZz= FäB¬òüEË>ΩÊ<€≠ﬁ∆¯Î˛"*§É7îEF7
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214503)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000590 00000 n 
+0000001126 00000 n 
+0000001322 00000 n 
+0000001546 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2591
+%25%25EOF
+')[0m
+
+ActionController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/upload_controller.rb:23:in `save'
+
+Rendered rescues/_trace (218.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:29:10) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"9", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.4>}}
+  [4;35;1mNewsletter Create (31.0ms)[0m   [0mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Apr2010.pdf', 9, '2010-06-05 17:29:11', 2010, '2010-06-05 17:29:11', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 148
+>>
+stream
+x^ïç±
+1Ü˜<E∆t∏öÙämF‹∫â£ä†áW_ﬂˆ<7è@»OíÔ`ÄuÇ≈VP¶0÷ g`´eLÇ Xmπ∏¡ûVÊÄiõ›üÔ—˙)‡ûM„]JßÎ\òà∑∫ú‚–4¬‰X∏L-SoDÈhZz= FäB¬òüEË>ΩÊ<€≠ﬁ∆¯Î˛"*§É7îEF7
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214503)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000590 00000 n 
+0000001126 00000 n 
+0000001322 00000 n 
+0000001546 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2591
+%25%25EOF
+')[0m
+Redirected to http://localhost:3000/upload/get
+Completed in 704ms (DB: 31) | 302 Found [http://localhost/upload/save]
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-05 10:29:11) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 157ms (View: 79, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 10:29:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:35:17) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"11", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.0>}}
+  [4;36;1mNewsletter Create (47.0ms)[0m   [0;1mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Feb2010.pdf', 11, '2010-06-05 17:35:17', 2010, '2010-06-05 17:35:17', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 152
+>>
+stream
+x^ïç1¬@Ö˜¸äå…–3I•◊[;∏nÖÍ¢ÖVE¸˜ﬁUA›î@xﬂ7¿%00ã≥FQ„ÛçB≠SSÇ^ÇKã¨©aùS«ÖV¥c4r·È∫Â2''ÛtÁ∆,#¥ø·µ4™O&∫êâ 3ı]¢ﬂŒ)+Y=Â~I6{˝n≤ˇÈ55W◊ﬂﬁ7"CZx%00§ã<¶
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214410)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000594 00000 n 
+0000001130 00000 n 
+0000001326 00000 n 
+0000001550 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2595
+%25%25EOF
+')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `sanitize_filename' for #<Class:0x482d3f0>):
+  app/models/newsletter.rb:31:in `save_to_directory'
+  app/controllers/upload_controller.rb:19:in `save'
+
+Rendered rescues/_trace (141.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:36:29) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"11", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.1>}}
+  [4;36;1mNewsletter Create (16.0ms)[0m   [0;1mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Feb2010.pdf', 11, '2010-06-05 17:36:29', 2010, '2010-06-05 17:36:29', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 152
+>>
+stream
+x^ïç1¬@Ö˜¸äå…–3I•◊[;∏nÖÍ¢ÖVE¸˜ﬁUA›î@xﬂ7¿%00ã≥FQ„ÛçB≠SSÇ^ÇKã¨©aùS«ÖV¥c4r·È∫Â2''ÛtÁ∆,#¥ø·µ4™O&∫êâ 3ı]¢ﬂŒ)+Y=Â~I6{˝n≤ˇÈ55W◊ﬂﬁ7"CZx%00§ã<¶
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214410)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000594 00000 n 
+0000001130 00000 n 
+0000001326 00000 n 
+0000001550 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2595
+%25%25EOF
+')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `sanitize_filename' for #<Class:0x4713668>):
+  app/models/newsletter.rb:32:in `save_to_directory'
+  app/controllers/upload_controller.rb:19:in `save'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:37:32) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"11", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.2>}}
+  [4;36;1mNewsletter Create (47.0ms)[0m   [0;1mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Feb2010.pdf', 11, '2010-06-05 17:37:33', 2010, '2010-06-05 17:37:33', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 152
+>>
+stream
+x^ïç1¬@Ö˜¸äå…–3I•◊[;∏nÖÍ¢ÖVE¸˜ﬁUA›î@xﬂ7¿%00ã≥FQ„ÛçB≠SSÇ^ÇKã¨©aùS«ÖV¥c4r·È∫Â2''ÛtÁ∆,#¥ø·µ4™O&∫êâ 3ı]¢ﬂŒ)+Y=Â~I6{˝n≤ˇÈ55W◊ﬂﬁ7"CZx%00§ã<¶
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214410)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000594 00000 n 
+0000001130 00000 n 
+0000001326 00000 n 
+0000001550 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2595
+%25%25EOF
+')[0m
+  [4;35;1mSQL (16.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `sanitize_filename' for #<Class:0x461d844>):
+  app/models/newsletter.rb:31:in `save_to_directory'
+  app/controllers/upload_controller.rb:19:in `save'
+
+Rendered rescues/_trace (390.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:38:35) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"11", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.0>}}
+  [4;36;1mNewsletter Create (0.0ms)[0m   [0;1mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Feb2010.pdf', 11, '2010-06-05 17:38:35', 2010, '2010-06-05 17:38:35', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 152
+>>
+stream
+x^ïç1¬@Ö˜¸äå…–3I•◊[;∏nÖÍ¢ÖVE¸˜ﬁUA›î@xﬂ7¿%00ã≥FQ„ÛçB≠SSÇ^ÇKã¨©aùS«ÖV¥c4r·È∫Â2''ÛtÁ∆,#¥ø·µ4™O&∫êâ 3ı]¢ﬂŒ)+Y=Â~I6{˝n≤ˇÈ55W◊ﬂﬁ7"CZx%00§ã<¶
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214410)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000594 00000 n 
+0000001130 00000 n 
+0000001326 00000 n 
+0000001550 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2595
+%25%25EOF
+')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `sanitize_filename' for #<Class:0x47ff824>):
+  app/models/newsletter.rb:31:in `save_to_directory'
+  app/controllers/upload_controller.rb:19:in `save'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:39:36) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"11", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.3>}}
+  [4;36;1mNewsletter Create (0.0ms)[0m   [0;1mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Feb2010.pdf', 11, '2010-06-05 17:39:36', 2010, '2010-06-05 17:39:36', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 152
+>>
+stream
+x^ïç1¬@Ö˜¸äå…–3I•◊[;∏nÖÍ¢ÖVE¸˜ﬁUA›î@xﬂ7¿%00ã≥FQ„ÛçB≠SSÇ^ÇKã¨©aùS«ÖV¥c4r·È∫Â2''ÛtÁ∆,#¥ø·µ4™O&∫êâ 3ı]¢ﬂŒ)+Y=Â~I6{˝n≤ˇÈ55W◊ﬂﬁ7"CZx%00§ã<¶
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214410)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000594 00000 n 
+0000001130 00000 n 
+0000001326 00000 n 
+0000001550 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2595
+%25%25EOF
+')[0m
+Redirected to http://localhost:3000/upload/get
+Completed in 375ms (DB: 0) | 302 Found [http://localhost/upload/save]
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-05 10:39:38) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 109ms (View: 62, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 10:39:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:44:59) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"11", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.4>}}
+  [4;35;1mNewsletter Create (47.0ms)[0m   [0mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('November2009.txt', 11, '2010-06-05 17:45:00', 2010, '2010-06-05 17:45:00', 'Text version for Nov 2009')[0m
+Redirected to http://localhost:3000/upload/get
+Completed in 468ms (DB: 47) | 302 Found [http://localhost/upload/save]
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-05 10:45:00) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 235ms (View: 110, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 10:45:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 10:54:44) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"12", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.0>}}
+  [4;36;1mNewsletter Create (78.0ms)[0m   [0;1mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Jan2010.pdf', 12, '2010-06-05 17:54:45', 2010, '2010-06-05 17:54:45', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 143
+>>
+stream
+x^çN1
+¬@Ï˜[Ó9w/êªm-“Æã—FIÒ˜ﬁEãî≤0Ã0≥√L0¡>¡Ó®®”ÀÕWguUä&ƒ\N‹·D-GÍπ“ÜFV£gœ5Õ\˘@oÆç0[B^Tæl≤ˇZ2W∫±*˙ëÛ˛á√˙∆‘¬!A˜ﬂ$/çãq;7•§Éá.Ã
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214356)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000585 00000 n 
+0000001121 00000 n 
+0000001317 00000 n 
+0000001541 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2586
+%25%25EOF
+')[0m
+
+NoMethodError (undefined method `read' for #<HashWithIndifferentAccess:0x4820970>):
+  app/models/newsletter.rb:27:in `save_to_directory'
+  app/models/newsletter.rb:27:in `open'
+  app/models/newsletter.rb:27:in `save_to_directory'
+  app/controllers/upload_controller.rb:19:in `save'
+
+Rendered rescues/_trace (1219.0ms)
+Rendered rescues/_request_and_response (62.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-05 11:03:48) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"+vDHRr2Iy0vHS7TVdR/HAaQ1ap8xlMN76GwcKrAGKlA=", "newsletter"=>{"month"=>"12", "year"=>"2010", "newsletter"=>#<File:C:/DOCUME~1/Sharon/LOCALS~1/Temp/RackMultipart.1600.1>}}
+  [4;35;1mNewsletter Create (47.0ms)[0m   [0mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('Jan2010.pdf', 12, '2010-06-05 18:03:49', 2010, '2010-06-05 18:03:49', '%25PDF-1.4
+%25‚„œ”
+1 0 obj
+<< 
+ /Type /Catalog
+ /Pages 2 0 R
+ /PageLayout /OneColumn
+ /PageMode /UseNone
+>>
+endobj
+2 0 obj
+<< 
+ /Type /Pages
+ /Kids [3 0 R ]
+ /Count 1
+>>
+endobj
+3 0 obj
+<< 
+ /Type /Page
+ /Parent 2 0 R
+ /Resources << 
+ /ProcSet [/PDF /Text ]
+ /Font << 
+ /F1 6 0 R
+>>
+>>
+ /MediaBox [0 0 612 792]
+ /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< 
+ /Filter /FlateDecode
+ /Length 143
+>>
+stream
+x^çN1
+¬@Ï˜[Ó9w/êªm-“Æã—FIÒ˜ﬁEãî≤0Ã0≥√L0¡>¡Ó®®”ÀÕWguUä&ƒ\N‹·D-GÍπ“ÜFV£gœ5Õ\˘@oÆç0[B^Tæl≤ˇZ2W∫±*˙ëÛ˛á√˙∆‘¬!A˜ﬂ$/çãq;7•§Éá.Ã
+endstream
+endobj
+5 0 obj
+<< 
+ /Title <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Author <FEFF0053006800610072006F006E>
+ /Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020002D00200044006F00630075006D0065006E00740033>
+ /Producer <FEFF0064006F00500044004600200020002000560065007200200036002E00330020004200750069006C006400200033003000390020002800570069006E0064006F00770073002000580050002000200078003300320029>
+ /CreationDate (D:20100528214356)
+>>
+endobj
+6 0 obj
+<< 
+ /Type /Font
+ /Subtype /TrueType
+ /FontDescriptor 7 0 R
+ /BaseFont /TimesNewRomanPSMT
+ /FirstChar 0
+ /LastChar 255
+ /Widths 8 0 R
+ /Encoding /WinAnsiEncoding
+>>
+endobj
+7 0 obj
+<< 
+ /Type /FontDescriptor
+ /FontName /TimesNewRomanPSMT
+ /Ascent 693
+ /CapHeight 693
+ /Descent -216
+ /Flags 32
+ /FontBBox [-568 -307 2000 1007]
+ /ItalicAngle 0
+ /StemV 87
+ /XHeight 457
+>>
+endobj
+8 0 obj
+[778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 500 400 549 300 300 333 536 453 250 333 300 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 500 ]
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000119 00000 n 
+0000000187 00000 n 
+0000000363 00000 n 
+0000000585 00000 n 
+0000001121 00000 n 
+0000001317 00000 n 
+0000001541 00000 n 
+trailer
+<< 
+ /Root 1 0 R
+ /Info 5 0 R
+ /Size 9
+>>
+startxref
+2586
+%25%25EOF
+')[0m
+Redirected to http://localhost:3000/upload/get
+Completed in 1750ms (DB: 47) | 302 Found [http://localhost/upload/save]
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-05 11:03:51) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 969ms (View: 844, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-05 11:03:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

@@ -8,7 +8,7 @@ class UploadController < ApplicationController
     if verify
       @newsletter = Newsletter.new
     else
-      redirect_to (:controller => 'newsletters', :action => 'index')
+      redirect_to(:controller => 'newsletters', :action => 'index')
     end
   end
   
@@ -16,14 +16,17 @@ class UploadController < ApplicationController
     if verify
       @newsletter = Newsletter.new(params[:newsletter])
       if @newsletter.save
+        post = Newsletter.save_to_directory(params[:newsletter])
+  #  render :text => "File has been uploaded successfully"
+
         flash[:notice] = "Newsletter added for " + @newsletter.str_month + " " + @newsletter.year.to_s()
-        redirect_to (:action => 'get')
+        redirect_to(:action => 'get')
       else
         render(:action => :get)
       end
     else
       flash[:notice] = "login needed"
-      redirect_to (:controller => 'newsletters', :action => 'index')
+      redirect_to(:controller => 'newsletters', :action => 'index')
     end
   end
   
