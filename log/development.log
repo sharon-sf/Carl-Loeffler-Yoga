@@ -24896,3 +24896,1970 @@ ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-06-06 13:29:14) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 145ms (View: 143, DB: 0) | 200 OK [http://localhost/admin]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:29:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-06-06 13:29:22) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/admin/index]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:29:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 13:29:27) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 58ms (View: 56, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:29:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 13:29:37) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:29:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 13:29:40) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:29:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 13:29:41) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:29:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 13:29:41) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:29:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 13:29:41) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:29:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 13:30:27) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:30:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 13:31:55) [GET]
+Rendering admin/login
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 13:32:39) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:32:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 13:48:38) [GET]
+DEPRECATION WARNING: require "activesupport" is deprecated and will be removed in Rails 3. Use require "active_support" instead.. (called from /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/activesupport.rb:2)
+  [4;36;1mNewsletter Load (4.8ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 127ms (View: 72, DB: 5) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:48:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:48:45) [GET]
+  Parameters: {"id"=>"28"}
+  [4;35;1mNewsletter Load (0.3ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 28) [0m
+Sending data Feb2010.pdf
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/28]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:49:05) [GET]
+  Parameters: {"id"=>"16"}
+  [4;36;1mNewsletter Load (0.4ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 16) [0m
+Sending data May2010.pdf
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/16]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 13:50:59) [GET]
+  [4;35;1mNewsletter Load (2.7ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 21ms (View: 12, DB: 3) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 13:50:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:51:02) [GET]
+  Parameters: {"id"=>"28"}
+  [4;36;1mNewsletter Load (0.2ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 28) [0m
+Sending data Feb2010.pdf
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/28]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:51:18) [GET]
+  Parameters: {"id"=>"23"}
+  [4;35;1mNewsletter Load (0.3ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 23) [0m
+Sending data Apr2010.pdf
+Completed in 64ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/23]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:51:19) [GET]
+  Parameters: {"id"=>"24"}
+  [4;36;1mNewsletter Load (0.2ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 24) [0m
+Sending data Apr2010.pdf
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/24]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:51:21) [GET]
+  Parameters: {"id"=>"26"}
+  [4;35;1mNewsletter Load (0.3ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 26) [0m
+Sending data Apr2010.pdf
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/26]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:51:23) [GET]
+  Parameters: {"id"=>"27"}
+  [4;36;1mNewsletter Load (0.2ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 27) [0m
+Sending data Apr2010.pdf
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/27]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:51:24) [GET]
+  Parameters: {"id"=>"16"}
+  [4;35;1mNewsletter Load (0.3ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 16) [0m
+Sending data May2010.pdf
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/16]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:51:26) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mNewsletter Load (0.2ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 14) [0m
+Sending data Apr2010.pdf
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/14]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:51:29) [GET]
+  Parameters: {"id"=>"21"}
+  [4;35;1mNewsletter Load (0.2ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 21) [0m
+Sending data Mar2010.pdf
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/21]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:51:32) [GET]
+  Parameters: {"id"=>"19"}
+  [4;36;1mNewsletter Load (0.3ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 19) [0m
+Sending data Feb2010.pdf
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/19]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:51:33) [GET]
+  Parameters: {"id"=>"20"}
+  [4;35;1mNewsletter Load (0.2ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 20) [0m
+Sending data Jan2010.pdf
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/20]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 13:53:33) [GET]
+  Parameters: {"id"=>"34"}
+  [4;36;1mNewsletter Load (0.3ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 34) [0m
+Sending data Jan2010.pdf
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/34]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 14:00:34) [GET]
+  Parameters: {"id"=>"22"}
+  [4;35;1mNewsletter Load (0.2ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 22) [0m
+Sending data 
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/22]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 14:00:50) [GET]
+  Parameters: {"id"=>"22"}
+  [4;36;1mNewsletter Load (0.3ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 22) [0m
+Sending data 
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/22]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 14:14:44) [GET]
+  [4;35;1mNewsletter Load (2.9ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 25ms (View: 15, DB: 3) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:14:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 14:14:47) [GET]
+  Parameters: {"id"=>"26"}
+  [4;36;1mNewsletter Load (0.2ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 26) [0m
+Sending data Apr2010.pdf
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/newsletters/display/26]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:24:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 90ms (View: 88, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:24:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 14:24:21) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 54ms (View: 53, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:24:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-06 14:24:23) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:24:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-06-06 14:24:24) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 72ms (View: 66, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:24:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-06-06 14:24:26) [GET]
+  [4;36;1mQa Load (1.0ms)[0m   [0;1mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 156ms (View: 151, DB: 1) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:24:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 14:24:30) [GET]
+DEPRECATION WARNING: require "activesupport" is deprecated and will be removed in Rails 3. Use require "active_support" instead.. (called from /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/activesupport.rb:2)
+  [4;35;1mNewsletter Load (2.7ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 26ms (View: 16, DB: 3) | 200 OK [http://localhost/newsletters]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:24:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:24:35) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:24:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 14:24:40) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:24:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 14:24:45) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:24:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 14:30:11) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:30:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 14:35:51) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:35:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 14:35:54) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:35:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-06-06 14:35:59) [GET]
+  [4;36;1mQa Load (0.9ms)[0m   [0;1mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:35:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-06-06 14:37:46) [GET]
+  [4;35;1mQa Load (1.1ms)[0m   [0mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://localhost/qas]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:37:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-06-06 14:37:52) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:37:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 14:37:55) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:37:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 14:37:58) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:37:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 14:38:02) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:38:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:40:20) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:40:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:49:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+ERROR: compiling _run_erb_app47views47home47index46html46erb RAISED compile error
+/Users/donnacarter/Ruby/Carl-Loeffler-Yoga2/Carl-Loeffler-Yoga/app/views/home/index.html.erb:11: syntax error, unexpected '}', expecting ')'
+@output_buffer.concat " "; @output_buffer.concat(( image_tag "/images/carl.jpg",  :width => 160, :style=>"padding-right: 10px;"} ).to_s); @output_buffer.concat "\n"
+                                                                                                                                ^
+Function body:           def _run_erb_app47views47home47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "\n"
+@output_buffer.concat "<html>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h1>Welcome!</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h2>How often do you do a headstand in daily life?</h2>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat " "; @output_buffer.concat(( image_tag "/images/carl.jpg",  :width => 160, :style=>"padding-right: 10px;"} ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "<p>Would it help during your day to have an awareness that is focused, steady, and sensitive to your inner and outer environment? Yoga is great for increasing flexibility and mastering asanas, but  many of the traditional Yogic texts declare that Yoga is for transforming our awareness. Carl Loeffler's yoga classes train your awareness through asana sequences (both flow and holding poses). \"Once you understand the basic shape of an asana, the pose becomes a confidence course for the mind \342\200\223 a course that will challenge you to build sensitivity and precision of awareness to complete the deeper aspects of the pose,\" Carl says.</p>\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "<p>Don\342\200\231t worry, Carl's classes are still physically rigorous and provide all the musculoskeletal benefits associated with Yoga! Occasionally Carl will play soundscapes comprised of spare percussion or ambient sounds. Sound and yoga is a powerful combination; sounds acts as a prop to aid your awareness in connecting and synthesizing various parts of an asana.</p>  \n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/donnacarter/Ruby/Carl-Loeffler-Yoga2/Carl-Loeffler-Yoga/app/views/home/index.html.erb:20:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/donnacarter/Ruby/Carl-Loeffler-Yoga2/Carl-Loeffler-Yoga/app/views/home/index.html.erb:11: syntax error, unexpected '}', expecting ')'
+@output_buffer.concat " "; @output_buffer.concat(( image_tag "/images/carl.jpg",  :width => 160, :style=>"padding-right: 10px;"} ).to_s); @output_buffer.concat "\n"
+                                                                                                                                ^) on line #11 of app/views/home/index.html.erb:
+8: 
+9: 
+10: 
+11:  <%= image_tag "/images/carl.jpg",  :width => 160, :style=>"padding-right: 10px;"} %>
+12: <p>Would it help during your day to have an awareness that is focused, steady, and sensitive to your inner and outer environment? Yoga is great for increasing flexibility and mastering asanas, but  many of the traditional Yogic texts declare that Yoga is for transforming our awareness. Carl Loeffler's yoga classes train your awareness through asana sequences (both flow and holding poses). "Once you understand the basic shape of an asana, the pose becomes a confidence course for the mind â€“ a course that will challenge you to build sensitivity and precision of awareness to complete the deeper aspects of the pose," Carl says.</p>
+13: 	
+14: <p>Donâ€™t worry, Carl's classes are still physically rigorous and provide all the musculoskeletal benefits associated with Yoga! Occasionally Carl will play soundscapes comprised of spare percussion or ambient sounds. Sound and yoga is a powerful combination; sounds acts as a prop to aid your awareness in connecting and synthesizing various parts of an asana.</p>  
+
+    app/views/home/index.html.erb:20:in `compile!'
+
+Rendered rescues/_trace (85.4ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:49:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:49:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 14:50:49) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:50:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:50:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:50:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:52:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:52:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:53:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:53:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:53:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:53:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:53:35) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:53:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:54:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:54:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:54:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:54:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:54:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 14:56:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 52ms (View: 51, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-06 14:56:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/tab_bottom.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 15:09:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 15:09:16) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 15:09:17) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 15:09:24) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-06 15:09:26) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-06-06 15:09:27) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 15:09:29) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 15:09:36) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 15:09:37) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-06-06 15:14:17) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-06 15:14:26) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing NotificationsController#index (for 127.0.0.1 at 2010-06-06 15:14:28) [GET]
+Rendering template within layouts/application
+Rendering notifications/index
+Completed in 42ms (View: 40, DB: 0) | 200 OK [http://localhost/notifications]
+
+
+Processing NotificationsController#create (for 127.0.0.1 at 2010-06-06 15:15:01) [POST]
+  Parameters: {"commit"=>"Send", "authenticity_token"=>"CMO3pjDTq02kume+7mGbzHU6iwA1HV0GxcDbSapAwE8=", "contact"=>{"name"=>"testing", "body"=>"Testing", "topic"=>"Yoga", "subject"=>"TEsting", "email"=>"test@iwiwaomw.com"}}
+Sent mail to agile.action.advisors@gmail.com
+
+Date: Sun, 6 Jun 2010 22:15:01 -0700
+From: test@iwiwaomw.com
+To: agile.action.advisors@gmail.com
+Subject: [Carl's Website] test@iwiwaomw.com: Yoga
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4c0c1de5a2daa_21711a186812a
+
+
+--mimepart_4c0c1de5a2daa_21711a186812a
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+testing wrote you an email:
+
+---
+
+[Carl's Website] test@iwiwaomw.com: Yoga
+Testing
+---
+
+--mimepart_4c0c1de5a2daa_21711a186812a--
+Redirected to http://localhost:3000/home/contact
+Completed in 3646ms (DB: 0) | 302 Found [http://localhost/notifications/create]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-06 15:15:05) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 16:33:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:33:13) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 16:33:17) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 16:33:19) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 16:33:28) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 16:35:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:35:43) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 16:35:44) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 66ms (View: 64, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:36:53) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 16:36:57) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 16:37:02) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-06 16:37:05) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-06-06 16:37:07) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 16:37:08) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 16:37:09) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 16:37:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:37:17) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 16:37:18) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 16:37:19) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-06 16:37:20) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-06-06 16:37:22) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-06-06 16:37:24) [GET]
+  [4;36;1mQa Load (0.9ms)[0m   [0;1mSELECT * FROM "qas" WHERE (answer != '') ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/qas]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-06 16:37:28) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 16:37:31) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:37:32) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:37:59) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 68ms (View: 66, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 16:38:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:38:11) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 16:38:13) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 16:38:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:38:19) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 16:38:21) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 16:38:26) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-06 16:38:29) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-06-06 16:38:30) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 68ms (View: 64, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 16:38:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:38:38) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 16:38:39) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 16:38:41) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-06 16:38:46) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 16:38:47) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 16:38:49) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:38:50) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 16:38:52) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:38:54) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 16:38:56) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 16:38:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 16:41:13) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 53ms (View: 52, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-06 16:41:16) [POST]
+  Parameters: {"password"=>"iyengar"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (30.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-06 16:41:24) [POST]
+  Parameters: {"password"=>"iyengar"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (93.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-06 16:41:29) [POST]
+  Parameters: {"password"=>"iyengar"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-06 16:41:33) [POST]
+  Parameters: {"password"=>"iyengar"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (95.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-06-06 16:42:56) [GET]
+Redirected to http://localhost:3000/home
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/admin/logout]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 16:42:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 16:42:58) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-06 16:43:02) [POST]
+  Parameters: {"password"=>"iyangar"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (30.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-06 16:44:58) [POST]
+  Parameters: {"password"=>"iyangar"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (30.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-06 16:45:03) [POST]
+  Parameters: {"password"=>"iyangar"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (37.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-06 16:45:16) [POST]
+  Parameters: {"password"=>"iyangar"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (31.8ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 16:45:42) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 397ms (View: 394, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 16:46:04) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-06 16:46:19) [POST]
+  Parameters: {"password"=>"iyangar"}
+Redirected to http://localhost:3000/admin/login
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 16:46:19) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-06 16:46:26) [POST]
+  Parameters: {"password"=>"iyangar"}
+Redirected to http://localhost:3000/admin/login
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-06-06 16:46:26) [GET]
+Rendering template within layouts/application
+Rendering admin/login
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/admin/login]
+
+
+Processing AdminController#authenticate (for 127.0.0.1 at 2010-06-06 16:46:31) [POST]
+  Parameters: {"password"=>"iyengar"}
+Redirected to http://localhost:3000/qas
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/admin/authenticate]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-06-06 16:46:31) [GET]
+  [4;36;1mQa Load (1.6ms)[0m   [0;1mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 290ms (View: 284, DB: 2) | 200 OK [http://localhost/qas]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:46:41) [GET]
+DEPRECATION WARNING: require "activesupport" is deprecated and will be removed in Rails 3. Use require "active_support" instead.. (called from /Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/activesupport.rb:2)
+  [4;35;1mNewsletter Load (4.7ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 303ms (View: 130, DB: 5) | 200 OK [http://localhost/newsletters]
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-06 16:46:45) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing UploadController#save (for 127.0.0.1 at 2010-06-06 16:47:12) [POST]
+  Parameters: {"commit"=>"Upload file", "authenticity_token"=>"4bIiOJM7Pi8dFv8w7AM5UFjDizTtIPwKY1tDW+q+2J0=", "newsletter"=>{"month"=>"06", "year"=>"2010", "newsletter"=>#<File:/var/folders/HX/HXfn3VM2EhOyRvd29OsSY++++TI/-Tmp-/RackMultipart.806.0>}}
+  [4;36;1mNewsletter Create (1.5ms)[0m   [0;1mINSERT INTO "newsletters" ("name", "month", "updated_at", "year", "created_at", "data") VALUES('ZipCubes_Coupon.pdf', 6, '2010-06-06 23:47:12', 2010, '2010-06-06 23:47:12', '%25PDF-1.3
+%25Äåòåë§ó ĞÄÆ
+4 0 obj
+<< /Length 5 0 R /Filter /FlateDecode >>
+stream
+xTMoÚ@¼ûWL¥àe¿?®!‰J¥æWUÛôà[¥2˜Ø)ÿ¾omJCZ8xÁoßÌ›™İÜàÚ2.­pĞŠIg…„‘œI8Á™> ÎñKŒÆÀ¬h¿ÍìèÆ„6G«bû¢k>‚€yûyi•LÇÄ—X™¾''ûŸÚ°%00gs³„ÌÀ°X¬%25”Ğ–G¸)nN{9h
+áÓpÚ1iIÓ#(k;n]…ŠÚš!p¡4STô§« _\E¥”gVĞmwnIÇ¾ÍÿcÏ‚ œ±;Ùci0d“u’	Csf¥±p–¶j*A£{.v%25Â3''5I%25}»}Ò\‘dÒ¶ôBåö\‘|`Ş{Á9A‘%00–ieLß„q^G‘é57ŞËv¥''i¢Î¯§$!s@c0E''dßiJPQñhòn•.0ºŒSÓƒëÛÉeŠôÃdŠñÕçë«Ë!Òß8O)Ø1Ú;©·”eJ(IN(Ã8aE%25Úd_çõ,_­7Y‰z÷µU¹¯ì;Iƒ]''¢8š,Îª–<³ÎSJ¢Bmé™‰‚A‹¥dhkamE9KöXDğ_ÏìÎäÜ	Lh¡àèZ0Êªx¸NÓ„ØyÓ=[gäÎòåüö’œ8ô%25î9ˆ-$ÌH/Şˆï¼''á®Š_‡t¨1¨65>UùÉd9Ä¤“6¯¦±·!&Æü[“ƒ4ååü1¯Ÿp‘çïöI|KIw.¬qLÙ~ÈĞÉÚ=ZµUµï¬*Ë¬nPC
+î«¼F6›U›åúnˆEœx¾Äı–Q‘çã¬,±i°®î³''dëaéËHÒéL{µÒÙ<`™Œ.v,w-±^Ã=Ãu™gMU=_®QmÖXÿš7 ¶«j‰lyOoò&ïj,²yI‡Éö$¿İ¯tv>0£û‚˜%25İ}ñm¾Âxó3oØŞ›?\¼
+endstream
+endobj
+5 0 obj
+755
+endobj
+2 0 obj
+<< /Type /Page /Parent 3 0 R /Resources 6 0 R /Contents 4 0 R /MediaBox [0 0 612 792]
+>>
+endobj
+6 0 obj
+<< /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /ColorSpace << /Cs1 7 0 R
+>> /Font << /F1.0 8 0 R /F3.0 14 0 R /F2.0 13 0 R >> /XObject << /Im1 9 0 R
+/Im2 11 0 R >> >>
+endobj
+9 0 obj
+<< /Length 10 0 R /Type /XObject /Subtype /Image /Width 208 /Height 55 /ColorSpace
+7 0 R /Interpolate true /BitsPerComponent 8 /Filter /FlateDecode >>
+stream
+xíœË‹EÀÿO‹‡=yğèA¼ä$¯{	^¼ä$
+$ >Xñƒ&z1 ñˆ&šèú"&9ÄG4BB\4›u3n4³nüõÖ¤¦¦ªÕÓÕÕ5=ßò1ÔôÔvU}õëï«¯}ë–ü‰D¢Ñ€h@4 ˆD¢Ñ€h@4 ˆD¢t5ğßpØD¶ol†”íTeëçéöâŒÔ,#íÒÈÖOgFrneëÜÊğôñ‘|ql¸#7?z[É¿ïRòÏÑç3yıi-›×ò÷òÃJûÒrıÑ%25-{w+ùëÁ]JÖ¸g,÷İ»¾#kwİ­äêÂâÕ;îìP¨ÆŒôjÒÕTÈ	o•$o¡8Æ!MœØ·+êÉÛêêê¥Ë—£É`0Ğ.)÷Ê•ß±-:sğz®­]C¨ƒYŠ.ÎJl_¿&ş´ÜÄùğ†ª½zø©g–Ÿ]ŞAØ÷äÊ—_éşıú›o‹ŠæúK/¿cºßß|ëhQæ)j®îÿÚ‘7¸íÇŸœ8ş³,]¨™!''ö­}£ë÷x¢Ég''OiŞH—”E&<%25™›ÿŞ€g–hÂ¦ÒrÂ[3ŞĞsóÎò¿ƒÉÛ©ÏWJşÑâ[T’9ÔO<}ß9«Ÿˆ\äTÄê~cŠÉ`V!:Õ:á­
+rùÔq®™Ğ1/	bŞG[²ùÜ‹í	ey¬2şõô§Â›Å*®Ötú.róvò7–öo''a¿båæ+·½7?=îCšŠ#Ä¾5!ĞŠVÜ¾è÷ğ¡ T“š¿zò9^0]U‚ã7Qª×o¨r[ÇzCA/L–|Ò¼1€ÿƒ›È;ÇŞeÌcöTQšÉ¦¼t3òF4ÁTšR+ÿ¼ğË¯0ïó”›µÕÕîk‚(	º¾ëşÊ¡Z.~>¼¡:Ji"Ì½CQ`æu°º/ oÔÁœI®D‚&û¼/şVy«~dÀúÕšğÖD]ôÆÍ„ª(íÂF¹òFéğYi–™n¢Ÿ™ø_:ê;T[XÄÕæfö´oSëËæ	ÙÈìÔ-oÔ§²şÔîpkŞ+tJæ@½‡jä„L’ù\gÖ·UŞ0•¥l#Ã¢Şéœ7rEY]ï+o0SÏ.,®JĞ•P™· °Qóôy3WCŠš™»¾ıÇŸµ(ã:6ûi;™7ÆüÍ-›ê£ôy3gof+·Â(r­“ë‰RÉÉb–2kún1yc9Ûsİ¼ÄêšwÎ[edİ›xAÕ²Ôwå^a0†ÄêÎÒ‰h¼aÙÂFı»åg§2>íÇ|H½Å‚¡Úğì÷0+‡7ØØÕcÕ°èkW¼1¤Ê
+=XÒÂ@áı(0s y“	º#ğæ[(uÅ*yƒÆZ,²—ÕãqÀ²Ù©<2åW†z\Ù–¢ÜÁºl©y2k´¯ÃÛf¤å9P«imóV¶Z·JxÈPé=­›¼ÑƒÙŞ6µá­à0×è$WÁa.ë$×Ä®¥=X¤"É•Í­1×Qâ@còÖl´"2oNå_ë.Y¢¿bØi‰©É=$htšG­Ã€à”Õì ¬R7*©+\™hÏ¾ñ€WrT¯á§jY6Õ¨dyc5ŸeıJÍ{f@3 —o°êé@­f¶Ä°ùl¢€·é`£iò†Û¾Ù’>Â¥ªİàæ!è®ì” u
+A¯µÁ[-Ø,şı¿&Èö< e3UÁYr£¡ÚíC÷ñyc”5S³buÓÁyó„ëGÎºµ5ó''ÅÍ¡>µ65™mñI‘ë7½êSáÜ<ay‹m	Ë~°® ,’27sÉí‘’‹ ÇøÜ}£ˆõ.‘‰ tïnûı!Æ›CêÆou¢·-y‹	[XŞB…“®zƒ_1‘‹ïOÓáØ|fA›»QİƒíÛñFóMä°uÓPç¼IM˜ŸESmÛ7\	1fù|”ú5 l¨}nySÈßSp>Ú="ÍPBn¿íJš¼uÛœóFóÛşK7ØØ|³Ä<Û·¶aãş	òæéF×1ºc®€=<ÿÌ	á­UêRã„|ÆläaØ†}c.´¡p¦îõÌƒğ6W¼±3Ç“·€ÙÌÂÛ\ñF×ÉóVÂ[«Œ™7OÍŸ
+ofïô/-¼aÅ¾E[xŞ¢ÁFAÂ›ğ6Ï¼1‹w‹)DÄæNŒò
+pşÅœ¬c"¥¨ªÜ–¹=Í³OS.+5û–²®¤nÍ5 ¼5×¡ÜÁ_3Á/‹à›–~;)İÌQ¢ÙFDâäŒÏÛÿÔ
+endstream
+endobj
+10 0 obj
+1754
+endobj
+11 0 obj
+<< /Length 12 0 R /Type /XObject /Subtype /Image /Width 208 /Height 44 /ColorSpace
+7 0 R /Interpolate true /BitsPerComponent 8 /Filter /FlateDecode >>
+stream
+xíœÏ«UUÇÿ‘À‰ ä$G‰£È‰6©AŠ„äÀ@$‚''BƒaÒ "jJ
+åä	B‰ï©Ïçw|¾>û¬s×]w­}Î=÷×ó>ß¹,ûœ³¬ß½ÖÚûìãúzÛß“••Õ_~}pæË{Y~ç=¥•ã''¿ğøï\Gk7o®şx‘&ıx±øãÒzQhµµ7\j>Yº-_¹Úo«ØBÙ!Ø>¥­°:Ğ¹mÊkÊ•„y„U1¥€°t›}&~·Û	û¢ÀIä£ùí=¯ÅŸ±e·À	…ßÚ¶#v"wèÿÑ7ßÚŞ¸t•;VuŠ"V >Ö”
+ÍÃIÏ‹ÛwŞÙ%00T8%00À-Üè—+GU\•ÿ€ó»o¾Õ ,ƒ2Å&4Šñi•³:oq
+Äá„xÃÕÜÙ÷z–7wóáW_+cNK¯ìiÆ€ÄÖÒR7XÜ%00¬¢¼´k·«Sw	2ïŸüLÙğ-Û‚sm5ÍBQ`¯''‹ÿFZûïzÙ3®euÂL/şü«Móº:4ÇÖ±ó6şÙ±fl›½C‡ğ ÊßH¼ÁIgåØxCQÙ@P''lÊ¦ı[»vyõ‡³Ğ£ïÎ@Ï}èì§Ğƒ3Ÿİÿâ´ròp¢ãïB÷>~Zşèàòo@hÂp8Šª“«¡IËGÙøÒoÌ÷È²<8uš‰»MŞ¸üm0Ş`R}ãHx£!Y™ğL!
+‹˜"lô·É1šŒtrè¶
+c=€‡Ö¡½wí½sğUhißKB‹/¿ˆ¤¢>Š’ÎúN¼-Ç¯œXQÄ,ÿ0#¼æˆ×ÀHgCŞòû‡eè,Ş`[f}üKŸ4¤UôäT–%25)b
+ñƒ	¶‹ãâmíúÕèĞ¶ŞŠÂi˜K›í%00%00@kë€IÒ¦îß@²¦èq\xÀúxƒ6‘QÇ˜u°.PQÁJJa	ÁZa’‰™ÄP@·ŞP¦Ó0.Ú.
+ptÎÕ¨	f7»ÜH®5x›¼éÊ·Tps‡ş5FÓ*«©¤p,V>—MØ¶Ş2˜ÙµÛ_áğ†ÉÄ''dÚN¶>Å¿õñ¶¾n“à¶c:j·Jğ®,Õİ¢L]nŒ‡Ş°Õ-¶ŞÎ‡`t;£c¦”ğV¦C3ÅÌÊñFV?	Ş²ñ”!Dœ¡°³BQ¶=¾ò[Ÿ.ıô¸¤â÷ï…p}}2K×~²ç°§Nc8Ö>‰k §@¹ÄÄMúŸ a!Û§Ü$…nÖÒP¼±:c‚;’%25ÛLğVnì3\ZH†•à7–“‘Êføêˆa…Ó#vÛYÖ¬´‘Ÿ
+?Ò,ò6Ë;Yl8RB;l\ÂÈÌöoKLfÃSVKÃñ–mVŞœ:Ş°{ÚüÙÀEp‘V•—èuSğ™#¦™¼QWz‡ÑÉ]¥L(nóT4[Hxk|ŸER‘˜¶-c5*Ó¤–æ
+o*B,€‹<ŞÚ‰Å[›ı^¦*{èTm£Ş§^G•`xc®EHØ¶®ÌµÙşPycçX§ed™ºs²è%25ÓÇ½Ío(¶Ûä$h²¥†*ù)VPÚBoÌ/4“,¶­–ÙYJ‡ <ÊoSàMd´Zšo¨ô§˜ª2¥Ğ~ê¢ò­ë$Šš„bku€¡&@¸NÀ$¶ÀcH2Wx“L€ÔŠ³HMF*2fñ†×¢Úp„{”ı^«	 ®Ù×±@‹mm?s^vP‰x#ïÊ.Í²Å@#P§Ÿ6xÃE+áu%25ĞL=âO4e.£ÔâÀ³x#é¢SÕQâ¶ÆíKTYxËè"¬ÓÛf¹Œ
+äŞ	ş‘0í(æHfj4ÙR!mğí.ï1g7›¥ƒŸò%00ÒUî<Ò$óˆb…¬u³¥2ç°ZV"ÂŞ#½J;NÙúLÆ´×1V%00u:I6ŒÚ ËÍh‡7œ*(¥ŸYãD·Ã=ŞˆŒ¬O‘N)­â{6múåvKV½®ÓŞü_:ãÊ%25)FÌ>r7©É4LxèiiB‘qqñ!Ú³3:<È”o
+æäOçÀ¶şšnhX•3ãá%00“°Ñ''A˜éK¼ÉŠé\Bø”´­*İ°‚3îH—8@B†ÕÏälcSÇÈÇÙjÏøâ›ğÖ;:’šs<€sëÆàP¼­8''ñoğã:rVŸ,"ÒºuĞá?{şÍ	/±8ÎÄÎ}ÅÃ„´‡“p)=ƒp7åa†¨ÄS9EWis^~Eƒ5SFÓ€,ŞÔú¸šhzúoğo¢"úÏPùUEÂÛàÙ*:Ôá:ù·hœ·¯¤Û$ÿDã6ßA|’Š¾g f4«õBDÇ!‘H¸ÈîÕƒ"‰>Ø1FCª}#Ş%007‘7í‡ğyÂ`´6®üu^—§ÜaÄíÚM‡pE<xÓ=K;ƒÎKM%00¼îËñ¼‹çÈ®Rÿ¥</è{ïå)è«ùºôö„¹[xYß{_oÏœsòÏ ç¾¾â4ÜAKD5—wJ×1ƒ%25¬Æ"wç»5PÂL0­h,ã#©#Şb}w‡‰ Bgñæ*ÛK¢Æ.s_jÃiŞ„c‚|Xl×.[ 9àQW´È$şV_(~¤P}§ĞûT¡ú`Áœ*·Ë9^^-çx9Y ˆP°U‹–1ÖÔSµ:xbˆ,6”[%00‡vÿ3fD¶²+³ïjõ¨xùÄ»ññÆ‰ˆõõâ“î2LåˆQİ™"s ¨:Ê¼“Ç[ùEŒ~ñÆ÷BòCŞFü¢|¦µTNB¦~?®œÚåŞInôlV›Tfm;ŞRÒh>•Ç¿•*erá{#{Ù;)+S¶¡şmÎñ†*Ò2Z;Í¢\æ6U@	1[€´Ü{îÅ±@DN)òÖ´Å³é²TÛ‚7qş4ÌSè»» –ğÆ÷ÛvävH5"¦Na G‡MoßÉS„RVm¡:<ÙËÍ41ËÆÓ¹Å¶N®£‡4$DNN¿
+Vğ©—1J&]g ÁS%00ëÔ!MyHmÏ_¶Dg!E[YÌjM- ¯¾#s|&½ÑPA¢­¤ ¬ºV—ôFÛ	=sVFXDhÈdú''u7-Ş0+êuÚ@3xşÊ’
+°%25çSŞ±JëÊ©ôå;k9¾	ñFNÂl²)´Õâ@&á¬Ã›ÕÏ†–ÉÙJ°mR¼‘u€¢º@#šT¼áÜğ‹oŠ1LÀÖÛgÛtş„¡.U»Âüh€T''mê:¼™íÜé,z[pcîŠ°^“ÿá¡·''+©j]0?Úì8é4Ği Ó@§N:tè4Ği Ó@§N:tè4Ği Ó@§N:tè4Ği ÓÀ–ÑÀÿì|
+endstream
+endobj
+12 0 obj
+2591
+endobj
+15 0 obj
+<< /Length 16 0 R /N 3 /Alternate /DeviceRGB /Filter /FlateDecode >>
+stream
+x…”MHaÇÿ³±Ñ—ÅĞÁ$T&RÓõ+S¶eÕL	b}wg§™İ-E"„è˜uŒ.VD‡ˆNá¡C§:D™u‰ £E^"¶ÿ;“»cT¾03¿yÿû|½Ã%00URcE4`ÊÎ»ÉŞ˜vztLÛüU¨F\)Ãs:‰Ÿ©•Ïõkõ-iYj”±Öû6|«v™P4*wd>,y<àã’/ä<5g$©4Ù!7¸CÉNò-òÖlˆÇCœTµS“3—q";È-E#+c> ëvÚ´Éï¥=íSÔ°ßÈ79Ú¸òı@Û`Ó‹ŠmÌÜv×Ulõ5ÀÎ`ñPÅö=éÏGÙõÊËjöÃ)ÑkúP*}¯6ß%00~^/•~Ü.•~ŞaÖñÔ2
+nÑ×²0å%25Ôìfüäı‹ƒ|U°À9lú¯%007?ûÛ‰j`¨‘Ël7¸òâ"çtæœi×ÌNäµf]?¢uğh…ÖgMZÊ²4ßåi®ğ„[é&LYÎÙ_Ûx
+{xOö¹$¼îß¬Ì¥S]œ%25šØÖ§´èê&7ïgÌ>r=¯÷·g8`å€™ï
+8rÊ¶â<©‰ÔØãñ“dÆWT''“ó<çeLß~.u"A®¥=9™ë—š]ÜÛ>31Ä3’¬X3ñßüÆ-$eŞ}ÔÜu,ÿ›gm‘g…6ï64$Ñ‹áÀEzL*LZ¥_ĞjÂÃä_•å]½XáÏy¸[Æ?…XsåšşNÿ¢/ëú]ıó|m¡¾â™sÏšÆ«k_Wf–ÕÈ¸A2¾¬)ˆo°Úz-diâôä•õáê2ö|mÙ£Éâj|5Ô¥ejÄ8ãÉ®e÷E²Å7áç[Ëö¯éQû|öIM%25×²ºxf)ú|6\kÿ³«`Ò²«ğä.<k¡îUª}j‹Ú
+M=¦¶«mjßªåÃœ•‰¬Ûeõ)ö`cšŞÊIWf‹àßÂ/†ÿ¥^a×44ùM¸¹Œi	ßÜ6p‡”ÿÃ_³Ş
+endstream
+endobj
+16 0 obj
+792
+endobj
+7 0 obj
+[ /ICCBased 15 0 R ]
+endobj
+3 0 obj
+<< /Type /Pages /MediaBox [0 0 612 792] /Count 1 /Kids [ 2 0 R ] >>
+endobj
+17 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+18 0 obj
+<< /Length 19 0 R /Length1 17052 /Filter /FlateDecode >>
+stream
+x{|TÅÙ÷Ìœsöœ³×³›ÍŞrÙ³Y²	,!!lHNHh
+„‹˜ ÑpSP+á®¶^‰·P¯o‰¶"Å›B¸Õ¨µµ¶Z­ÅVÛ¼E-TÚ×ªU²ûıçl@mû{¿ß÷m2óÌí™Ë3Ï<óÌ3s%25„ØÉ&"cñ·vÒÙô—HáîÕÅëÖè?y/ÂôBä‰—w^ñíÈÁnB”7‘f^qõu—ßóØ–fBœ#)š¾léÂ%25CŞz!Wü2$x^²?ø±ìÛk®½#iÿñWÿîÕ+/¼é¯]mDÜøöÂk;-t†ø-ˆë×,üöÒİwt=ƒ8Ç/î\±z›&!Îû×Ñ¹jig}d‰@HåhB´H£øã?;±êdR˜™†rÿòÏÅ%253d9ÿ÷€L$ªpVbÎ¶qbqÉN÷Ã¹Äg&ùM?%00?HBf8ÏôóI	Aİ$ßtO|1Fò	É?ëÒË3Çy‡ì#XÜÿRä)ò;ZJuÒG¿ ~ò9Ò±ä|"’Ï0Ë{È¹xÉ<²zÈôèBr>Q&Nî gÖe>$ç‘ï‘Ç2ûèM™İÈ¿›ü”|üQ¤¤šÌDùÉRò¡ğiË<ªl=&‘9ÔG’7ñ÷ôãr/ù1ınæs´ê%257¡¾ZROê3/dÎQä±[:¦>G¶‘ƒÔ’YœYN
+IébñÌ›™?‘i#? O¡Oq: N''rÙL Aá§İG~HÒÔÎÚ…	œ…qÍ''×õ¤‹ì&¯Rm‘I§3ßÉœ%00äRôi9ùVÑìqÑ™œù=¹˜ì''¯`¼üo@¼X|Bº8]—ù¯Ì‹$—ì£Vzˆ¾ UJwİ˜y4ó8)FÆ‚"3ÑÎ"r3yüœüümÌl$ÓÉ\´ü2- :âo² ÛÀ6¯“1m;z»–ì I’"ÈAr´ù$ïQ/Í£ĞEtı;³³%25ìˆğ°ğ¬ğ†HÅŞQR­!“½X‡¯‘#TBı´…^IWĞûéÑA–d''Ùg¢"Ş,~)I±ô`úËÌÌÌ?H%00üô-r=ÙÚş€ô‘gÉ¯ÈoÉßÉÿO©F''ĞeôQš¤ƒô$SY›Å:Ùvö8{Z˜)l^«Ä)âUâkâï¥[¥Ûå…rúÌÎô=é§Ó¿ÎìËü¼ãDı1ÒŠŞ®xœ<O^Gío‘wÈŸ9ÿ şIt½­¬¦·Ñ{éÓôeúkúF‰%25ˆ¿"6‰5¢Õlèt»‡İ‹Öàï(û={‡ı…ıC„"a¼°RxTH
+ıÂQá}Qcâq¬8K\ f03•Ò4i®´KzRzQ:m©µ,±tZ>o’oQ~94jèi’^–N¦ûÀ»
+8ézPâûä1ğı³˜ƒWAÑ_¡ÇƒäÌBˆFh	ú]C›h3A/¢—Ğ¥ô&º…~>@¦Ñg0ŒÉè{œÕ³¹l![Êna[ØìYü`?go²cìzî¢B\+œ/,.®ÁÖ„[@ÙmÂnáˆğºpBø@8…Yó‹…âZñzñAñ	ñYñ×Ò·¤oãï1éyi@úµtF:ca–%25ßRn¹Ò²ËògÙ"—[ä­òòÿ(4ŸBÏuğş¹b²İÌ+n¤§\@EÈ¥m$y˜‹Uñ?¤NHc^œ<}ËeAÑ”VCLÂÖĞƒ¤Š¾L6Z˜%00	*’}›Š/±óÈoiŠO×H¯²yÒ¨›béò,«eóÙ#¡ïÑ]ä=ğûµä^z]M¤§èDz­¦ÉÌ''Ì¥·ÚÌcL¤*=Ÿ&è¹Q\B.=7„ÿ 5ämòaúû¢Cü.äS?Ù}Šü‰şˆ|A¥ÌIH7Òh!¤Ìà÷Í„K½v¬³XAH«-GÈ³r]®¶L¯''§É?É‡ÒpÔHÓéåâ÷Åw3Õ™2¬0¬2²ën™†ó¸ä0â<v	Vº²¤«º;Êr¤Ş¶L2óHææÌu™äÀı‚¦_Ğ¬ˆ~`Ô’Wğw7y‹Şu8í?ïÿš˜^BÈG4@‹i%25ÖÃ)iÔ-í–•~,½fjßBGÿÜlÅ“_“ÈgTÁÜÉh’@'' ï­äjÖ&&4D:±fK!Ç§d5j¹	Ô{ëù0ÖÆiÈ‰K°w£Œú1¢Åh_A=Í óed5Ù‰¼™ö!e	¤ö(òŒÛI''°5hÏ@MÛ!µĞ§·Éû vÆì×hÈ…F:u}F."KĞÂxÒB{ISf/$ÕLÒ(üôA52…Ñ¯+Ô‰İ°Fz—22:=33-cÉ ½»W9®D/\ÇÉ¥³HUzúğ:‰úyFİäój''M¬™P]•W9¶¢|LÙèø¨‘¥%25±âÑ¢ˆ.,ÈÏ~_®7ÇãÖ\N‡İfUÙ"‰£dôÔhS‡Œu$ÅXtúô2.DÂÂ¯%25t$u$5}³LRçx‘õ’J^ş/%25lIã\Iªéµ¤¶l´>5ª''_kŒêıtÁìV„ïlŒ¶éÉSfx†î6Ã„# èSËõ$íĞ§&›Ö-ëšÚÑX6šöÚ¬Ñ†¥Ö²Ñ¤×jCĞ†PÒíì¥şÉÔ0ÿÔ‰½Œ(1Š6NM£@E5BñÔ…K’-³[§6æE"me£“´aqtQ’D§$]q³i0›IZ’²ÙŒ¾<‰ÑÛõŞÑ]wôkdQGÜ¾$ºdá%25­Ia!ê˜štÇÑncÒıñÀWQTîihİòõÜ<¡kj`¹ÎwumÑ“³[¿†›á5´µ¡à²â¦®&4}fªy®ÖØæ¶Ö$İŒ&u>>ªìø–F§ò”+õ¤]Öue¦&Ô•$s®‹¤B!cf„¦ê]óZ£‘d]^´mac~¯—tÍ¹®/hèÁoæ”îÕÜYÂö:]Ã»ãë¥ z6Ï™Åy¨yÎ9ÊRŞ£èùIµXGOZ£Óî-@ºOÀà×F•\‚YT:º´‰<C¤I©X‹ê]ÿ à€è©“ßLY8œb)ÖşAx&ç“s¬–¤Ï†“ñxrÔ(Î"ræ}œlÆ«ÊF¯ëgã£š%00ò‘ĞvaÛÄr?á|{¿A!’Ü4»5×É¢¼1ÊãmIÖÁs0ÙœÜyÎ¦³9çĞ;¢àägM>7©ÄÎı»4_ÎÔe“Ô÷¿d/Íæ7Ï6Ï^ĞªOíêæÚæyßˆeó9AA7ä‡’9­BC±<ÁÌS^²à\DZíI±ÿŞi¬Li&P½)©uLÏúmÖHdxÉü;N¿¬|©?sšc™à+´áQ$''Æ‡û™íurÒ7âßè½Kh‰Ãšç-èê²~#¯	²¬««)ª7uut-ìÏlZÕµh×~ö{¢«s*¤PvBû3nÏK6İÑ†¡,£Á¶ŒL)Ã&ˆ	ş°ÛÊdÊ³Œ¦-r?«3rˆ$¦b•Å4%25AÅ"¥™pˆÆˆ
+%253@qíÓÚ¡Ú™Ú''µ3†jIÂÚxc+"îˆ»ÅÆ}FÎù’èâ%00ÚÂîIè8ßH8m}ç%00Gl¬Òˆ[%25#N¸¤°Ä¤Ê‹Àˆj±Şm£¶ ?$¨1‹“ÅbÌr€İKdv¯ag\m¾›
+4hµõS¥/òş“x|æ''íµ3×NeÿfjS—6¾ßîÕÕÎĞ†Şo­ MMT@/îQè,Óß†Fq=û€¶¦wÒ·Ò`úÈ"`'',8k–1Ìcl=’Ïïi•®ğIz.ö].]¡¯—ÖzÖékË¶H›=[ôÍevKÌ‹ÑjOUYVv¡¤¬ó¬ÉYW&X5÷@”ĞP²1e%251·GÑˆ/¯4d±E¬E.§¦‡G
+…Äï+9¦ÌíÑ\V›İå²’X¤H¶ØÅ`Áú–BZx€Î‡–3Ğçñ%25Hf`o¨0Av†JìCÃçUº3p%00›lˆ¿Ï¯:Ö»œÔÙO#F©f S3P²\«Ófi‚vÒái3-R™"''•~¶`ŸU–Ô#ègEF™|>x$È.®2W0¬
+ƒwY0^è4lÄççŸœBØYîdÎ~Öm8ëÃñò8‹óÜ8Rö¶x©7T1=4T¤i#ôl„Yt£x·È>3"×Ë/ÔY!Ï×6Ü]ÀÊhaw$
+‚åıtFï‹8˜0¾²}Æ©•ñOÚWÂŸ©}ºrÆ©øÊON­\w{jV®Zµª¼v¨³éÉSíñ¸6ï“öãuÇOâ13Bİw$¨Aä¬ó×’Vë¬ÅÏ©q|NV¶·Óöbw,V•_]5.×çóË±·j‡EÎVÅb%25Å>_Å’ëõùsÆ¯JÄJè‡?Ùwä©m;…†üO?ó‡—¶=}¬JZëøIMFı¶æKg-x‹ş`Â»ığOîÅ‹sú¶GÖJ_Wä±ç>Ï?¸7÷ØËù-kpêî˜XuqşP¥sEsÃB(©§[ØrÖ­4"Ô€‚WşÕ]¨D¡QÒÀÂÈŠ_Í)v¼}††…Q~ª}lE–A=+ÅÑ(Ëö¨oÎ	vi%00g:ã²ç{Cûó^88<Ròò
+æïìwæ+–NJ-Õ¡ébC !ØRFFG„_Lœ/Şx$ï‘üG
+vçï.P<¤@+ĞÆ¬+¸¥ »àÍ¥€O´Ï››(`šİUÀ;Êx_ôYYgö1jwõÓùF4l/·3;gVûÎI=æóAA¤$vÓÖ³`áëY–˜ñÉ)ÎµXø§HİP|åq©xûÊZL+u‹·Cäï''™”»†÷!å2áÔjDE«‘7 »&nşÚz-¬a^«aSó‚y,/‡ò*Â{dJ{óìÖÃ$êE>\AfpÂ„	mÒNİ‘ñêñÕ|ú£E¹xüˆq•&‹XD‹,ÚÏ”h=''Ÿ¸´­u™’ş H•Ÿ¾õù´ãÒŸNóQ)ıå½TıCoİE^ºôÊïäğêGÏ,î[TÿIKâ	ƒ¾8sB¬’vb4c¤âÔíÕ©óƒ:¾ï¼ßó{§êqçx"î¨g³G""uXív‡Çíîg=†Ïéğ:ÕË©A…Ú®…ŸÓD+$Ù‹;óvˆÃ¶–[™•ÓİºÓË''Íæõ%25to…×ğ
+Ş~ú¤áu»ÃZ¹ÆÎŠSÆğ¶r\.§èÒåcGıÔğS(lŠ!c==t”P–”=œ9_ßO§aoÁŠnÇşä8fĞğ¥‹uŠÙCBÜœLîµ¯Äl‘ÆÄ7h?¡n¾tù”`BV¶ç`ñ«Ì’].ÉÁ$WIr½²%25Z4âb°¯›Ñzıu¯ë8ŞÍNıuô¥‹Rqùİé_d½®à²wwoÙrU„}™şç?ËÓ§ßzî®oÒ|aæ„t©ô:¬1o3oU·z·úv,?SßŞ°ıCP‹ÕR{©c¤w¤o­´V½URäÙïÏñûG²QB±$—JJ÷«?^¶Iuth>G#t#làwwÀè}V ]`øe¢â4œ„³ù2å¢.#7ÀZ(5Š<eVÁõ±s>ù˜˜U…*òi~nIL]rX®låwôåm˜{¦3µöO!+?ákâôxœC€$ h`YÉ"FuâÖHD÷ûüRŒ3®[ãÔëhxJúµ“é·Ó·Ñëi‚:v-©Lÿ!ôøºüâ•u»YŞÅ§?Ä¶¼€^CïÛqi²iÕ-¥¿Htr;çWË!‘bÿ×H˜l4Æ•J¥Öiş¥âR»4Ê_ãŸîkó-óI5şñy[ò”¶Û¤°»&ŞO±KS‚%25{d*s©¶—‘³)BõHE„EÜèZ…Æ´~v{Ÿ>vx¼\7™¡µ¯ü4n2•®¨ğq®¤í9‘J¿ÏçáÁÿ¢H…ÊêÉ5V‹ŞË
+öuÜØßQV}ùŒ›ıpèuZúÎw«§_V[{õÜÉÏIòc/¦Oüê¹›{7
+‹/©rzæ¿¼{÷ŞË=N>VJî‡½cUÉ*£N‘D‹T,ëJ…ò¼ò''E,Wº¦(D‹e*Qä:Ë,˜†æĞÈXH·UØ˜MTuÊE!£²~}Tæ4ÖÎ€ºc*7Cµšr¬¡Z¾Qa„ãÜ‘\°<ÜıÂ©¡IlÉĞ#ÒÏÓ>´÷Ó!BßläF±*JV©ÖbÑ³G ‚@,’„NÈŠb#Š¤è–#œîìv£Èp´8:B§c“ƒé
+GcÀ!:˜-ÛÍ.±ÑQûØµYv;KşUŸB+3µÄZš<Ş[Sş
+¼5f52Ao¹mgGrv0Ø¢²Ûi)k¤¥écC‡¤CÏ³ú/šØC1¦;0°g1&¬ØO$°Ie"!qv‰›Ğ¨óúD2¤i“4(AÛì:¥Ó’¸IÂ"dQ˜ğ%25$	û„0À×#§ıQÄDr8vÇğZ5<”:P™¶¯\…Ş‚Øî;h©tà‹&ô¶Ñ;6›Sb6lÁcÜd¨ùV}â¤„ÚŸì†ÆóÇ EU¬ïª''­¢¨Z­9,_ÔÔ°5ÊF‹ºZn½‚-—ªWZ×³kÅª»­Ï©¬Ÿª_X};Änu‡õ§êÏ­¿cÇÄ7Õ·¬''Øâ{êGVÇzõZëÍìñfõk7“[mKÙ•âê2ë:v(7²f±Qm¶^¤\¤¶Zå€µÜ™`Å„:ÉZç”f-ªjÍe!Ñ¯ÊÃ;`˜‰‚U•ì²\iqÚ+M%25ƒ)-Š#aã9J''Ô:Åp–$lÜCÒ#†Æ6EÀ©%00œe…ù|P‡½Ø?¼Ã¶ÓòSÚ§xB^f’uYÕEEU+Ñ+"³Y­•C¡Á.2f·ZUUVÂ¦Rëèãöl‚9õ·g§Ü?w^Bª”y£B•Ã1‡mºÍÎúÙÃƒ¹6P(D*Ãvjï§>ç^í“•\3¬ı«V
+jC+‡VÖ†\QD‚v|%25ßLVFoùö³å†Ÿlà ÎµædÎ\èJf°×¦sE%00B?“Wâº*†RÎÏ0R»·Ñƒ°¤ÉôPúTúô»é?JÎ„¾hoúrwà©°^£\–Ğ_NU°(AÁ¯ˆp,¨Kú<¶:À>Œ†CcF$TÊŠW–AaLTĞ´D>b‘X¬´‘¨Ä×uĞ°µØ:lB§m“õØl,+p©Y)‡†sîÜ„Zi
+¤³+İúµ•sQ‹Aš‹1S0A«®©!p[ÆpE
+ÊòÑ~"d\¡èYØ§r®GxIĞ±42›öÚª”M¶*s`ç…Æ$”¹ğ$Á''T
+† 6	›!J{””r\°üD8¢ü^Ò[®$„IÊ,å{Â¥GØ£$…çß;u\U‚ğ4å•	¦sOöV!å~CŒI°yğÌÒM…:bğ&Ë&øåÑ¬DÄÆÉ3™!_ÂæËª—åÉ3ØTù!ùIùì-ö;!ÿ“ÙJX©||­|›ü³p9ÁEöGÎ²B19K6ê~€ê¬•æ¤7Ô(^ÿ¢I8t¦‘àÇpwB:ÃÛècÆ…÷K÷+ØpŠ
+•ŠK”®U×{äõîkso·*[í·:7{¶zoË½Í[àÖ]ö€B¹7ÈÉ9e5X&¾’=VJ¬šU·
+V¾£êFAGAgÁ¦‚‹^pº€h%25=„º°aóóW''ò7¼tN0wW®¢‘ºSu§¸Dl_IÚsÕã¡òV"õzÎªb–¶†Ê§¯ØÚ£ñæô†ôáôşô:öıŞŞwßÙ·o½1ø@g*>1}Mú¡ô¥W@•XöÏt&“9óù—œ÷aOıë€Óa½Ql‘ö{÷„i½BzSbw±Ãé$yßS]DÁğşEcğ…*†Ç''h®ì¾•İ^ó¿¾½ÎĞÎé\cÀvõ•Ş€Åµˆ«ğ\kˆ†fîbÑûè¨sÎ†İ‹îŸyåÏ_xlÏº†K§WõH|‘wölé_îÎúøbºcÌ¢ú–e+ÆÃ÷aìc¸ŒÏ›j\ç».’¯´]iß­>áì‰îuS­Åbõ+>ëxg“³É%25+šêö:½.¯6Ş9Ş5ÍµÖyöºÕv­zmp]ÁmêmÁ[,ªÏ«Ú]Î¹ÎµÎ[œ÷:à”œºÃîu8ì.{®Ãï+ÎÑ¼´ÃÛãe^/Ñ#œ\ \.Q –2JˆCs0Çy%25=–¤eÀr''•-QªG+¢,Éı:ÕŠÆ.şj¯çšVû©OÚ¹ªeŠÇ¯ÔS@´MS7õMœ‘@ĞÊì©Gèœˆ0†E£nèbg©İÎVüå·›^|¡ã†+ûÒßsÕ¼K/¯ıÃo¯¬5}Ä³''¤³^½éñßåO¸õÉôŸiİ“m‘¡G„™#Z§\p±V-J.È¼/şkg4=jœ·ßİ_°·ô§£E(å¹PÊsñ¥ÒÒÒ5–kkJß²¿µ·Y/t^XÔ]f¿ÜsEdyé£×ÜZ°=b÷Dù]Nph,†³‹fG_(z!*®,Z½±èÆèıwÔ·rŒ(­q$¢ÍÖfGcQCôJÇÒèuë‹¶:ºŠvZŸpì*ÊQ­ªÃRd‰­A‡¯H.ŠZ"õÏA=±"@WvXà%00[ŠSå€aÕ„óh^™W Ó)cç‡ô?¶µÀÜÛM{`“ÀÕĞ_E#T£á®¹l”ø8ƒ“–‘ãOø›å’XhL¸¤GKBCn¦»³Ze°ì7ÃŠróÜÖ^bLhÃÁ ›ã«øÛTâÇ³pUü8ö»¬ğ2•·"Ğ#¯`2èqt¾›Ê©)y%00úó”‡Ç.OC÷ÔXMçâiN;Ò5Ö%00w¦ÒwV>Bø+¹­UEU ãù†¢¦èNëŠ¬„¹³*ü¹3^	Tön‰Ğ³G†¿O49‹Ÿg. zhÇ–»·÷­Äş¿vlÙøñpMì—ÓÇrn¸áÆóËGO É#kïÈçÓ¥ß¤ïäo»íºÙ‰óó<c&Í¿î™Î—.ÿû«•‹«ŠjÅå—ûğíŞ¾ŠBƒÀ}dÒ~¬az~´\­+¤µSİ¤v«²…J¬·Nxa¢úı!q#ßqi™aµÈ8vã‚²Q·àlÁ}ı&ÖÍDT†Ê®)zfÅÔó‡j¡ìÃœyÜÜW‡LmÇÖQÅµ|ú§ôñÎôLñÅÏ?ÿr2öJîÁ1ı
+’.c‚¬Èª¬AŒ¨Ó”iª|‘:_Û®İï~ ÷aßÚ>ßïrß³|j±9ìv·äâÕnÓG¸beªıy-yyBgŞ¦<¦çUäõää‰yú±¬… WûC_SÌS×9µÿ”)LuçpL
+?J¯Â¾§9Y´ˆ·ªî¡¥¶œ»¿»aSˆ–VÜxì™ß¼µÁ[€ğıÃ|ûŠíÏñ3éôç¿ßŞ¶ğá7|Šñe† ;[1>…¼¼Ÿˆ™“mUV*
+¢$È"îú¤lXgÔË5St‹ÌÅ6eèP²HÍˆHV…ÎÇ	ç
+ÃfÁÙ*&nÍ¬™u[˜ÿ9hQ:ÎèßGéÙóØå}ê¥}0GÔµãĞ³%00³“ÕµOs™{¬YÃ"×*%00f%00²¼v‹¢ı„S†ÄMm+„Ì7t‚^LÛèzáĞ{¸=tˆ5yzèAÌ+ÃK›Äq2ŞŞäÓì''Zæs£ÉVó úc»¶KzÂzP=èè)Š—NgÓ,MÖY…»{-{C?³¾bÓzÌş¹ü™Ã‘ïÊÏ5ò
+¹†Ópå>Ÿ{$WÈåÚ«°Î„N? »ÓÀ6âiqvÀšğpÉ³7˜— ã<¦©¢@Ïš*ŠFfa¼,ù&4\NW¢œˆã>#—y<ılMŸhóÀ’¼Æa“I„–çFfËBå…—®(ÜQ(º"Šáp%25”`ÁòzsÄg@ ³Yœ‚à1¼£Ô[0
+]ğò4xùî:.=Úê†LÁäÁ@PÂÃ„B&D9Sg‹ÂÂd
+–tÈ*>¨Àı™dŸjlFë#uPÙQõqnJæ‡VÃë4@%25''oÔÉ›‡qÆ_—UZ¡&ÄãĞôjaK0ù´ÇaN±Du°¸F`"&÷çp£Šlñ³/h`ü‡{ÒÙ¼œz_?E=–!C¸iá”%25Âµó/©­¥tNùC>·íH÷xúgéÃ7Ü>^}ıÆ††Õ|Àïcoó‘~Ö:JÔ5İİ&n
+HŠø|€åúÜÌëñ¹9.¢9s(Ñ˜WU\6z™-Ÿ«…º]>šñQj¨÷4ª¶äx­ê¸:(Ñ-8C”jåîËÜÌİOEÃáÌ‰1ïe¤Ç7àc>Îª=áú¯İÏ–gwñ•µ3ømĞ™v­àqÀ·NÀÕÁ«©táú¬l‡®]R»Æs˜™rsÇåF!¢Gj\{íêXÃäóª~ó›ô‰GÄXË­·Ìñ­fvó;gö	çóµp:ûd%00¿»Z¿Ÿ¨ØëÜÖ:CmQÙ&5©¨GÕU)¬v¨Õ$H‚EÆÅ–à"°:ò³½@Úqf‘`‹µ29F¹İ‡€	1¨ÔÕf9ğÜ‰º †`šXLÃ°*ƒîR¸{¸ù¯iöR1}æËÄØ—Y{áW}œkÚ%25Œ‘¼‡°B°MR¯‚Jg¥$Àô‚NY™£œÍ¾Àlÿo}1É·Ê´= å¯lbdƒì0r?g²LûEšPZ£ÒèúP“,|šÜ²Óa±ÛlPÿùˆ¡HìTÅÌ‡¼]_ÑˆDw ''À:§ìc\%00Ym1;Ä‘)è‘¼„(=vzç ¸8ãrƒ;Ä!-"Ÿš	_Ù~øVÆ•í‘ˆv6Ì¸%25´‹ä‚
+Y®Ø–>1bvÍùkâ ¥tûëíÍ
+³Â§–Nh¹%25•‹±GmXvËw 1÷s ÂXØáî7¦@O(Ÿå|–+şŒ}€£@P
+ª¬M›Ÿ3ß×¸Ÿ=`y@¹ßŞ¯ş–ıAz[ı­Ç)Ëí	åì—–—”ŸÚ¥µÊVË-Š%00ãøš”ÕæçDòŠ²·FuäuÂæïŒ`¨5+“¸HZ	%25iøĞƒ« œğZu¹v¹çrßò€HÛq¸ƒ1áÁÀ`t&°9ÇŠ½|ãË^Ìézäo4‘şùÉï¥?ë¢úök®¹ï¾k®ÙÎŠî –®ôÏ>ş[ú¥[2»¾¿kWÏ#»vñµ¾¶–jŒW#»ŒÒû%25ª:é\éri­$”{ZËœÑªºìa;»Û±³:û,\“ô³õÆHYÆ,Ìb-%25ª¦V@9ÕĞFÏ»Ì³Ñ³ÇsÔ#z4‚VL®aclJFƒîºı4?» ±ÏMê§íÁÙ%25][w
+s\ƒ78Ø¿pîkNúç6''«pIßk­œ%00`’1³ç·ÅM{ø¼6\ÕØÑvÑ´ó&Í)c÷_ÕXõ1õ»ÓÃïÄœÎÅ+4yÄğ_ä¾Â½]TKĞRËjİÍ¬Ù}‚É.>3nÑæ#Ö\/DäT,7jÔHÃé3¹8+Ìş.V•sì«ĞÓ°}“}¿Î»3NáŞ›2ÌóÌ0÷¶Gª Ò¡·pÆû•6#ÌœxxùU»¿Eƒá9uÓW¢Á.ºt÷vÖ“.4kíq:À……İ•àÅcŒØh‘+•†Ê2÷,ÜS¸''ôgõšâHML<$RhŠÕnË¥¹Ì#„Ôµˆ”Ù~f³CNœ6|Ø­D²yIĞ†G¦¶™hÛBÔ¬&ı¬•:ìf]6ÕŸÀc_ç¬\WÁ¦7gy†ÇF¬"^J©Ğ–,«5N§@~iÂæÃÜkÀØ-V³ÖYg™ƒ
+Ã&²›X‡œŒo ›—½ŠPß)Ñ ı''=xßçÄ3NµC0´gB‹ÅU<â¦*Ë-i¸’ƒˆÛÎVÆÁJqjnÍÉñÃPsÙ¾ô<ZòÊD¿Å©½J#iPoèÏÏMõ••±Â,MéÙâĞ4‡&õ”J4‡Óvè>(2÷,Ü“|Hc|daĞ›³è°9-#91ÖMj½%25§C£Z?İ¢¸åÎR¢çVävä
+§A| öÅüÂD.×ìk#Lpc?-1TfÆp®æ1­!FşøÄğ©ËËib’dÆP„á´2‰¯\5CûJä©öò¬	ºdïµøetŒëgĞaú´7''5,¸‰Xp)Q#2Ø·3§{¼æ÷¦f#ñ£–Ã]—£åáyu°‰ŸîC„ÃâYZ·åDr@fÙ)D‹JJ¸œªvBãøœFÓ[Š.ÚØ2{fpJÕ¢Kƒ ¼“ııÛß¾è¼"÷ÛÕm\CË#‚ıµÆGO<u™«öJ?©''ä•1ÈY˜JÏÆZ“àN„—ç?@yrz&iĞÈ_¤gkSÏådó		[Äj òw“~q5i\8îbégd!Ü½â»ä~Àí(w‡e7Ù†ğ–Ò&Í''÷ñtÀPf4Â÷Hó3CÀ­G=”¿‡;ämƒ›#-€w"ßÇ¯rÆãï.úgfeÇ‹O‰_HK¤]–ßÈ¿Qæ+?V;­=Ö“¶KlÇìt\êH:Şw^â|ÃÕä: -q0GÆ›S,Æ«é]×–Ä2ß4à®Ç¤€gxÌüU;iœ½`Á”–xıªå¯.›²âê%253æqJğ’øeJÈï²¡ñÃˆ¸©ÑB.ôÂ^¬Œ$qœN+ğÆ½7úUG5ŞŒÖâÕèùxI>‹Ì&sĞ—V¼»½äÇdğqõÃ™á>Í[iôö¹r*zM¸´À1’f8FVÛÈF8†âÍ©²±•ûy Ïê¬ÔPşv¢Ãm‚H|jÆ„xùÛûr|¼ú›S.·‰÷TE"èÓ•-õ^áZB…¥Â5x0ÆCëkğ5,,,%00\$,Á¦Ïûiô¹´ÊMh¯Åëğîx$²ëÆ…¬„¼ØÚ”3ÛÎÚTé¨Êz«Ğ Ì".Á‡´aAäTeX?(è©!Ü†FŞ¿ÛRZnåaa³ ã°6¡”?ì:,XI9É¼>ÕQÙ]oæa˜ó@–0úHÉÓ7„kR¨íMò±¥……«À^¹€MBa*7<pP¸Çlï{¼´79¥Œã Ïá¬¨W…ÉÈM
+wâw™­u÷Å&àrL(%25pDİˆ·"hBB]˜¦.LM¦¦½èÂ‡DØŠœ­(S.\O:…õ¤nÂ"›ùÔå¦F”Vî‚B%00”Ğ‚v©¡>ÕÉ{HyrÌb>»³²î°°šÌ‚c Öš> rÅAa”9”Ñ}<Ğ™Rí ?;¨ÉÇçà°çMœ&’õaÄ)q	aBÙ«ì(§{ı–Ï/ÿtÀ„¿†¯Ã_eaf€íC+F?û‡ƒõùì=Tv{‡ì@ˆ±ƒì%25pßôóé†q~?©<†øÀı€ã%00¤"¯„ûY%00úşpÊáãƒe/¥âåÃpñpÀŸ7ğø*ë‹Ù‹ì|>f¿øÀç.aö<`%00p€­ÁSñ0{UáCš0>+ÈÂŸ°Cœ§Ù>¶K2ÌúRNŞ…dJæ`OÊÂÁ3)’µ”‡±gØ“$„¢O§b!dîê‹»¢>Š-Ö¤
+Âz+{”¶ÒOP¨¼‰‡=–ªæ•t§éáı00uj£Ø(3v
+Åe;½X/Ó«õz½Æî‚ÚÁ°`Ùíğ«‰ÎÀ=p\7Ûš«“õC#›à÷˜¡øfˆÀ×ÌÏ=m†êØf2¡pá6ÁİÕÍ®‡ûÜwán0SÖ ´n=ÄG''0:óÇèF''0:Ñibğ–;Ñibt%00£Àè01:€ÑŒ`t˜¼¿Àè01Z€ÑŒ`´˜-ÀhF0ZLŒ`´%00£ÅÄ0€a%00Ã%00†abÀ0€a%00Ã01`À0LŒ
+`T%00£&F0*€QŒ
+£À¨01t`èÀĞ¡›:0t`èÀĞM:0tC†š‰¡C†ÍÄĞ€¡C311ŒA`šƒÀÆ 0MŒA`c­ïÖ¿”£@9
+”£&ÊQ ÊQ 5Qå(P‚3Ì%00p€;%00Üw%00¸À%00î€‰;€’À0q“ÀH#	Œ¤‰‘FI`$MŒ$0’ÀHš=ÀèF0zLŒ`ô%00£=&F0z€Ñcbt£İÀè61ºÑŒn`t›İÀèF·‰ñÿ<5ìFÚª`sÅÙj¤	7’“&Ü@™ğÒkÂï’&ü¹É„×“j®''1bªM¸†„š
+W»ê}³à.ƒ[·nÜóp²:‚ĞŸà2¬Ê(]ò,y‡¼G~^–öÈƒ2sááÉËËóieĞÂôú<æ0å(D¹x”l„ÿ16øuf¨%25Ğnr¶
+	–0Ü§ôGÑ#£èó£èQôîQ´^eÓ¨hJ:TÃ²¦­†=69|®:V2’é®½''ıáTl|wOY0Òˆ#z®n''ÜMpÕp•pepÅpa¸êØ( µEÃU,‹ÀépÕÄçƒbäq+Æ~æ ;û^v•·SR
+¼ƒ©’
+€şTÉ,€}©’Eáz•î%25%25\¢ÏaQ=	¸''>ì§³à©Tø b»Rá@{ªdÀÅ©’×Âõz!	ãl¦ó†á\L8ÏI…ç£ØìTx$@<Uã¥G¡¡bä¤­ä8 Â&öˆlKÑTxJ¥Â5¼´BJøÄãÜVfvOB˜Ç…>tèãı´U¤†-|*|Oø$úûìñ–ÛO*|¤˜¿œ´†•}…ëÃ©z+/ı¡w&9|.¼³xkøaÔE‹÷†	ßUÖ¯ ùNô{«ÙD*|“ŞÏ4rÂ›Âá5eÇÃ«Ã„†ç„Û‹‘
+_>Ä»IÚh+{ro¸Q§ÂÓŠÑt±)|]Ø—„kôCœ¾doœ\vˆS€Tf[ú*Fë©ğ…ÕıÔmŒ’OËİòÅòy’•‹äB¹@ö*x@­8»bUÅ¢ˆxSE<N4âüháµpk&±ˆÜÍ0Îygõn<µR¹€$sæNÁÃÅ¤y‘ütn´ŸZg/HJÑ)4éi&Íó¦$''Ä›ûåÌœdu¼9)·\ÜÚKé]mHM²Ûú)™×ÚO3<isÿà¥—’Íwæí''”7ßÙÖF¾uu:ÏdwMSãğ:ÌÄFóÜ›õğœıì//HnÇ]rwA[²’2mÍÉùç0û™‹9¦6îgNÚZ÷‹Ì5uO;ÛPì¸YÜìD1RÂŠ)SˆÎ‹ALáÅ0GÙr1 £\„”³:HÌ,³:Ìr"ååzéS{ñq/SLÈ1³Ì±bòµ2àà6öÆà¡TT§­¼mêfÇFš…Ã(RE(ô>³¢05K–U¤x¸HÕ¹"Uf[B¶?f5ÜC5ŞÒ³e¼¥(s–Œÿ¿pé”8í»vÃKSñ…QGtêR¸äíë–’›ézï†µ<úÄ:-^ÆáÂ¥ÉµÑ¥ÉÑF½w¬‰÷/Ù/ñì±ÑÆ^òÒÔy­½/KSc±S£Ûúêj[ë¿ÑÖÖsmµâğßÚªå•µò¶êL¼i«g×ñ¶êy[õ¼­:£ÎlkêrÎ÷-­½
+™Â-&ìÃk+ğpG^¤mŠOëœÌzÿ¤H`CŞ‘àsP¾ü±ã[1Ï*«/«çYXg<ËÉ?#Î
+l˜É;@wgiHvG§˜·%25|:Çç6Ãædd.ì†`|ëõŸçl5ÿ™Ù2uy#ş_cº5«×|}r	/ùï¿5ÿé·víÚÕkà­ãF¥99
+•ñÜ‚)Ëhª£±icÎ¦	‚™Ö«ªSaüAf kxs<³¿²¾Qé±ôÈŒŸ"Öô…
+*W†Ş°§F¶>Un—Ùú¾¢b~~YÓW^•…8Ÿòx*©äf¦j rXœ…†»îâî²îêâ²jr÷îDbx''ßJSå;²&¾ú,1\ÓbsS~4•_`_zx%00—ZñÕ¦õçÜtœÅ‹[˜âÀ?›†1š¿Õfõ<Ù¤0|4«ÀldÛ^›-g&&¨l¢ğ,ò%00%00Ê¨
+endstream
+endobj
+19 0 obj
+12372
+endobj
+20 0 obj
+<< /Type /FontDescriptor /Ascent 905 /CapHeight 722 /Descent -212 /Flags 32
+/FontBBox [-628 -376 2034 1011] /FontName /DQZZBP+Arial-BoldMT /ItalicAngle
+0 /StemV 0 /Leading 33 /MaxWidth 2000 /XHeight 525 /FontFile2 18 0 R >>
+endobj
+21 0 obj
+[ 278 333 0 0 556 0 0 0 0 0 0 0 0 333 0 0 0 0 556 0 0 556 0 0 0 0 0 0 0 0
+0 0 0 0 0 722 722 0 611 0 722 278 0 0 0 833 722 778 667 0 722 667 611 722
+0 0 0 667 0 0 0 0 0 0 0 0 0 0 0 556 333 0 0 278 0 0 278 0 611 611 0 0 389
+0 0 611 556 0 0 556 ]
+endobj
+8 0 obj
+<< /Type /Font /Subtype /TrueType /BaseFont /DQZZBP+Arial-BoldMT /FontDescriptor
+20 0 R /Widths 21 0 R /FirstChar 32 /LastChar 121 /Encoding /MacRomanEncoding
+>>
+endobj
+22 0 obj
+<< /Length 23 0 R /Length1 21192 /Filter /FlateDecode >>
+stream
+x…|	`EÚvUuÏ}õÜg23™d2„„@$Í@¹ A"áR @/”°Š ¢ »^x€÷-C?²ÊêŠ²°ë±+»
+«x¬Ÿv–õ 3ÿS5Àıöÿ¿™©ª·ª«»«ß«Ş÷­š&”b&mD"êÜ%25³—Ò»ØhyéĞÜ•+",ıÃJBèC„hË®Zzõ’éOı}(!ºß¢ùıÕ‹o¼jÈÃe÷by”#ÌŸ=¯ç7wl%25¤şÎ°%00%25æçéC=Á’7ÜßÏ:õZÔµøÚ¹³?[ü÷oQ?ŠúØ%25³oX*?m¾ŸQ!Ô#×Ì^2ÿˆ{ìBÔyÿÈÒk[W°3r+ê3Q_¼tùü¥“Sÿ†:ÆcL£âË?f¢%25ÿ…2Bfd[aâÁ“ÊYHƒ^x¢''”FbífbÉ¿¸°ÛÅÕ‹`å"¸´÷¢t''q7ñ/ê>â­$!’CrQc¤Q’GbâH>°»—ø‘šçˆ_ã’ş
+ék^¦¦¿æÇyÉ¾ÁÙDÈóäº¼B7èiœµì!ä·¸ïò(YE~EÖá™g åN2_ÚEıéRJ%00f ‡Ñ÷rr+ÙK<Ô—şYMÖJïã¬µÀJJ&’kÉİtlú:2“—o#Õd,¹†,¥mééé{Ò÷¥Ÿ&Ï=ÒoÓ=Àf€ÌÅ÷pú;ÍŸÒ!}qÆıäarœŞgØETÜ¥=#ËÉ©I¦é«Ó?bQr=Æ “qä0íb	\}>ùŠúè*i8®òT:™>ˆ^!ÒD-d/­¢£XT33=.}øíKnÀU&íd7¾äurŒš5§ÓO§Oë%25äR<Oùí’R=kRuÀ›XêCjpäZpÌÛä(Ñ_³k5fM¹FÕÜ”ş%00”ëO0Úçpæ—ô_ìV|WKoÉ#ÓÃˆx¹—c›ü†ü•h)@§±>ìZö¸´|U‚sû“yd!ğı®ş)MĞİÌÌHOÉ/É?isR''ÒVP$N!‘_S4B[é/èGôs6œÍb°Ï¤_É/ÈĞÍÆS_I–»ÉKä_ÔAÒIô
+º€®¢ëè½ôaz˜¥_³¡l*[ÄNI¤eÒëò0|§È­òmš;4wi¿NMOLı>õ¯tyú2	ü°£¿Ÿ<''ÛCñ=N>£j¢V|#4JèÍøŞJï¦OÒçé´w9J?££ÿ ÿ¤?1ˆÓ² ‹²<|cl9»ıŠ=Êà{”}Ë~¼R”ª¤Z©Qº£Z''mÆw—ôW9 ‘ÓÀs¹æÍVÍóš—4ohNkÍº_è‰ş½sOõ÷|š"©õ©Rí©ô_!A~ğTÒR‹ÑÏÆ·ô~%00·¼OÍÀ]€Ó!t,03‹¶Ğeô`òvº…>#Æş*İ,ı‘Â˜-,$ÆÜU±al¾W²ùlÛÌîcì#ö£¤“L’MrKÅÒ(©Iš/­n”’Ò{Ò''ÒgÒYé¾iÙ(‡å<9.''äQò,ù:ùqù+ù+ÍLÍ»š/´FííÚNíßutCtu“tMºMºİºôÍàÎ7É.òš÷lFOHk¤zi¹‡UÈ~ö;ö;ğó,2OÇÀ©ìyºİB;X¾æí`6˜''§å8pıÛÊÎ²ÁÒ8:†N!-¬ærZ—ü" ZùMÒ-ïÇ³ıW¾Ak¦·²SZ3i§„Õ@aşF*“Ò»ä˜tœêä''ÈŸe#õÒnöœ4\ğº<D3D¥GÉ«Ò2zÙÅê¡(Òo§/B/L¥åô{)M$6\T-}Nn#‹ØŸH7äx=yÎ“¯&÷
+ºŠ|E…TôÑ\£-Öºé;l¡¼9iaòxºšO%25‹ÜN›¤-ÚSìcr9"É§ÒËıöª4N>­™L@n!weé5äFÍtùôj"Ñi¤@>í¶J*—£(WC«Ì„NÛéŞ=0T‡8g,ø¢b¾AOÈà …ñË¡Å~G:´SY''¹Zc¥Ğ:„Èï¦&“égÉÃé«É5éûH_èƒuéU¸âóä²‰<O×¦n&K¡Ã?†lÕŒdG4#Ó}Ùö1›Âø9}íê#ßàû*I†hö‘òÉR—Ş˜şÜ]û0™C.#''ñ”ßá£¥.R‘Ïv¤GJKñ¼ÇÉ¤ôsé05’éÅdÙOÑiÈl]BŞ0u¨Z7ä’ÚÁƒjVWUV”÷/+í×·$QÜ§¨0^Ë‹FÂ¹9¡`ÀïózÜ.§Ã®Ø¬³ÉhĞë´Yb””ÔÇF6G’ñæ¤İ—×c³Ñ0û¢†ædM#Ş''áçÍÆ¡ŸõTÑóªë©fzªç{R%25RKjû–Dêc‘äá±H''1i:à»GÄ#Énğf[%00G£8!Rï[0"’¤Í‘úäÈ•6Ô7è[Bw˜ŒÃcÃçû–F@ ¤7¶tõ¡`ŞúA;Ñ[ğˆÉ@lD}ÒÃ©¸ŒTP?{^râ¤éõ#‚Ñhcß’$>76''IbÃ’¶„èB†‹Û$µÃ“:q›ÈÂ$†ÜÙQÒµac§Bæ4''ÌóbófÏœ”fãõI{÷‘ôŞtÒw¡Š‹;†O_wñÑ ´¡Ş·0Â;oØ°.’Ü6iúEç£ü
+¸Îe#›7ŒÄ­7‚Rc¦Dp7¶¶qz’®Å-#üIøSeo~¬·4·D’†Ø°Ø‚-Í M`C’L¾1Ú¨{Ò''H >²aêôX4YŒ5ÎÚá"&ß¸Ó¯Fü??Ò·d‡bÏ v‡Õ–Ì–‹ù@zæ˜€Dw™|³”(viRGÍ`$Ócx¦<›?l˜;À§‘â¬ä<PdaÒ0¼yƒ2ˆ·ãiRS Ä"şIÀ±îoŞ2;Û¢-PşIøAÎ''çY-Ig÷ÂÉD"Y\ÌYD74Å‡ˆzUß’•,[ªDP%00}d"p;»qP)ĞrßÕ©’9¨$Û&MÏÔ#dN°¨¥‰Æ$kæGºz¸ø‘¶Ş#çOo“;„‘êNêãç6Åã¬_0(I=ÿŸÃó3ÇÇL‰™4cz¤~Cs–kÇLıY-sœ#xÃ±,”tŸ.Ú8Ä‚’8
+¦œ9ã|T¦›“r~ZÁÔó:uzp¥h¡‘‘I¥yt&o4F£Y™ùßNêLŸæg‰âÂiÙÇHJdšvrğÏê?yƒ4f*T3uÆ†ÆŸ«eFyi¶%00Ç“©Ó£‘áIÒ%00É,À¯3İ5§Æ`RÊpd*¤H47³ÕŸufOjÄ‡sgß’‘Ğ™6ŒŒEFnhŞ0»3İ6''Qbö°7Ø–ÖCÛe§3½÷®`räÆF`lñ`dãáS§gŸ\…s7ÈÄ''q¨dn j¸Ï¢#Ã:=©Õu²‡U''ÑÈ''%25bÔÉ'')ñëµš“LÚ‰ß%003°ñ%25”³µ=µã•3µãzjI`å²şeQ{Ô^€ŒbÚ;‘ºÎ©ò‰È]ü—¦ûÊNíPR‹u ı@-X•Kå²’JGF¢K›´HsKo’®¶–Ş<`]´­ôJÿÎô§¯™jr#‘üÊ’Îô	µ$«lÑ,ö˜«#â²¨‰¸ÍÕ¸3qWGËÊ™«]fsu™9Z-{Ëµìéİ5TÓMC{ÙÓ$È^Ùé¿Ÿè¤UªÑåö´y½.)î¤ÕíÔXÖ>ïSKh/ˆ®µWµÆA;Õè¨)‹«ñ¶¸ïd“U[±Çë‡#‘ËËûôÁÙ¿T=Äír%25ıû›LFc|6r(èdfÕ é×z­²ZaÊ^zÑÒª­N3A³Z³I#kü5oßåK%00‘MãºÏ,ëFY«\ø­Ï4%25ºÏt“º3h?S[Ç3¥ç¤ø5´;¼5ë¬ıë¬·´áÓ¿Ì7üFõ²hµÙ™_+È+´¸Õf±1mu´j­(BVâì7”™‘(8F#Õ+Ë''Šò¾ö''œ®R[téo6>–D6Ë”4Oq¢xÍ@$ÑD›4UıXaµÇëñÚã…ñxUeõ€êª
+7oĞÅã…v7—¹]Z[Òjİ.×9`@Ue¼¦Ö½p³q—»jlËµ+¦5­¿bgËc3Wúö*ó§¯/™ÚRóİë-o¼úæ–…wÎ¾÷ıûåolÌ»wD³‰]âZöââ®ë'':¦M³›óR¨e™£ç‡<gAË}û~4ìÖ)ë›f®*èñXms})¸ŠpUjkÖ¼Or‰j,´Q¢8tzEé¤;ÉV«¥j×mµ^I$EŠH’ô²ı±œå›zÎv+gA%00à¾m¢qfçX¡ÕáëV(=~ÿïÆÍØ¿æÆÂKb	šHMÚO¿§Öïõüt´qÃû^O…S‘Ÿİ¾j.bE
+3J>ãV‰¢ì [¥+­Ğ_ŠÂ%00|ßa³	àd‡Å"€oU›ÑÈlÖ°•Y_vdÇÈIòoãtÆˆ½²ô(¬%00!Ü
+ëáôÊ»¤ğ¦5ûgŒ;’šDOĞ¿îßóÀ†ø©çØw©¤ôOCi''kaK ¹%25ª)[*±qtc4FX@³â——ŞÍ¹÷d“ò%25)×İ¿Œ,£MÎª¨{(ëC;wíÊà{/¾>·D
+T«%25FV;Îğj8Uò6\f›üÄC¿MÀ-.RÙ{øğaQiH%25Û5] UmØÁ¸.S\YãÊµX¼†Îô×/Pı1;1sLÙŒÜÌÛH)rÙa\Ÿß!¸Cû?¯tWÒ6àJ_ÃøNõ›L€ìDá-D1›yÎÛÎ_òÂ5;´¿ÉÚYÄô_0w<H$´ÖY»­7­·½cÕt&«wu_æœêœééŸ\¤[dšë\ì^äoŞÈ®×®4İd[§}H÷€òïûHû‘éÏ¶Àùo5¨ÑXe™ƒb`†Ía{+áªÊŠÖÔ#›s¹fÓ&À³MËµüÑiÓ2„6òEjlt*åŒ¡åÆŠ§¢|€]‰ÇòtÚ†Eïo[Ù¾bXËûO|pã½{^Xµê…n]uY{ŸÊô’—gíL¥¥R©7_yè5úXêÁS§/hùná\Îƒ€?vF²]HªÅ^¹H^Í6±‡õòË25­†I53zÈ(FoäÏD(—hzÁù%00¾Qí‚ !AP« (°¬ú9¹zi"è0kT‹­RÓ‹‰2 ÆÂ4~Ó^ZK×bââÌº,¼p9Á•ÌVç­¡öÒ”ˆÆìZ­®j%00d›ıÔ1ôı©~VºB¾yÈªğ«£ÍâÏ†x¡¬Ã³åÒ·³¼d°+ŸÓ©m°t¦ÏtØíøN5(
+ \—&—³¨—wÈÍåGsCVÉƒ"ïdûT33z½‘°bg,¶;jJ?8ÌóÃ¤´›´çát³bÀohv8˜¸¡j°ÙeîsB59œ¬!×ÅÛøµÛqi.*&k%00ğ­*°øŸîÆe„ßßMÜL0X3X»Os@»O÷¶şîRs£yªu‘yõ&ÇMÎ;û_¾˜˜^s² Rr”\Eû_ˆéÀüz”P+kTôZí¡PÀ
+ô¡€D™>’,¹
+&éìÔŞI}»øefc«÷}`›ó:İÇÖ †©`ş4ÛwÕ!pu-[Íd¶—å“0İ´#ÃìgÀì	LŒ\I÷ÔÖu÷d&FÚ;;ZoQ¢:à0`ŞZŞØXàÆ«Aq1#Åò´ºÂ\.0[A¹ku²î\5ó<µåÔóßü‹Géç÷¿ÿìèçŞxrfî+¯­ÛuëÁ/®ZôËG78|üÍ+Ó_ÜÿôúÙ<RÂQ"²¢Ù9°Ğ¸:À1İ¼À¼Åü‚ù³f¬4Öò+Yr%00Ä¬•t£IÒ3˜â$»$I–,„™-²NÚÇö!ÜÇè6ÕHd]È!£ÜÉ®zM£1ª9áJc¯Ä%00à
+Œ5%00øNh2#ìÕ¢Sób•º¶h•n³q	1Y\•„),Â$ÔOˆs%00œÜÍ9’í²vÒ«ßBJ„ÀœálX«|©p›¯ÖÇÙZ{¤ÆQS³®_Bj…İAaĞï!–ô§íÈÂª©¢FÊë[#É99µü1ôQ]fÕTcn›XcVã5æ¼Ê¾5¼C¢&d­°W¸cvÉNÙ=·³Ç~ùÖ[©*:ëi÷¹ËI=âßß³²Èçˆ¨æYÈâ´Œhì!ÏgáH !«1×í9¸„™l²œ²X)Ñù WÄÌ!%00ŞÓÇç‡ÒÃ¥BOBîz*6µCÈ¨Mäc7ælÈyÀùœóMóGæ?õ§ÏZeš2Ó^ğ»e¯8n‡ÓyÈjsY.]àpÕÉ¢Z·a²¶ÚT7Íê5›LßW¹Æ£>5Â‡gŸ¥p{q“"+mºVŸPô>J|Ša°g^ãäñm8öÓ*b£÷ƒ©¶[wQn´NÖS@¸“Ş—n9
+áàS¬L<%25d£®ÚdGRº•“ëôıP‘²A—5ÎjŸ`©	¹pFİQ	²›W‡#ŞğºûáÅ¿èxeãå‹^¸‡}ÜóÚ„Ûïí¢úwŸùmmS6ÜuğÉ-íê<ìï/§VÎLııÛ÷¶Ÿ€hÀ"˜Úù¡G½X™(c$C¿3	æöã<
+}ÉúõsDsµš¢\‡%25×`æ³%00&é3`S%00	·‘øü%00 £à8 Ú|R¯%25%00ŞÀ™Œ¡ å»Í\ºÅİ .à^CAX™@S¢»j#k9¼&"Œ>%00| ''…ÁÑ–½?Ÿ¦pÛsjïÈoËÍ~Có''½ğ|½Ì‡{QÁY»…Ãœ««<´çRÏ¥ñ/Í+ÓÊ2½…®’Wè—™–›¯³Üä½‹l å;ôkL·›ï°Üí}Ïş–Ó‘ùnE¼ˆDJyÑ7ßæ„šÛ''b&¹>bÆ0¶õ£F’ÛzÀ@ìjUI´ÚT8]e°”mŠÙ:é½»Ë}­I‰J8Şßêîp#nÕÍÜ›ûŸ7=Î4qŸF°\Æ%00qÔ4•ò‡ãJ“-×¿ü¼Œ,kl¤ÜgÈª]Ê—ÄòZœ®(¹.âFÚ²tñ—º¾Y´dİİ©³œ:{ïœ;-X{çUW¯téæ)kå«Ÿ“‚}jÙvìø¶«ìSrpış4¡´kÓ¯éÔ·ß6kîºÛÏ¥ÇmğlÛ/^|¾×æä<™KŠé«™Ùı5S"X`‡%00Dæ’(”+€Ój§¨Ï.HjV¢İg/I˜Šr¹u>Á*Y­.2‘RÊeQ0ûS.éy|²ãfÙÁDS9—ÄîrP›3¢røƒÃÊ''¿9?ã_4ˆºK-ÊË.¸øÿq×Ÿßëßn…;]¸‘Z9(0Ö£Æ®ğ\»JZìY¸:vSà–Ü»r·x^ì|ãù2r6â¼Äó¸ç4¨Ï<-+äz/fòE#ÚHQîë,®äBüñèû¹nc:ø Â{i1a
+·ÿ\­m.Ï3°ƒì*hµŸç%25»jgöÍ‰¼”5d9#×]Ü¢åDšàyÀ˜šj«ª,ÔB5¡„/ëA$š›¶q*üN(³¥¯xVÍrËÄtÀ¾%25»ÏQİ[›ºo¾éïO¾|Œ½ûÌŠÚ_XuËtŠrÓ5cWÿi©Ù7mÕÿé8U¶¤>‡ôUjç«¤ÊGv|tãöíÜ¼*ı•f%25|Êòş®¹¬%25‡Ô\ÁB ÎâP„”[æ"–¿"§Ü³™lÑ¼$=cÙ#uXŞ¶%25''sşOİêÈ±çäHÅÚ"{q(e™æºÜ=Í¿@³(çfÇ]-ÒÃÖ-¡çéÓìyû‡V¾æP\J@Æ´ıi{Q`¯¾E5ŠP9èÌ5KÁ\Ù Äm—‘xÜ{ã=ÕCïiôşÜ¹3Eì!àÃx8	Ad„Ôîå²‰iŸû
+‰]N½Z9–—t:ò+ÊeîËc&€''ïà¨”;Ş¸$õæİ©?>²ã/´dğŠ7~ùÂç3—|yÇSŸ1ÖÿÔO¿¦×üáxp''Şí»í¾''S§îİ—úÛ†ı|`X$š°lÀŞji$L‡ëC9¹Œ2»’k#zÚ@Ã˜Ï¡ï#Ü6¹*7øDWèP©PÁp¡PCôâ¹¬Âıã%00ïàÇáEt¦ÿ@ç{ÕÈ51iÊtô:M<¦•q¸WÊIàBLe€Ôéµz^ÖËZ¿/àcZ“Ñl´%25­Ûãò8=’6(y£ÔaEæÓ‡¢Ôc´G	ğˆ`	>khS…=Z|.³²XA´<kwÆcÑÇé/Í¸µqEëø›î=¼6µƒÖÜûLÿúq.ÿJê=Í^wÎØ9©#ŸK¥^˜]şÊ€şõ{öËçfğ(÷%00¬Cµ«%25óí‹\lŒ2Æu…r…K6™¡‹¬Äëãx%25zG\ÇfzáÍê9ƒ!ú@$@ñø,ÿ+*USÆÅÎr9G­Àèé^Œú/Æh‚£t¼²¬‰cupÊ
+¥''ĞÊ½.bÑ¨‘!Öç¾q‹ïkü.õNj=½yÿãMcûßºS³×ê˜¿{É¾TOÏËİ¸zæmn±­‚bµÈIàÁLÍ;t©6ø£é(ıhƒdÔ›,ë²YÍÄj¡¦\³^¯ÉÕ2R*÷ÿ &¨&^’)Ö¬¨l0Êz£1­,2ÒŒÔ¡²íÆ"S¨’òèûÓN”2JÕÉ[qŠ&W§e&c®™èûè.p¥Lw©A¢+Ó«z¦¿Ì\g¢¦%00lQvñ[v?,dqbzÀÒÙ¦Úqg–Õ*''•sç™Æ68(‘X§éÇİÖu·´*×!¤Ë!¯0Õ¸Um`yÑê‹ÖÀHút—¿†åù…QİXQE ôuS]Ôİ‡š8úÜïäÀ¹w¥ç;¤—æ]öÊ+çtW¿>º,ıµ’‡`µ°šõUKC±ß(îc).®±pW_ZÜdi*n±,,n.Û`¹£ÏÏ#,î¢^¥WÈ•<ë±h·_ÑAÿ‘¢?¸?)ÒğP¸ÂgTÌXÚ‡ƒçaUq{¤×ÃŞ°/QR\Y#×”\*.™¦oL\¥_˜Xi^§éË	{u¥•ÊJi~¥·<êòÍêsmÖ''Tj­³n²nµ¦­š­ÖíÖS˜wE,<ğMoÊ‚{äV1W[µÜ8ÃT%25y;Ù‹»}÷Ã7ÕAKœQ‚—ëå!ÉÔg¶2›h…)ˆæÃã%00œ(Q¾Ìõ“ÂÃpF¨~%00QMüvùâF¨ŸB’ßÉ®P­…*‰+ñH¼,¾=®©ŸvX­¬fÙG»ĞŸ·©–\˜^5]5l[­ó~FÊ¯è-ğå•æĞÑ²°¶NË´V®ê´ÂŒÕúøx´Â¼å¹¶A‡¹0M´ıöj9ğt~B;A*›º…‡Çy¬¶''ñÅÜ49‰H@‚Ë°ùı—¡Â­7X*|šàT÷È²>érêŒ1ó‰BW8„ñ‚<è‹KZ‚Î''t’jçíiÙ¾TëèªEÇ®¦õëWß˜“ô]sôÎõ/NTŞ¼ı!ïœƒ×Î,_²pÁ“ñœÛF¾´vüšñ.«%25_`¼¦ï%25Ë|Ëî£Î¾¬ß§Z{É@úIQH)W:ºùŠ	—\/æ˜;ÀÓaèGlS¡³-_S¥©×hêÂÉ0‡óB¡a¡¥áÍaí g­§fĞØ@“¾É2İÖä¹2Ğ¢_lY`»ÆsM +ü±ù˜÷˜ÿ3ç·ŞoıŸçœ§Ãşˆ¦ÔVê*ÓÔÙTÍXÛDÍUšc9ÿ”TÌŠÛ*C³CZ5ºCV“/ÿ¨‰*&ÕÔlj3É™YÍ$¸Ô$æ3Ÿ¬8ù%00œ\ špB°oQK9EM+¨½‚ö#²˜Æ*¤Æº(İL·Ñ$=Må0­Ã!•Ó)Á¶%00Î©9œÁ¨`
+¦%00ìà¾Ì‚ß£+ŒTŞÕÃE„‚£»ø-¨?wTuÆpà¤Ÿ¦eËkÇ)=à¬G\hæ¸ÈÎ9†ó
+¢ËÉ2„×*ì*Ê¡ìø…’ËËY!ã_Ò¾Ïu,ß1gû25õ×÷/b•÷®|ù™ëV¾¬ÙÛóÏM6jMJ}ô}à@Ã]‡ß=úÂÄĞ­Ó_KİĞY:#«´®¶Q›‰ªØQ¶¦ì™t¾ŒGn?¿N<¿NXÎ:Ìƒh\~øƒ·„U®l*ç‰;^£fw÷NqNñ6;›½°G¤-–§•§f½Åola¥Íuæ¥–6Ë³æ]†İÆ]f³Ç|‡ùs&YófÙ®µ­¶I6DÔ_ToäDI3†µ™l#''"dÄfÃæÀócaèùV=G·5/ˆçË7%25Â›)U¹<SUĞg´ J@PåÒ;ÿˆ†uu:¦³òN:#ï¤*V×?Xy0kŞ@ˆ3
+ iyv]PL6v/?“è^.°€Òt?N8X×ËaB¾±˜ "ÆY+0#ÆRíœS¯Kıkùßî|å/áíşÕ3Ö¿øôí-÷ĞµŞ×Ğj|™²5ÛŸ.Züæû½ñn÷ÍC&í<¶¯>md²¥ÀRiaÑT¹ªB—³©ÆÉ®)¡«Ù<Í|Ã\Ws¨+üæCç''ş/œ_¸NyÿÛÿ…=O8œpàÒ«ëÇò-ı<ƒX•e«·Œt]ºÜ8ÍrµåíWé«Bİ’Õ9~°¥dòUpçÎV (GíTãÑlo³C89OdDÔîà†''œL\\ÑÚµœƒìBdÑútÆíVqÔ¿r
+à{u§}…#ÿ€îˆî¸.­“9‰&è$]®`9¡«uXÍà)È&¦&˜tşÜÊ‰ÉZÓ²qİçå‹«ãZnzjOrš!ÜY¡WÒ–5AĞª¸>†BÎRG/v¤Î?¸úÃëZ>¸­ùÒ=‘—¯[ùÌó7ßğÄoüé©­TÚ0i(³ş8’9Ş;ôë·½wÓlôh.äÌšMQ½ar#¨Ò¤i24˜æK‹4×æ›ôˆğU*‰“êdå„x^èøXó£ël@îïäïêšäÀúGy³C7hopŸeg}
+6‡Ú,^ïDO³g©Gò„l›•mXBUä`È¨#{Ù‹<Ä×«Ïº À;àèıNH¸WEÜñ/Âä	‚øF@—j(,®LZ¨%25FmgA¼’—êP>Õ†iØS¡äëÔüâÊ^JE.¢”Ê–$ `şhœRkÅ¦Ä¸“0w‰³H‹n+d&èVÛ³¬V8û\1ŠE>‹rOKˆ˜¿•Ø]º¨ˆuĞ(Vï0‘JWî-ùnÏßR§¨ë/bÿä¹¯íkçnì9Æ&™N»sÕtš÷©†º7Ó¢Ô§©”Èö½èıw_ğ¬Ğ“N±~ª—ZÔ\—Úü¥ş2?–÷ü˜µ¼`Ñ,E–¤¿Ë/û9FŠáÊ½E2ÛBFêf	—S–´Ä¸ÕE]i§*{dìË»Š‰£±ÿÀJ^ª‰P¸r3¡~•Š_µ@Pˆ‹‹)îXR"ì)!:|".Îû8Ÿ[jøRZĞòãkÂ{ÊçßO÷’(9‹İi>àµwA	¼ŠåğÚn¥»»‰ûµğ+êºkø’|6b.V;I18‚Ä®µ±Ã0³tIY^aUUğåjLKPlÀµÛÍ£Ïí[·:·­;38°|òˆ#G¤-—-ªy¹ã1ãÈæ9Ï]İ¼L¾_ÚEgïÁ¢_×N··¿|•EÛP WaÏå^‹,šyı•^½İlwI„ÓBÎcA­P™6Ğ.õ­ãKÃÅ-¹‹#æü·ª#Í æ{C€3%25ZÏft(Éï¹Q
+N²¨ŸİÍÑgïá´ñV¨LzN{ØRÏ6OÒ“öÈæ*ôSŒá4Ë,G1+aûÜeA7%00ªWP-cjèù­‰œ¥Ø¸6¾âæd¼{ôÖy;“;, 74ÏÛ˜œ|¨sï:c"ÔP. –UkÕXµæ µèA''Â=ç5Ø_€kÜr@hĞ³‹pÖm_×qk×ÊWÇt\·hâİµ0şq_ÓÓöÌbO¬»yÊ=·ôìƒŞZ#‡`èÈaõJÃ%00ş›ÛIC—á¸á´AGaÃRC›ak¶é„!m0†±ÆŠ}«X©ÔJ·R¬Yje£VW !òVy›œ”»ä²¶K>-3"Gä£¨ÉrÆ~b%00²x“Şd#¿«,8Ç2œ %25”%25€sª‘ãP¯ÿwì-ö8[×u¥Áp®6–/K8±Z.+ë;::äÿ>rä''·ÿé·‰nCV-ùóİñÀ|et''öxˆ²²*S–õÏ”y™•Ó°¯MÆ†éãy²Ó)¬YªiÓ¤52¸ÃÈ¤Ãğ+	wCr¶ÚC†]Ì=ÜŠŸp,ƒ3k¨
+,dåû.„°gP€®i¡¤dqAÆË?Çxf9wP8:8
+x8gÜÖ¡ÙûãHşìImóTŒ¾Í×¢2±Zæ¨†ÔüIg²TÈ''å“†¿z¿ˆh>Ôœ0¯>3ø‚ƒ$ÅrCZw,®£ÚXÀ¯ĞÍÛ
+X×°lÆ‚¥ÌÏîö€p…MàâêS?V{9¹íŒ‹‰İÌj2‰c™X	·²ó$mRÍ¾‚ÍA—¿\P\õïT;¿\PH]P˜vhMe„=BÛ€zÆ¿vâzÂ*bô(¡ÜÊdaR‡ı¼0›ÊR›@aşá+OV¢Ïõêà3ª‹_˜¶D°„‹¶?¿ “Ş°3ÊÉ’Aœ…€ıHµ\p(!ê=ãëçøö?WÎ`åq0]ºjäİ+øf—3î2ÛƒÔaq÷
+~vrä«bEÖËå?#şBO_¬(¶eåƒá[=şâÎØÌ!KÕ1}ŞØ5ƒäøıãgÍ™¾wûîBöØâYƒîºçAÖ~Ã·ÜÛóq–_¤/Á/z‹êÔHZ''{^éT>—¾r–Î:µÍÓj-æF…>¤õğ¥}rDï²º<èpªõXŒ«ÙšïzÛ''t¸Iho“ĞŞpÙ²ÚÛ$T)S8rÂr4	íú‚š„öFı¬*ìw“˜ L4 Ñx¬9t©®É}§}l©o›/éëòÉ>‰a«•Í³Ø€‘¼"x±Ïˆà›”Í(ğŒÉoáø÷	a¼Wì%25ÉrH!âUPâ|‡ÉÅŸnD±¸^¯ëFĞ*K\Ön0ê:ÄI•8ìç µY"ó è2høe‚ÊÙX l†Äë¼î“æ''&*ÆâE£[Ÿ“ãn¯_:®ü–VvÇ5K†Ş÷^O6–<öi!èh!~ºh·ö¹¶ÁÉ£Rà+ƒj+‡üâ€Cgô›GiGë§iõWkêõ•Ê Ç O•¯^ãã©÷ÍÔÌ4LVšMÉ¾%25š%25†yÊÇÏ<ßõÔmĞj,WHS5SW˜Kó5ó‹ÍFoHÖÙ¡4\ùA¯
+FĞA×gÜp²Îf¯ƒÃ§ÅøÀ)!%00>%00èR±¯²L‡EkEÛĞÿ8´o¿”›«€­ùÄlåqn‡háÏ-ÂLÍÊ­Ğ@|[(­â’\!0Ò?ÀÍVõ<ùºa´6mºĞpaï÷)DŒqŠfŠafAÆ¢"Û‰„S©†XbEX˜¯/×xúÎßü™znşï»§º÷´¯»£}çÚuíøcFá=+Sí9üß¿ ¹ÔòŞ»ïış7ï±šu©…r4t`EzYé«\¢ŒQäºH2ÂÂ‘>æXN¹»<gXÎÒÈæˆ~wPğ2ïeÁFıæ™Ş™Áı"óBe‰wQ°+ò¾ëß''÷sOºNæˆ¤#˜œPî*y2R¾L™¡|aúïœ”b²[ábğÖƒ±úó©bTÍÆ6£DŒ‚òİØG%00l)QÏ,)ˆİ\}È„k%00|­Æ8º+¨³‚U8
+ùÏ‘™Ş€ŒĞÈÙ€ŒHœÈœù¢€Œ™BM‚™©?Œ€åÛHÏQ(cdş=K‹Ë$ÉŞhŒ³W±b¹U,“Ú±Äz>³îéA÷-X´åºã7ÏØÔÏşìÊ^znEëÔBÍë&MÚ˜~è©ÔOwÔó“ôôáƒï~øî¡?r}º~Æ[ ¡¼£.uRE¦1¹R?‹]%25¯µ»Ş 7Xœvƒ…HzjÈ''FCÑf¬OåEœÔÉòìÿo»ô¼eñ½j¿È.Õ
+¦ç³`Ö¬8“5Mµ‚ëE<…ŒwŒê„tAuÕbÚj:³n´À¼†Ì
+5QŞáûi9®–óU›Ì”ñ°ãÓ¾öÉ!ë®¸rÈ°aƒ¯tåÊñ''–ô\á¨ºæå=€•‡:Ä8v%00e’W½YÎså2\f‘?-o~Ş*Ã=†ÛóŸu¾Tò†d1x>oÙ˜’¼š k`L)§FßLıLÃLãLÓLóLK‹¾ÅĞbl1µ˜[,ñB[a<¿0¿Ï€üÆFÓ¼ø¼¢±ùmù¿4>j¾¯èÁ’ûË6¾`~ªğé¢ñßÄ=Ìg,ìÈ%00±^ ¿}8Dˆ>}8ƒ5Õ‘[3C_X`6ÊHÜ-›úåxX+Ï_ÂÑö×ù''øgù·ûøµ6Ø­ÿ¸_û7ù™ÿu¨$78Cxï*ì`§]¥LÁ?ş¡
+åË¦];]J^ªŠÕ^Ii¿™9‹sXNÈ­Ã,ÌëÂ°şR-_ªN®2åP?SëVù~Õé«,ç§—
+ÿSØS\ßÃ{BıÎş?Ë/"â~áÁû”o×åãÔ]¡š£ÅĞ—°FY€Ì6Sp<%00øFìñ(ˆ[EOh.ï*guåmå¬œG"ò‰¸gvëh$ƒeÖ %00>%00dö0FòmBØmbx¶*¦ªU‘ïïå7Ìì>²å''”›qŒøûgÃ	eÅoTˆàÏô‰eXi» Dlêº—‰€>·¡ D#¿lP>˜ZØ77¦q•ÄíŠCq*’6Ï	C‘.H5}‘åºPZcA’³˜õ}ŒAZTh0jr„•>¯÷nÇ¶q±pUœX³n\ï‡Ç—/k:¿¹û“ñ_ÉJ¬ï|x‘/”f¶kÌªk·İyóªª
+~ùÖÃ†,¾wÊ-¯Ï°''Í­Wµx<¥ÁÛ<8má[·ù˜^Z´|şˆKb¾‚òK×ŒucQ81úæ«}“gN®…rœÆüŠ¡«fÎØzùË\NóÓÿ`Åš‡±éO{ğOï®±x%25¼Ä„%00´ùáš-F*‚>FL’É¦ä‘<jq˜iZ§¯7Ô7ë–êÚt›u2Á<½M—Ôuébg8@qG%00Ÿğ±Ôƒnÿ‹–ï§¡…»Ü€Ï3€„îÂŒ£ÛËZˆØqÕÅî5,''¨únîbŸ<Ë‘ÀÄAÓŠ
+åî&%25^¿xtØ«ÅŞ:±“†)±µs—Ü~ûÎ]»œ‰¢Ü''¶*Cæ?Éæn¤ºÅ©»7öür\	¶0ÂŸ„.;Áÿ+N''ì!àÆ%00O‘EœJpëiµÂáªL8i¾Şé1S§Ç„8‘h"Ÿ—›¯a{…Uìupµ-ö¢Š%254¯°ŠÅò–°‡½.Ô³Ñ¯ppP?«Z¸<¤½´ËK½ã±¥©KusS8p:À–¶’t@ ¤Âˆß%2515œ0ÈhÌLÈLÙh
+,âL´$3c„-lÁÃxÿÏ\PLİÿÓèÅÂñ^W›™;D # +V‹ÍÂ´™0|esXôö áAìÀ$yÈÆiAœ
+;Cøì;€ÃRİª¯|j‚bê0Ù¯™4éÁvŒ^2¡ª•İ×³óîş£&MÙ´Õpwô‘¤¯A#ı&»âÕè‰Q¯¥Z#ÑôÊ4ùœ5¥‰O°³è0˜ƒÏxÜ¾V¥¡$Ï^cäŞb¯1À±©Ôó›K¾Ù‰*Y”èñ''Õ­$EÈPûZ5 v@<ÈP;¦ŞZÔ¯’DÙÌ}H‘!n¬!UÆÑd”qşºŞ¨Ÿn¸Š^Åên ×ÓëÙú××ÑuìéNİzıÃcä!Ã½Æ—É“Æ×ÉkºÆwÈoŒÇÈ‡ÆoÉçÆŸÈc	Çè#c‰«ˆj4hT‡§Rç©²w?6‡?:Á˜Î`%00%25#ÿ;%00¬_à‚·	ã‰cE´2Æl‚
+,ı$Ü NNÒº:´‰­wF^_`0º#‚Æ	v` F˜-z=ş¡Õ¡šRl<ÈÓ«ªŠXÃŸ:‚»TO˜jˆ0•æ™¾ù—Şî€¿§©§)àë>Ù„»@\kà4ñ¿Øğ@>_çÇ"ÿº~>^4ÂÉ®³ö*P¬¸65Fi…ÓãPí¬ ôÕÔâÿ:Y€µóo÷¤®‘ã=·_}íÔ•l½`ğG45Iúü ÿÊòGÑeÃŸĞC~›CkÒ:U‡-bRÍ›˜3N>	ø#øÁa‰5ßàN[ˆBæ?U—„jŠ\ÓlÛØŞ¯bk`¤¨¬Rá™Îlpx,>G¡©Ğ\h``©²>l79Šœ£=Fg£{¡c¡s¡ûFíJËö›\7¹×Z6Ø7:6:ït=d|Ş´_ÙgßëúÆø•ëŸ–åW:”ëÈRÖƒ-AÙ6Âv;VÔüç‡Ÿ1Ş°ÁPDÈ°WÒf3+v‡Ôò»œÎ‡Ñ…ŠÍl³›LFF''ß~`Òòç''!%25ÄJCB,ÔÉêvÙ€ÕÕÉ¦ª¦:‡ê`³ÌÑI‡í¶Ñ<R4òC[jÄ\f`–&šÓffF¥X»Ã5:‚‘UĞÑ@^Ï2l‘vû”3''ıü?İŸÒ- âãêšSS\¸(}	¾UïÄÅÚZıÁ1Ië”1Iş…¹˜ñšSúkl|k[dö[»ÒŸî®®1æU×`·Ã×»Ü5ö<wfßwÍ	Öçáª9¹fkóØ†ooå­v.©¿miL©%25o|’È''>ïH-š_¶jZeêê”¢üà"[\ÔóğukV­d‹~úíöaS¸ŞÚ1ş¡è‰³lµÿÔùŸ‡ùm?_ô|éLMÒÆñÏ?‚…NŞŸPê†¤Æ“á
+ùq{ªBtşHæ8!Z4ñwà,—Âf\•MCÑ¶mHÇ‘j‘Ù:ŞEA4o“«×L#ËŸ“>h»é™‰(G"Á5œ(×Ñ·Éz¤Û´x×%00¯#à%25îµıëĞ/õÛ%00ø3 èMt/vn•³‰R?éQ¹]3G«ê6èŸ63|	#İh^a™g9ú^yÒ¾Âşc±óv×÷eOÒw»ßãÿ2p6”''zQ¹¹ø&Ãî„R2ÏkÁ»f$Ô9–Y¼hñ.2lò°	—]–º|áìÅã¦Šè”.Ä;*şÓ''®£Ã›RÌ¸¶=û–/ö‡ñ7ÃÄI!© —à-õx[À(2ï(ƒ÷¡LÀâô$¼»e
+ŞJ2ï-˜NÉÌSmCó$/9…”F’Hy)Ò¤YH›¶"i‰-Ûr-ÊÕHN#i‰*yÛï«P;QÜ%25Š-‹ËEuv¦:³ITw^Ş˜)ÇMÊ”#.Ít”éÖ¿2ÓÜoX¦,,É”‚ò6\|§ÑRŞ5ë†ä(#K‘SvÛå)ŞĞ°Mr“$ÃRV¦E•;óãå[H2Á¦/‰â*át—DÛ-öò¡F–f§@‡0ûug°îV{ùÖ¡—±ÏÈv¤Hûß¿²¿’Õìˆ¦ ¯CÚŠt%00éÒ)$-;ïq|?eŸû„”"Õ!ÍBÚŠt%00é’}‚\aá, r×!1öä
+û3ëÏÈmì cìXº‹½ß^]S¾G%00‰Ò,.ÈŞ`pxÊ;ÙÚèîdŸïŒ$ÂÛ†–±H	|‡\AŠ MDjFZŠ¤ô HÒf¤mHI$¼ç¹‚a‡ŞCú;ú?"*ÒD$=;ÚÛt²#íñaá¡¼~äm˜Ûav˜ñ×…Ù{ì-Q¾Ë~#ÊwPæ¢ı{«=7L†špœà¥‚²Ç5ì×;óáôP;;%00$…‘—"Õ!M@š…´	IË°¼öya.²‚†
+³vò7Q>KÔµ%25¬Æ‡ƒÇ"<‹º²­‘­q¦ÆxUÅï¹Ïâ·oÄ³øMk%00ñ,¾x%25 Åçµ%00âY|Æ,@<‹O˜
+Y''{üµüÂpõ„E42ÔÆ®–®–®–®''2Şnƒ/ùº&Ìi/.Æ¶¨‰>Åá¶½´m?m›LÛ¤móiÛ­´mm«¥mWÒ¶mÑ¶\Ú¦Ò¶}ø#%25mTíøYµFõÑ¶C´íÚÖJÛâ´­€¶åÓ¶­V;Y´ıRŠzQìÊåŠEw^2¤Ü†1FÑ(Ø:
+±?€üRZÔTtŠäe:ûsy™·³¸.Sï7¨üÚ¡£Ù›8ñMáMrIŞ½‰‹¼‰ËÙ×!ÍBêB:…”FÒ¢7W›DnC^ŠT‡4i5Ò)$­Î)…‘k‘ó!n+E^‡4×Ø›øò×EYTÍÁ_ÔÊhil˜\:!7Ëª‰ÇUé°ëñ''4ËîY¾ÿ—…†Ø=l6%25‡ñÒL¹©ı‡ü«æ¡öø¾ğP7}äbE,ŒMíqZ€r iõ*ÒóöJb/¡,oMÃi¶öx	¶À[ùY»Ã?„N†ÿkà×¡}á?F:eÚş-/íº3üNi§-ûãÅŞˆèº''40üÊ!ÑulißÊ‹İá[B£Â‹BâÀüÌ+[QSmáÉñáÑ¸ŞˆĞœ°ÚŠkî×…®×fzUñsv‡Ë0„D,Æ`û„ÄMc¹â‚ÕtZ¢{@7;WèÊu%25º¨.¬ËÑu.½C¯è­z³Ş¨×c_´ŒÍ­Dïâëß	>¹´xNÁĞØ+`†ŠÉ‹ë5ªÇ–S’tJcØ˜)Ãè˜d×\2fN$yvJ¬“''ÍHjbÃhÒ1†Œ™:,901¦S—œ¬NŒIê&^1}¥÷4¢5ÉÖwR¼[¡“¦yÓÚ ó	¶5QûÚ»ƒ¼,Z{wc#ñyVÖùêCì5#Gü‡¬Y46¸`a''°ÆuşãKä$3ezòÅœÆd9Ò9c’¿ä¯FÙƒ×U®±‡şÓ÷HCè?ê''óviÈˆÆÆ1tšèG"ôïèA~ú\áıHDŸ›é·%25Ó¯%00ç£_>/ĞÏ` ¢_Á úÉ”÷ÛÑš_?bG>2ôñFH«èÓê\ÜçPú CO9$úò´ñ>É!â2¡ºä"CŠw`‰.!]ÄÈwˆ.¥Ù.wïr§¸“”èÃ3\Ær¢·åúœGãÿÌGgçàÆ¹3ëñZ™æXı|¤æä]+ø’ms"‘sù¼İ%25Ş<gî^ÎŸlŒÍ‘œÙ1Xœ÷o‡gòÃƒc#v™õS§ï˜©ÎÑ>X\›=¢qç¨‰•Õ?»×çïU9ñ?Ük"¿X%25¿×(qŞ¿İ«šÅïUÍïUÍï5J%25îEOœ¾CO†5b-E”;±QüÚŒ6ó(K‡æõİÜƒäybÂë^ÌxA‰óuß¡}‡òC)~ÈÊß”=ä»up4¸—>Ÿ=¤ ÙF+®k½øêÈüZñAÓŠë812y‚·ıÇºÔã5@#ZW2&Y?¤~È­Í#Ñ6¨·ÍdªGÜ%25ÓØƒxGI:ß‘·Õò6ƒ!Ûñrƒš=04öí¤j.]AZ¥dî˜©ª`ê ïÙs‰O­X„ZÑŠ=­½WãÏWRˆÁ#·ö¦×e¡,VdKÑ“ŸÒÚ‹ŞK%258–Èÿ2|
+endstream
+endobj
+23 0 obj
+15142
+endobj
+24 0 obj
+<< /Type /FontDescriptor /Ascent 905 /CapHeight 723 /Descent -212 /Flags 32
+/FontBBox [-665 -325 2028 1006] /FontName /BRBOJJ+ArialMT /ItalicAngle 0 /StemV
+0 /Leading 33 /MaxWidth 2000 /XHeight 525 /FontFile2 22 0 R >>
+endobj
+25 0 obj
+[ 278 0 0 0 556 0 0 0 333 333 0 0 0 333 278 0 556 556 556 0 556 556 0 0 556
+556 0 0 0 0 0 0 0 0 0 722 722 0 0 0 0 0 0 0 0 0 0 0 667 0 0 0 0 0 0 0 0 0
+611 0 0 0 0 0 0 556 556 500 556 556 278 0 556 222 0 0 222 833 556 556 556
+0 333 500 278 556 500 0 0 500 ]
+endobj
+14 0 obj
+<< /Type /Font /Subtype /TrueType /BaseFont /BRBOJJ+ArialMT /FontDescriptor
+24 0 R /Widths 25 0 R /FirstChar 32 /LastChar 121 /Encoding /MacRomanEncoding
+>>
+endobj
+26 0 obj
+<< /Length 27 0 R /Length1 10512 /Filter /FlateDecode >>
+stream
+x¥zxTÕÕöÚ{Ÿ3g.™Éä~#†I C 		áÉIHâ%25 bF''\¬B€h"Š@@U‘ÖV¢­è''*''3ˆ	—µ~U[ÖZıš§ÅZ-<ò·^(ÂÌÿî“ˆØú|ÿóÿÿ™ì½öe½{¯½ÖÚëœ³OˆQu’ sÑõmí4^@Ëo‘6,ZÓa|¶û~”Y#‘6åêök®Ï»-«›È¹HyÍu7]ıÂŠeWy? rıbé’¶ÅgŞôk¢ŒNà''.ECòK	»QïC}ÔÒë;ÖVÌS[Q?½nÅ¢6Ï¾«‰2¨g^ß¶¶İñjÒW(¨ËÛ®_ò‹5ÏîEİD=Ø¾bUGü4{õ¥¨Oj¿aI{uŞbz‘Ú~òJ ­5hâp‹İüÿ‘q`1“})ÃJÀ<jR~¹Ñ°ŸFØéq¡äÓ¢ø±oRlYü˜ì“”
+as‡ÒğhzŠŞe£™AQvš2èËb%25t	)ôfŞCgéJ¥&ÚÎ’i¥Óet	SÀ¢mì¡øšø''t!ıˆ?Ç6ÄŸDÿ=ô_t
+ü·Â¨‚f‚ÿ2ZBŸˆ¨%25şH¼‰<4•æ°tj£wğûrÜG÷Ó/Ù-ñS˜5•6`¼Jª¦êøñ3THÛ”nõ¨ëYº—0G|Q|]@#©‹‡âïÄÿHùÔB?§§ Sˆ(Sı€6Ò–%25ş¥èc	¼ULWŸÇL—ÀÓ–ÓÔEOÒk,™5ªGÕ“ñÆ?†FSh4dZFŸ°r6ƒ?¦$Ä§Åß§ÔO¯`½ò7 ,PWÄªâ?‹¿Hiôs³ƒìµT½ûìmñGâÏÀò©™‰yÒíğêWéÑßùúøzº˜æbæ—Y.3X>4şÏâëø:ñ&Ãj[!íjÚIEh? CĞÍh>b©,‡]Ê²{Ùßy_Ì‹‡Ä^ñ–Â”ÿ„¾„:è1Ú‡ıó:f*Æ/fìZ¶‚=È~Æ¹Åó¯§r»òµrVÍÆ¾ÏŒA™”MÿA7Ózèöç¥½ô;z›şNÿ /™ŸMbKÙ#Ìbƒì8wñ‘|oçÛùcüi1SÜ+^PÊ•åÊëÊûêêV­M‹Ù»/ötìøsñ7à;>ŒŸOõĞèmğŠÇèyz£¿GÒŸ¤ÿ`ü©l>»³¬b›Ùıìiö2{ƒ}ŠU’ıÉ§òZÌº‚ß%00=mà÷ñû1ûaüğ÷ù‡üoü¡Š‘b¢X)–èGÄ_¿’¯ŒSJ”YÊ|%25Ë”ª©sÕ''Ôİê‹êIG¥c±£İñWmƒv‡ó·gÏşwŒbKcV,
+ßuÂ“n†&¦Gá÷{aƒ× ÑßAâAúVÈfy¬%00rOfõ¬Í`—³+Ø¶mb?b;ØCìQöV€5pÚ
+ñj>—·ñ%25ü¾‰ßÅ÷â·Ÿ¿ÊßáGù	H!"$JÄ%25b¾X –cb¸š½W<)‹7ÅÇâ¯â¬–¡\ ¬VnV~¬<®ìUŞPÿC½¿GÕçÕõõŒzÆÁÙñkO8ş¤9´‰Z£¶E{Kû‡³`…Ü€ïŸ»xöàüIª¬g''ĞœËJÄÊC°Ã\ìŠP•ˆÁ.>ÙÙÒx–’"áS±ˆx;@åìeZïà‘O¤û€*/ñémfYÊãb¹úÏ£İˆFİü ?Àjh/¯äóøO±Øôü}-İÏ~ÀVÑnv‚Ma·²
+¶Şâéb.»ƒ*ãr…¹Ø%25ì$AºMYLW[Â÷Ødú€>‰=¬x•[Ÿúh;,úı‘ı''fjü8¢›@4jC”ÙßH2êµbŸ­Ç~ÌB¹Îq˜ö2î:iÊÍt’şIŸ¨ûáQ5ˆ¦Ç–)+WÄ‹°Ã°Ëè	ì»¥tvÌGğ’C¨ËÚØénÄ’RìêFšO‹éVD½{ãVü§ñÛã7ÅWĞo€=ÍÆ²Ó¬;¢ˆJz¿{è=¶ûğ¢ï]Şÿ±1¶˜èS–É‚¬ûá„ºFíVŸT÷ª¿T_w”@ÛwĞCğè?Á›İXÁ"zƒ>¥¯˜¶É¢±Ty''Aöfº·ˆC4eS;öìhÄñšá•¬Â( ½Ÿb?ÂŞ8‰8qı’2Î2°¢E˜ß‰q ç«hí‚ogQ´,FÔ.¤¿aİ>6‰w`>#mGÔ€LĞ_ í¸-×XÄ…Z6c}E—ÓbÌ0‘Y/ÕÇ÷!RÍ¤Zñ[è{óSÉ~\;ÔG¹4Yı3ã4663>‰/‡p‰£½w¯º­„‰XÇYJc³¨<62¼IdV7™UÓ.¬œ:eò¤Šò²	¥%25ÅãÇ]™gèäÈÉÎÊÌHOKMINò''ú¼	·Ë©9TEpFcëõaÃÊ[J~àâ‹‹d=Ğ††¶óÂ–¦úïòX†Äµ¡ë;œ&8¯şNsˆÓ<ÇÉüF%25U5ê†õzmÀècóg7£|Wm Å°NØåv¹Û.{QÎËÀ¨Ë\ZkX,lÔYõk–vÕ…k‹Æ²^{z`úwÑXêu{Pô deÚ{YÆ4fxFİ”^NN/–hejë¬¬%00 FëÚ[³›ëjsòòZŠÆZlú¢ÀB‹5VbÈf¡éö4–cº¥ÙÓË,¬†¶½cº¶õùia8”°8°¸íŠfK´aŒ:+)„yk­Œ›e~[ÅàÉÓ›7ß›#ºê2—’¹«k“aÌn>›“''GhiÁÀò`}¸«Soƒ¥æ˜oli¶ØFLiÈ•ÈU­oI N¶„¯5,W &°´ëÚ0L“İeÑœ›ò"ÙÙf|²ëŒ®¦æ@U•hi«Ñ›J]snŠf™FÖw{ŠÆöú“†ÛëK.$xÏ/,Ò‡úì’Í.KsÎi–I‰—X&<j‘IšXÓ$™-™D]‹&Á%00¸ZPÖbXd™åšîòO‘íX"³Ô ?`t}Ağ€À‰ãßminqı_ì”~rÎÕ,ÖöMÙ
+…¬ÂBé"ÚtØ2N³ëåEc×ôñ‰v¿õQ#tÛÖ2e<ÔŸ—''¼µÏ¤…¨X³›‡ê-Ì‰9>Ôbñ°ì‡zÒ.“=ßôœƒ‡ğä½öcvšåÌ?÷—èOO©[:ÅbéÿC÷’¡ş†¹†Ùó›º®ğ°×64}§6Ô/
+½¡o¸d¥Lo9m²Äs„İ§¼bş9Tš,%25ˆ?‡»CÀ)ífÔ[şğÅCy‹;/oxËü;¦Osê‹Ÿ”(›|^…5%254,çÔÖÔïÔ¿#]B—hhBÄáMó»ºÜßé«G,ëêªõ]á®¶¾xçÂ€átõóÇùã]íuˆBCí‹ïßšcÕokÁR–²)p[N5E¸I! ÊWU¾¹hT³—³˜CëãUf
+©JL[SbŒ²œ5ÆÅA–O.<dfRfÈÿeåÙÊ™şÏ+gœ­¤*”ıg•ç%25å%25‘1Ü¸ÏbàŒ©Ò×d(ó·Å?V¯TßÄ“ì;æÌ;][R·¤ï¤_»Şoy¾® ktÂhï˜Ô1é«ÕÕ®;U§–¢ed¤ddŒá…"¨j£Õ«º^/{Ô*6·±9~bƒ¸©pê‹D“2Ëlêö‚²ùfFf‘âô™¾ä2_ÃU‰lV"K4Ó2ËûØhsdr‘[$~æ›GŸ‘=Tvñ6"­ Gc‰š®kjØÍY773„e¶®œqb¦¿õËÖ''>?AUg?µ®<’TZKŠ©•µ¶¶2Õ¡JòS‘‘¡æçF:’üéJ''*UL¯‰½~<öAl3»™•1ï‹KcÈ~lÍÏóJÏš''yÎ‚“Ÿ°{ğ”½œ=°óJ«ş†;>}z|;,İ=€g·“x7ôP·y¡SU4gĞ‘¬«¬Xİ£rUu	%25Èw»‚Â½®Ağ‹İäalÃ[ì5½Â«¸fP±TßM(^—´Ÿ½°ÊŸW~>dJiÎ¤Éã[Wb[ô“ˆäNVá\‘l›ô¦L…B-`ª¿6Ÿ”—“Ûé¥êÌ''|ğ¬!&¨ûOÅ|[‰·uÈó%00¶òZa--+Ã Ñ@Ğ¦fUjF©¦Ú¨vªƒªª«aµ]=©**Í9¹xŞjáùAH›ËÕAM¡åJÉÎa3İ0ìU‹µ®¼’B¼¤ml´ºÿt=äØ@ûés	‡3Kd8•dŒ.úâMöTD´–IjÎm*¥š3UÓœÂÉ¹&\
+ç.T<Š‰~¥ÔqXe*ôjf™FOØ#Ú=ŞãğpÃSìá§kxPIMßÜ¹e®RÛPˆ4ˆ»dõĞ
+ (T9Ãß
+á¿lªaƒUU²¤äÉ“	iÓ8,*´éÖ_õ:øô&XHÄM—¯ Ìi “R?çò–9Md$9[JŠ§Û\û<åÎNO¹½°³Ç•9ç"SEº(¦PêÅFg·³Çq_‰ÃÎ÷Âãebªs–óGb§³GìqZây§G“«pM(/ã&2ÔMïøÒ2nÈLK-GËƒ¦+o\oBfs×_` †ÌÉ5-“‹m,/Ğ¦ò	ÚLnjWğyš+•çh3xöm·öşÿ+ÿXû''÷ğÑÚ¥ÚZm³öwH›J£]$µ$‹-Ô
+33XÙfğf–{÷l¯ºÿL‘xót½8x¦nïoAú1(Ï™š—=¨>èÜ‘°Ã§8™æs&j™™k]7&k7&­M»SÙâÜ’p§ocò–ÔÍi›36gŞ™ %25Ã²Ó’³S³3Ó²µ”"¯+«Hé{ÜŒÜ~·ánDÓ(Î5sÃ¹í¹¹=¹#÷d.ÏõôK$+­¾-:bİKçÂL¾òKg¨êDÕ	é½­+©5¥¬bâÄŠ‰†ƒ
+±Ôd“ò2XZ¦—>}Í–(À7ÆÖÅÅúcëXÉ_z{ÿüásÏò·w´GBSbËc?‰ı,¶¡eé?cñxüÌ©¯¥d<9…} õp£t¨ı©ı™â"•]£¾£òä¤ ×ç£¿*‰äÄò4&íuy`O¬/]Ï-^ŸšëO4lo
+.#Î.3ü+¿Ù«‚Ÿ­L<Ş¾OPëJ&M†0‰u‡CsYK“k+È<ÀşÀ|sÖ=¹ğÁ™×¾úÂ£{ÖL¿òâòuzŞ‡{6õ-KJ;û®òb,<nauãR¯ëA˜Tb=i8U:en˜œxIâåÚµkt=îë	ìóu¹N‡;Ã™îè«÷Õ''jN¿+)Õ—š˜êŸè›˜xQâjßMş7İµ®µYkr7»6gİ™ëp¥§º}s}«}wøî÷ıÜ§úoBª×›˜æÍH¦øSY8µ''•§¦’‘''ÕÅ¥‘Ó×Çšäõ{¹÷­œ‚‡åpq(MífŠ<—v¾ÖF–,:*m_8ñy+œ¡²ÒÿæZWBwv@hõİêÿKšLˆöıge«Th©­O-==#%25OŒã@RÒ·Zlç+şövç‹/„o½6{øš®¼ºòo_[9ëâQ{?V÷ÏzmÃcï˜tçîØŸXÕî–¼³?3G5×\º Oxw‚ÏôCÇİ`Æ»Š•bµÑÕîêtu»4SyoX9]ÙÊzY‘évh8âÂË |Õ$ákÄÙT''ïæ
+Ïr}jhÍ³›{¹9©w¡V¬Yİ’ÚcvÜ;[)ï1¬[»\ŞcØc3”»b3•Oúzö4£û°§GA®,ê2''iNÍ¥ùaf×EÎ‹\Úå®yşíş“v¤=”ş¸ÿ¹ôwÓ>r|éğxq-˜âJğŞÃ>æ“á{¤™Ó˜Îí99ÜÈ)ÎéÉÈQrî5FVqÖ@–È’Á:û¼`-Cõp¤Æİó„m.ûÖ“’—”
+ç¶•¸ä÷ñÀÈ|¸vù}l´''å[Öuf³ÑÅ·}æ÷ï­KÍE úË¡Ió¯¿fû3"t&;õşö–¶‡.[÷¥\Î^ üPäªÄÊ/œYò(™è•q™yçèØá¨ÆpÆ,ùåªM‹Í¤é~:}:6Û_w®g¨ŸÈã@ŸŒókjSçÑ(oCy‡c2µÈ:ÊÛ•?ÓXĞû%00šˆß[xtYË×ò3b±’®,T~oêÁ¹
+§Exää§ñ8Q ÇLœ·Ô¥$ÉÃsË“[š?¯©öòÙ¡ê–µ]WT³âºÅ3š¤D’W¼€Ş*ıKîA]à”r4ü°''6¨§“~IMâ''”Èéñ±#êO-5ûÄ£‰)¥fµ_<@Hœ,1ƒ8­÷Òz$ö†HQIi¿,Dİ¾R?ø·’Ô‰$¨9³ë&J’k4%25]{$1ÉÆı0R\6Tˆú3K«SÅZbb‰XÃ^‡„Ëq”¢‹E ¹ ÅbòÚršÑDi''æ«{ÎÌÆ »Z¤c]º¨ÙˆÊr9«#¾¡yVGF–V»Åt‘i³$
+/táZ¤T7’šb3â³”osÄŸVzHléuÑ	®=ñpÓx$¹’¦¨Ë[Ú] š°Ì&¨E‡ŒŒvÚ¹)–G0æ«#pp­‹ˆ\„V]Ô‹"iúÀqŸ=ßä(˜oZÄ9A’¨×W:PíÓĞk‰»¡ñ»íÙº£ù“pÆ–/FS1‡R×£$£‚_t¡Ô3uÁ4]0M¤èÂ!?‰-èÙñâfj7R7ÒN”, -JÓ¥EF.íY"šğ€îZ³£.Ÿ”,3’œb³eF|¥U‡Ä*š…Ä¡¬hFféŠ¢Ğ^ÊØhf´G\	P]Æ-0Rº´Á!1B\`k"×Ö€U­£Î(QèÄøküˆÔ“¿-í+½mú›aúú0ıİğ#QÌböñßK:X=‚„Á®âÒN”8?À_ÂC‚³ó>in<õSèQÔƒöƒN%00İÉ{Eïã}QÈşPÄ›.Ë_Š„Æôàp!#g¸œ^Zä/òğéGçï‚}àSÎŸÍà8æÔù³¼t‰Ñ_ñƒÒ§ùs| uø¤VD“dOÄ!É3ª5×ògønÊëÓ‘ült>Í¥''Àx	:"¹zrµ›?ÂšÙç`êÁ%25(%25óG#rîÈACïÇ£ÛÌ¬0ƒf‘¹K‹‹Šw	#hÆ.£ÚÏïFğÙÉ±aùVädpx’‰ÔÍ·D”
+«ú,Ö$×Å©y]
+#o·K„Üo—dïI»TÅ7Ò,$1Ö!­GêDº¯İüf¤"İ‚t«İÒÒj¤>Úh·;$‰h¢ˆv Úm„œ¹ˆv"Dˆ°"DØFHyÃ@„mD#@4Ñh#h¢ˆFÑD#6ÂÂÂÂ´&&&¦000mD1Å@Ql#Š(¢ˆbQD1Å6Â%00Â%00Â%00Â°†0€0€0l„?~ ü6Â„?~áÂ„ßF1Ä ƒ6bˆA ´ƒ@1ÈoìGª_ä G%009bC%00r#€±!G%009È‘á¥KEH‡%00v%00Ø`lì%00°À%00;`cÀ9%00ì€µ€°€°€°l„„„„e#, , ,ÑD=@ôØˆ z€è¢ÇFô%00ÑDè¢ˆn ºmD7İ@tÑm#ºè¢ÛFü_›†ßÆš¸¹òN6Æ¦ëé¸M×ÑQ›ŞJ½6½…vÙô‡´Á¦7S…Mo¤|›ÂÔ6í İÉ"zEbu:BÀ,¤«V íDÚƒô<’f—£ôG¤8/7G*‰Ú,m§¶G{^S÷hƒOtÌrìtìq<ïP÷8Ü¨Îá^;"´Ğ=À1Zü3$ÜDWÙ¥*^†yËgËñ+ãefÒ	ã³Bv¸=_Èö²{
+Yµ‹_Ä;ÒTs25›	ùÓô£HùÓ™îŞw<CäOÔñ¬?DÆ˜!T#õ"íBÚ€TTŠT„DÒ‘*òk6Gy´%00)É@ª ôt<ğ$''9Í~îe»¢/{É%25ç)ÜHA1H_¤`Ès‘‚…zµ‹í£ùÄÅ¦Úº''¢C÷ÓCä©ˆ~%00µ''"zHk¤`È‚HÁëzµ—]F:ş	@gMÃt..ës"ú<°Íèc@B‘‚|É]ˆ‰‚èÃšé(Ê6zÔĞLˆ>Ü##údÉí¤ix|¬+²ÅSQ–u…@Ÿõ³f…™ı„~Ÿ~òşŠ…{¼gô) ‡ƒ}léÖ=æj=Rí–ü¸?ôSKÒgõ]Á-úC‹÷é?ÖÇéwõ9Ñ|äŞbOÑ7}|·™¢wêÅzGÑ1}•~©Ş¦ÏÑ[ƒhèWè¥˜ÔÂšùî}z#¼«Fô‹‚"Öë7é¦^ O6JıÒ$95<¹è Ô%00•Í>ú-böˆ~YEK2µ“Z·¶@«Ñ¦jm¤v–«¥:“~§Ï™àt;N‡Sqr''9SåIJH>0§:ü’8™+vÙd?–9nœ.%25+E4ğ†¹5¬ÁXDëË¹>æ=ßR5ÌJn †¦kR¨¡O‹Ï±*B–Ö¸ ¹—±»[ĞjñÍ}ŒššûX\6mÌ‘kzm¼+§ŸËÚxWKe¦¯©Ê¬J–4¹¾ö{²°İ®>’‘$óÛrf(×ÚŞ0·Ùz2·Å*•…xnKƒu›ü”ÓÏ¹·®¶Ÿû$iiîWÚybİÙ®´×¶€í˜Íoö
+$›³†É†xR#Ù`£!¾|ÀÁ—''	øÜ^Ê·ùòİ^›Oa’¯÷¨QWÛ‹k’''HtÔæ9¤óxà1ÀÖöæ#WÀ`Í’‹á“-Ø{ ]K2°0<÷ÙéÌÌÿ-Kp˜¥üK¹=—’ÇFf&uô7<©£Áó­"ÿßJKjB,Z²zİKuø:Ô-A
+[[×,Í´:FïºÕ²©òÃ-•´m‰µ:°¤ÖZ¨5zKlÜ¿t¿$»Kµ½ôR]SsïKæ’ÚH‰YRh«m‰VU6Wg®-çæjÆ;ı¿ÍU)k–sUÙ¸™«ZvWÉ¹ªå\Õr®*³Ê«n™ôûÆæ^''Õ´à¨Ú¦QîqÃ‡Ã9y-5éşöiÒ¡û§æe®ËÙ¯ş•Áƒ¯V	øÎéE’]EÕEÕ²ûLvùä''Ğá®ÌuSórö³''†»ühN
+ÔØGªÒ$ñVùì+oîüfé*øNùı6[%25/»;“ê–Õâõ;u¬ê8ß´$9ÿıêø¾kõêÕ«:­­"j°
+ç6Xñ‰¬WÓ0U¸¶mã¾iÂnëu¹êpŠ‡Î„`r:Y
+±4hº	ÿ¬Æ{=—oÑìÜÒ‡ğÜ°	oüÆÈxû}™ß”ï/ÑñåCï§²ÉÎ+•ç„€J¢fR
+İÁî¢îŠ`OQO…½ûv¡Qß%25o¥‘ñ»u„V}£;Z lù?‘k¿¾ôÈ|C«˜m…oø¿¥v;ªß*k´¯UöğRß¶†‘Ë¢mQXchîÕC¬¡ĞPÁFBË6DvÑÿîè`A
+endstream
+endobj
+27 0 obj
+7296
+endobj
+28 0 obj
+<< /Type /FontDescriptor /Ascent 905 /CapHeight 722 /Descent -212 /Flags 32
+/FontBBox [-628 -376 2034 1011] /FontName /ZVTDWQ+Arial-BoldMT /ItalicAngle
+0 /StemV 0 /Leading 33 /MaxWidth 2000 /XHeight 525 /FontFile2 26 0 R >>
+endobj
+29 0 obj
+[ 278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+722 0 667 0 0 0 278 0 0 0 0 722 778 667 0 722 0 611 722 ]
+endobj
+13 0 obj
+<< /Type /Font /Subtype /TrueType /BaseFont /ZVTDWQ+Arial-BoldMT /FontDescriptor
+28 0 R /Widths 29 0 R /FirstChar 32 /LastChar 85 /Encoding /MacRomanEncoding
+>>
+endobj
+1 0 obj
+<< /Title (Zip Cubes_ Coupon) /Author (Donna Carter) /Subject () /AAPL:Keywords
+[ () ] /Keywords () /Creator (firefox-bin) /Producer (Mac OS X 10.5.6 Quartz PDFContext)
+/CreationDate (D:20100604024033Z00''00'') /ModDate (D:20100604024033Z00''00'')
+>>
+endobj
+xref
+0 30
+0000000000 65535 f 
+0000044070 00000 n 
+0000000870 00000 n 
+0000006867 00000 n 
+0000000022 00000 n 
+0000000851 00000 n 
+0000000974 00000 n 
+0000006831 00000 n 
+0000019985 00000 n 
+0000001160 00000 n 
+0000003098 00000 n 
+0000003119 00000 n 
+0000005895 00000 n 
+0000043893 00000 n 
+0000035924 00000 n 
+0000005916 00000 n 
+0000006811 00000 n 
+0000006950 00000 n 
+0000007000 00000 n 
+0000019463 00000 n 
+0000019485 00000 n 
+0000019725 00000 n 
+0000020162 00000 n 
+0000035395 00000 n 
+0000035417 00000 n 
+0000035652 00000 n 
+0000036097 00000 n 
+0000043484 00000 n 
+0000043505 00000 n 
+0000043745 00000 n 
+trailer
+<< /Size 30 /Root 17 0 R /Info 1 0 R /ID [ <190676c050a6ff31d87eef28c2c370ab>
+<190676c050a6ff31d87eef28c2c370ab> ] >>
+startxref
+44332
+%25%25EOF
+')[0m
+Redirected to http://localhost:3000/upload/get
+Completed in 27ms (DB: 1) | 302 Found [http://localhost/upload/save]
+
+
+Processing UploadController#get (for 127.0.0.1 at 2010-06-06 16:47:12) [GET]
+Rendering template within layouts/application
+Rendering upload/get
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/upload/get]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:47:39) [GET]
+  [4;35;1mNewsletter Load (3.6ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 114ms (View: 105, DB: 4) | 200 OK [http://localhost/newsletters]
+
+
+Processing NewslettersController#display (for 127.0.0.1 at 2010-06-06 16:47:53) [GET]
+  Parameters: {"id"=>"36"}
+  [4;36;1mNewsletter Load (0.6ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 36) [0m
+Sending data ZipCubes_Coupon.pdf
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/newsletters/display/36]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-06 16:48:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#classes (for 127.0.0.1 at 2010-06-06 16:48:04) [GET]
+Rendering template within layouts/application
+Rendering home/classes
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/home/classes]
+
+
+Processing HomeController#bio (for 127.0.0.1 at 2010-06-06 16:48:06) [GET]
+Rendering template within layouts/application
+Rendering home/bio
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/home/bio]
+
+
+Processing HomeController#philosophy (for 127.0.0.1 at 2010-06-06 16:48:07) [GET]
+Rendering template within layouts/application
+Rendering home/philosophy
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/home/philosophy]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-06 16:48:08) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing QasController#new (for 127.0.0.1 at 2010-06-06 16:48:10) [GET]
+Rendering template within layouts/application
+Rendering qas/new
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/qas/new]
+
+
+Processing QasController#index (for 127.0.0.1 at 2010-06-06 16:48:11) [GET]
+  [4;35;1mQa Load (1.4ms)[0m   [0mSELECT * FROM "qas" ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering qas/index
+Completed in 31ms (View: 25, DB: 1) | 200 OK [http://localhost/qas]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:48:12) [GET]
+  [4;36;1mNewsletter Load (3.6ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 55ms (View: 45, DB: 4) | 200 OK [http://localhost/newsletters]
+
+
+Processing NewslettersController#edit (for 127.0.0.1 at 2010-06-06 16:50:18) [GET]
+  Parameters: {"id"=>"34"}
+  [4;35;1mNewsletter Load (0.2ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 34) [0m
+Rendering template within layouts/application
+Rendering newsletters/edit
+Completed in 414ms (View: 408, DB: 0) | 200 OK [http://localhost/newsletters/34/edit]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:50:22) [GET]
+  [4;36;1mNewsletter Load (4.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 56ms (View: 46, DB: 4) | 200 OK [http://localhost/newsletters]
+
+
+Processing NewslettersController#destroy (for 127.0.0.1 at 2010-06-06 16:50:29) [DELETE]
+  Parameters: {"authenticity_token"=>"4bIiOJM7Pi8dFv8w7AM5UFjDizTtIPwKY1tDW+q+2J0=", "id"=>"34"}
+  [4;35;1mNewsletter Load (0.3ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 34) [0m
+  [4;36;1mNewsletter Destroy (0.7ms)[0m   [0;1mDELETE FROM "newsletters" WHERE "id" = 34[0m
+Redirected to http://localhost:3000/newsletters
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/newsletters/34]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:50:29) [GET]
+  [4;35;1mNewsletter Load (4.1ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 61ms (View: 49, DB: 4) | 200 OK [http://localhost/newsletters]
+
+
+Processing NewslettersController#destroy (for 127.0.0.1 at 2010-06-06 16:50:33) [DELETE]
+  Parameters: {"authenticity_token"=>"4bIiOJM7Pi8dFv8w7AM5UFjDizTtIPwKY1tDW+q+2J0=", "id"=>"35"}
+  [4;36;1mNewsletter Load (0.3ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 35) [0m
+  [4;35;1mNewsletter Destroy (0.5ms)[0m   [0mDELETE FROM "newsletters" WHERE "id" = 35[0m
+Redirected to http://localhost:3000/newsletters
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/newsletters/35]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:50:33) [GET]
+  [4;36;1mNewsletter Load (3.4ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 122ms (View: 113, DB: 3) | 200 OK [http://localhost/newsletters]
+
+
+Processing NewslettersController#destroy (for 127.0.0.1 at 2010-06-06 16:50:36) [DELETE]
+  Parameters: {"authenticity_token"=>"4bIiOJM7Pi8dFv8w7AM5UFjDizTtIPwKY1tDW+q+2J0=", "id"=>"28"}
+  [4;35;1mNewsletter Load (0.3ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 28) [0m
+  [4;36;1mNewsletter Destroy (0.4ms)[0m   [0;1mDELETE FROM "newsletters" WHERE "id" = 28[0m
+Redirected to http://localhost:3000/newsletters
+Completed in 16ms (DB: 1) | 302 Found [http://localhost/newsletters/28]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:50:36) [GET]
+  [4;35;1mNewsletter Load (3.7ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 49ms (View: 40, DB: 4) | 200 OK [http://localhost/newsletters]
+
+
+Processing NewslettersController#destroy (for 127.0.0.1 at 2010-06-06 16:50:39) [DELETE]
+  Parameters: {"authenticity_token"=>"4bIiOJM7Pi8dFv8w7AM5UFjDizTtIPwKY1tDW+q+2J0=", "id"=>"29"}
+  [4;36;1mNewsletter Load (0.8ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 29) [0m
+  [4;35;1mNewsletter Destroy (0.4ms)[0m   [0mDELETE FROM "newsletters" WHERE "id" = 29[0m
+Redirected to http://localhost:3000/newsletters
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/newsletters/29]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:50:39) [GET]
+  [4;36;1mNewsletter Load (3.3ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 48ms (View: 38, DB: 3) | 200 OK [http://localhost/newsletters]
+
+
+Processing NewslettersController#destroy (for 127.0.0.1 at 2010-06-06 16:50:42) [DELETE]
+  Parameters: {"authenticity_token"=>"4bIiOJM7Pi8dFv8w7AM5UFjDizTtIPwKY1tDW+q+2J0=", "id"=>"30"}
+  [4;35;1mNewsletter Load (0.3ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 30) [0m
+  [4;36;1mNewsletter Destroy (0.4ms)[0m   [0;1mDELETE FROM "newsletters" WHERE "id" = 30[0m
+Redirected to http://localhost:3000/newsletters
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/newsletters/30]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:50:42) [GET]
+  [4;35;1mNewsletter Load (3.8ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 46ms (View: 36, DB: 4) | 200 OK [http://localhost/newsletters]
+
+
+Processing NewslettersController#destroy (for 127.0.0.1 at 2010-06-06 16:50:45) [DELETE]
+  Parameters: {"authenticity_token"=>"4bIiOJM7Pi8dFv8w7AM5UFjDizTtIPwKY1tDW+q+2J0=", "id"=>"31"}
+  [4;36;1mNewsletter Load (0.3ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 31) [0m
+  [4;35;1mNewsletter Destroy (0.4ms)[0m   [0mDELETE FROM "newsletters" WHERE "id" = 31[0m
+Redirected to http://localhost:3000/newsletters
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/newsletters/31]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:50:45) [GET]
+  [4;36;1mNewsletter Load (3.8ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 45ms (View: 34, DB: 4) | 200 OK [http://localhost/newsletters]
+
+
+Processing NewslettersController#destroy (for 127.0.0.1 at 2010-06-06 16:50:48) [DELETE]
+  Parameters: {"authenticity_token"=>"4bIiOJM7Pi8dFv8w7AM5UFjDizTtIPwKY1tDW+q+2J0=", "id"=>"32"}
+  [4;35;1mNewsletter Load (0.3ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 32) [0m
+  [4;36;1mNewsletter Destroy (0.4ms)[0m   [0;1mDELETE FROM "newsletters" WHERE "id" = 32[0m
+Redirected to http://localhost:3000/newsletters
+Completed in 13ms (DB: 1) | 302 Found [http://localhost/newsletters/32]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:50:48) [GET]
+  [4;35;1mNewsletter Load (3.0ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 41ms (View: 32, DB: 3) | 200 OK [http://localhost/newsletters]
+
+
+Processing NewslettersController#destroy (for 127.0.0.1 at 2010-06-06 16:50:50) [DELETE]
+  Parameters: {"authenticity_token"=>"4bIiOJM7Pi8dFv8w7AM5UFjDizTtIPwKY1tDW+q+2J0=", "id"=>"33"}
+  [4;36;1mNewsletter Load (0.2ms)[0m   [0;1mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 33) [0m
+  [4;35;1mNewsletter Destroy (0.4ms)[0m   [0mDELETE FROM "newsletters" WHERE "id" = 33[0m
+Redirected to http://localhost:3000/newsletters
+Completed in 15ms (DB: 1) | 302 Found [http://localhost/newsletters/33]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:50:50) [GET]
+  [4;36;1mNewsletter Load (3.0ms)[0m   [0;1mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 38ms (View: 30, DB: 3) | 200 OK [http://localhost/newsletters]
+
+
+Processing NewslettersController#destroy (for 127.0.0.1 at 2010-06-06 16:50:53) [DELETE]
+  Parameters: {"authenticity_token"=>"4bIiOJM7Pi8dFv8w7AM5UFjDizTtIPwKY1tDW+q+2J0=", "id"=>"22"}
+  [4;35;1mNewsletter Load (0.3ms)[0m   [0mSELECT * FROM "newsletters" WHERE ("newsletters"."id" = 22) [0m
+  [4;36;1mNewsletter Destroy (0.4ms)[0m   [0;1mDELETE FROM "newsletters" WHERE "id" = 22[0m
+Redirected to http://localhost:3000/newsletters
+Completed in 16ms (DB: 1) | 302 Found [http://localhost/newsletters/22]
+
+
+Processing NewslettersController#index (for 127.0.0.1 at 2010-06-06 16:50:53) [GET]
+  [4;35;1mNewsletter Load (2.9ms)[0m   [0mSELECT * FROM "newsletters" ORDER BY year DESC, month DESC[0m
+Rendering template within layouts/application
+Rendering newsletters/index
+Completed in 43ms (View: 34, DB: 3) | 200 OK [http://localhost/newsletters]

@@ -6,7 +6,7 @@
     <tr>
         <% link = newsletter.str_month + " " + newsletter.year.to_s() %>
         <td>
-            <%= link_to link, {:action => 'display', :id => newsletter.id}, :popup => [newsletter.str_month, 'width=800, height=700, left = 450, top = 100, resizable, scrollbars=yes' ] %>
+            <%= link_to link, {:action => 'display', :id => newsletter.id} %>
         </td>
         <% if session[:admin] %>
         <td>

@@ -28,5 +28,4 @@ config.action_mailer.smtp_settings = {
   :domain => 'myapp.com',
   :user_name => 'agile.action.advisors@gmail.com',
   :password => 'ag!leaction'
-  
 }

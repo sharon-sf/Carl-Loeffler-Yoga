@@ -26,3 +26,16 @@ config.action_view.cache_template_loading            = true
 
 # Enable threaded mode
 # config.threadsafe!
+config.action_mailer.delivery_method = :smtp
+config.action_mailer.smtp_settings = {
+
+  #:enable_starttls_auto => true,
+  :tls => true,
+  
+  :address => 'smtp.gmail.com',
+  :port => 587,
+  :authentication => :plain,
+  :domain => 'myapp.com',
+  :user_name => 'agile.action.advisors@gmail.com',
+  :password => 'ag!leaction'
+}

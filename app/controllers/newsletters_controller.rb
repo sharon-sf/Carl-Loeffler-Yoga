@@ -23,7 +23,7 @@ class NewslettersController < ApplicationController
   
   def display
     @newsletter = Newsletter.find(params[:id])
-     send_data(@newsletter.data, :type => 'application/pdf', :disposition => 'inline')
+     send_data(@newsletter.data, :type => 'application/pdf', :disposition => 'attachment', :filename => @newsletter.name )
   end
   
   # GET /newsletters/new

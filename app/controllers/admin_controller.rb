@@ -1,6 +1,6 @@
 class AdminController < ActionController::Base
-  layout 'application.html'
-  
+  layout 'application'
+    
   def login
   end
   
