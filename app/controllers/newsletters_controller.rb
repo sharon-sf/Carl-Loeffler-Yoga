@@ -1,4 +1,7 @@
 class NewslettersController < ApplicationController
+  
+    before_filter :set_menu_tab
+    
   # GET /newsletters
   # GET /newsletters.xml
   def index
@@ -86,5 +89,9 @@ class NewslettersController < ApplicationController
       format.html { redirect_to(newsletters_url) }
       format.xml  { head :ok }
     end
+  end
+  
+  def set_menu_tab
+    @selected_tab = 'newsletters'
   end
 end

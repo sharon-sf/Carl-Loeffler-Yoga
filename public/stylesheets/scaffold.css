@@ -28,7 +28,7 @@ img {
 	border: 1px solid #ccc;
 	background: #fff;
 	margin: 0 auto;
-	min-height: 500px;
+	min-height: 400px;
 	}
 	
 /* Header */
@@ -38,7 +38,7 @@ img {
 	border-right: 4px solid #ccc;
 	margin: 0 auto;
 	margin-bottom: 20px;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
+	/*font-family: Geneva, Arial, Helvetica, sans-serif;*/
 	font-size: 30px;
 	letter-spacing: 0.3em;
 	text-align: center;
@@ -84,12 +84,17 @@ img {
 	
 /* Main Content */
 #content {
-	width: 550px;
+	width: 750px;
 	margin-top: 15px;
-	min-height: 500px;
+	min-height: 400px;
+	text-align: justify;
 	}
 #content h1 {
-	font-size: 25px;
+	font-size: 22px;
+	font-family: verdana, sans-serif;
+/*	font-family: Geneva, Arial, Helvetica, sans-serif;*/
+	font-weight: normal;
+	letter-spacing: 0.1em;
 }	
 #content h2 {
 	font-size: 20px;
@@ -108,7 +113,7 @@ img {
 	color: #000000;
 	}
 	
-/* Sidebar */
+/*  */
 #sidebar {
 	width: 190px;
 	float: right;
@@ -120,7 +125,18 @@ img {
 	border-bottom: 1px solid #ccc;
 	font-size: 14px;
 	}
+
+/* table {
+	vertical-align:bottom;
+}	
+	td
+	{
+	height:50px;
+	width:50px;
+	vertical-align:center;
+	}
 	
+	*/
 #sidebar ul {
 	font-size: 12px;
 	}
